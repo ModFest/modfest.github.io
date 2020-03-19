@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+    --rounded-radius: 5px;
+}
+
+#v15a {
+	--accent-color: rgb(123, 39, 255);
+	--text-color: #000000;
+	--accent-text-color: rgb(255, 255, 255);
+	--darker-accent-color: rgb(105, 26, 231);
+	--focus-accent-color: rgb(94, 19, 216);
+	--background-color: rgb(255, 255, 255);
+	--alt-background-color: rgb(255, 255, 255);
+	--selection-color: rgba(177, 81, 255, 0.733);
+	--link-color: var(--accent-color);
+	--hover-link-color: var(--accent-color);
+	--focus-link-color: var(--accent-color);
+	--sign-up-shadow: rgba(0, 0, 0, 0.3);
+}
+
+.content {
+	min-height: 100vh;
+	padding-top: 80px;
+    padding-bottom: 20px;
+	text-align: center;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.text {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+
+.title {
+	font-family: 'Jua', sans-serif;
+}
+
+.mod-card {
+	height:100% !important;
+}
+
+.mod-screenshot {
+    width: 100%
+}
+
+.mod-card h3 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: var(--accent-color);
+	width: 100vw;
+    height: 70px;
+	z-index: 9;
+	display: table-cell;
+	vertical-align: middle;
+	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header .home {
+	padding: 5px;
+	background-color: transparent;
+	transition: background-color 0.2s ease;
+}
+
+.header .home:hover {
+	background-color: var(--darker-accent-color)
+}
+
+.header .home:focus {
+	background-color: var(--focus-accent-color)
+}
+
+.header .logo {
+	height: 60px;
+	margin-right: 5px;
+}
+
+.info-card {
+	background-color: var(--alt-background-color);
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 2px;
+	height:92%;
+	margin-bottom:15px;
+	min-width: 300px;
+	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+	text-align: left;
+	font-size: 18px;
+	margin-left:22px;
+	padding-right: 8px;
+	line-height: 22px;
+}
+
+li {
+	margin-top:6px;
+}
+
+::selection {
+	background: var(--selection-color);
+	color: white;
+}
+
+.hidden {
+	display: none;
+}
+
+.inline {
+	display: inline;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+a {
+	color: var(--link-color);
+	transition: color 0.4s, text-shadow 0.4s;
+}
+
+a:hover {
+	text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+	color: var(--hover-link-color);
+}
+
+a:focus {
+	text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+	color: var(--focus-link-color);
+}
+
+.animate {
+	transform: scale(1);
+	opacity: 1;
+}
+
+.button {
+	background-color: var(--accent-color);
+	color: var(--accent-text-color);
+	font-weight: 700;
+	font-size: 15px;
+	border-radius: var(--rounded-radius);
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-transform: uppercase;
+	transition: background-color 0.6s, color 0.2s, box-shadow 0.6s, opacity 0.4s ease;
+}
+
+#theme-button.button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.button.white-outline {
+	border: solid 2px var(--focus-accent-color);
+}
+
+.button:hover {
+	background-color: var(--darker-accent-color);
+	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+	color: var(--accent-text-color);
+	text-decoration: none;
+}
+
+.button:focus {
+	background-color: var(--focus-accent-color);
+	color: var(--accent-text-color);
+	outline: none;
+}
+
+.button.sign-up-button {
+	margin-bottom: 20px;
+	color: var(--accent-color);
+	border: none;
+	border-radius: 100em;
+	font-size: 22px;
+	padding: 8px 30px 8px 30px;
+	background-color: var(--background-color);
+	box-shadow: 0px 0px 15px var(--sign-up-shadow);
+	font-family: 'Jua', sans-serif;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: none;
+}
+
+.button.sign-up-button:hover{
+	background-color: var(--accent-color);
+	color:rgb(255, 255, 255);
+	box-shadow: none;
+}
+
+.button img {
+	margin-right: 4px;
+	margin-bottom: 1px;
+	width: 24px;
+}
+
+.footer {
+	text-align: center;
+	background-color: var(--accent-color);
+	padding: 40px;
+	color: var(--accent-text-color);
+	box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer #source-button {
+	margin-left: 10px;
+	padding: 10px;
+}
+
+p {
+	font-size:1.25rem;
+}
