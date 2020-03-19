@@ -192,3 +192,7 @@ a:focus {
 	margin-left: 10px;
 	padding: 10px;
 }
+
+p {
+	font-size:1.25rem;
+}
