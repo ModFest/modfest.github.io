@@ -8,6 +8,7 @@
 	--accent-color: rgb(255, 191, 11);
 	--text-color: var(--accent-color);
 	--accent-text-color: rgb(0, 0, 0);
+	--desc-text-color: rgb(241, 213, 135);
 	--darker-accent-color: rgb(216, 160, 7);
 	--focus-accent-color: rgb(199, 147, 4);
 	--background-color: rgb(10, 10, 10);
@@ -37,6 +38,32 @@ body {
 
 .title {
 	font-family: 'Jua', sans-serif;
+
+}
+
+.mod-row .col {
+	padding: 5px;
+}
+
+.mod-card {
+	height: 100% !important;
+	padding: 10px;
+}
+
+.mod-screenshot {
+    width: 100%;
+}
+
+.mod-card h3 {
+	margin-top: 10px;
+	margin-bottom: -2px;
+}
+
+.mod-card h5 {
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--desc-text-color);
+	font-weight: 400;
 }
 
 .header {
@@ -113,7 +140,7 @@ li {
 
 a {
 	color: var(--link-color);
-	transition: color 0.4s, text-shadow 0.4s;
+	transition: text-shadow 0.4s;
 }
 
 a:hover {
