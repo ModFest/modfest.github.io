@@ -38,6 +38,7 @@ body {
 
 .title {
 	font-family: 'Jua', sans-serif;
+	word-wrap: break-all;
 }
 
 .mod-row .col {
@@ -105,8 +106,8 @@ body {
 	border-radius: 10px;
 	padding-top: 10px;
 	padding-bottom: 2px;
-	height:92%;
-	margin-bottom:15px;
+	height: 92%;
+	margin-bottom: 15px;
 	min-width: 300px;
 }
 
@@ -120,7 +121,7 @@ ul {
 }
 
 li {
-	margin-top:6px;
+	margin-top: 6px;
 }
 
 ::selection {

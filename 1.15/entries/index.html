@@ -12,6 +12,49 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="../styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                $(".mod-row").each(function() {
+                    var divs = $(this).children()
+                    for(var i = 0; i < divs.length; i++) { 
+                        $(divs[i]).remove()
+                    }
+                    alphabetize(divs)
+                    shuffle(divs)
+                    for(var i = 0; i < divs.length; i++) {
+                        $(divs[i]).appendTo(this)
+                    }
+                })
+            })
+            
+            /* Randomize array in-place using Durstenfeld shuffle algorithm */
+            function shuffle(array) {
+                for (var i = array.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1))
+                    var temp = array[i]
+                    array[i] = array[j]
+                    array[j] = temp
+                }
+            }
+
+            function alphabetize(divs) {
+                divs.sort(function(a, b) {
+                    var nameA = getModTitle(a).toLowerCase(), nameB = getModTitle(b).toLowerCase();
+                    if (nameA < nameB) {
+                        return -1
+                    }
+                    if (nameA > nameB) {
+                        return 1
+                    }
+                    return 0
+                });
+            }
+
+            function getModTitle(div){
+                return div.querySelector(".mod-card").querySelector(".title").textContent
+            }
+        </script>
     </head>
     <body id="v15a">
       <div class="header">
@@ -21,12 +64,6 @@
                 <img class="logo" src="../modfest.svg">
                 </a>
                 <div class="col">
-                </div>
-                <div class="col-auto align-self-center">
-                    <a class="button white-outline hidden" id="theme-button" href="#">
-                    <img id="theme-icon" class="accent-invert" src="dark.svg">
-                    <span id="theme-text">Dark</span>
-                    </a>
                 </div>
             </div>
         </div>
@@ -39,189 +76,189 @@
             <div class="row justify-content-center mod-row">
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="greenstone-circuits.png">
+                        <img class="mod-screenshot" src="greenstone-circuits.jpg">
                         <h3 class="title"><a href="https://github.com/Forkk/Greenstone">Greenstone Circuits</a> by Forkk and AppleTheGolden</h3>
                         <h5 class="desc">A basic computer mod with a reverse Polish notation language.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="gravestones.png">
+                        <img class="mod-screenshot" src="gravestones.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/gravestones">Gravestones</a> by Geometrically</h3>
                         <h5 class="desc">A gravestones mod for fabric with tons of config options, an API, and more!</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="mechanized.png">
+                        <img class="mod-screenshot" src="mechanized.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/mechanized-steam-power">Mechanized</a> by Snakefangox</h3>
                         <h5 class="desc">Automate and mess around with a variety of unique steam powered machines and tools. Or just make a really cool trampoline.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="salts-mills.png">
+                        <img class="mod-screenshot" src="salts-mills.jpg">
                         <h3 class="title"><a href="https://github.com/Chocohead/Modjam">Salts Mills</a> by Chocohead</h3>
                         <h5 class="desc">Re-imagines the limitations posed by the traditional mod world by expanding out from a mod as a jar containing assets system, to an asset as a mod containing a jar system. Each mod is now it's own experience, with its own feelings and emotions. Also really damn noisy so you best turn down your sound if you listen to them.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="element-cycle.png">
+                        <img class="mod-screenshot" src="element-cycle.jpg">
                         <h3 class="title"><a href="https://github.com/michaelPoul/element">element cycle</a> by Michael</h3>
                         <h5 class="desc">Adds magic blocks to repair iron tools.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="funky-forcefields.png">
+                        <img class="mod-screenshot" src="funky-forcefields.jpg">
                         <h3 class="title"><a href="https://github.com/comp500/FunkyForcefields">Funky Forcefields</a> by comp500</h3>
                         <h5 class="desc">Adds forcefields that allow you to stop your enemies and protect yourself from mobs!</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="crimson.png">
+                        <img class="mod-screenshot" src="crimson.jpg">
                         <h3 class="title"><a href="https://github.com/valoeghese/Crimson">Crimson</a> by Valoeghese, Criscubed, thxmpin, and Waterpicker</h3>
                         <h5 class="desc">Adds a dangerous new crimson biome linked to a system of crafting magic devices from imbued gemstones.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="kevlar.png">
+                        <img class="mod-screenshot" src="kevlar.jpg">
                         <h3 class="title"><a href="https://github.com/Earthcomputer/Kevlar">Kevlar</a> by Earthcomputer and Azteched</h3>
                         <h5 class="desc">Early to mid game tech mod.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="azuma.png">
+                        <img class="mod-screenshot" src="azuma.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/azuma">Azuma</a> by Ljime and Draylar</h3>
                         <h5 class="desc">Our mod adds a special crafting system powered by a magical energy alongside several useful utility items and tools.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="yungs-better-mineshafts.png">
+                        <img class="mod-screenshot" src="yungs-better-mineshafts.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</h3>
                         <h5 class="desc">An abandoned mineshaft overhaul!</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="compuglobalhypermeganet.png">
+                        <img class="mod-screenshot" src="compuglobalhypermeganet.jpg">
                         <h3 class="title"><a href="https://immibisdotcom.s3.amazonaws.com/mcmoddl/modfest2/compuglobalhypermeganet-SayNoToBeesYesToSylladices-1.0.0.jar">CompuGlobalHyperMegaNet</a> by immibis</h3>
                         <h5 class="desc">Makes it painful to use your inventory.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="unfortunately.png">
+                        <img class="mod-screenshot" src="unfortunately.jpg">
                         <h3 class="title"><a href="https://github.com/quat1024/unfortunately">Unfortunately</a> by quat</h3>
                         <h5 class="desc">The Fortune Teller villager peers into their crystal ball and tells you what happens in your future... for a small fee, of course. Some outcomes are good. Some outcomes are bad. Maybe you'll regret asking.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="metal-supply.png">
+                        <img class="mod-screenshot" src="metal-supply.jpg">
                         <h3 class="title"><a href="https://github.com/Reoseah/metal-supply">Metal Supply</a> by Reoseah</h3>
                         <h5 class="desc">Adds Crank and Grinder inspired by Applied Energistics' Grindstone, and 5 new metals: lead, tin, copper, silver and bronze.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="reichenbach.png">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
                         <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
                         <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="underpowered.png">
+                        <img class="mod-screenshot" src="underpowered.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/underpowered">Underpowered</a> by abecderic</h3>
                         <h5 class="desc">Tech mod centered around creating and using a powerful resource called Unobtainium.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="cornflower.png">
+                        <img class="mod-screenshot" src="cornflower.jpg">
                         <h3 class="title"><a href="https://github.com/Modfest-1-15-Team-Cornflower/Cornflower">Cornflower</a> by JoeZwet, Chriss, and SovietPropaganda</h3>
                         <h5 class="desc">Item transportation via magic.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="composing.png">
+                        <img class="mod-screenshot" src="composing.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/composing">Composing</a> by B0undarybreaker, Martmists, PK Anti, and NuclearFarts</h3>
                         <h5 class="desc">Adds a system to power up tools, weapons, armor, and trinkets by composing them with elemental crystals.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="campanion.png">
+                        <img class="mod-screenshot" src="campanion.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
                         <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="lint.png">
+                        <img class="mod-screenshot" src="lint.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/lint">Lint</a> by hydos and ramidzkh</h3>
                         <h5 class="desc">Adds a new dimension to explore. accessed through an "Adventure Transformer".</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="esther.png">
+                        <img class="mod-screenshot" src="esther.jpg">
                         <h3 class="title"><a href="https://github.com/Hephaestus-Dev/Esther">Esther</a> by Haven King</h3>
                         <h5 class="desc">Adds spells that can be cast by typing incantations in the chat.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="the-blue.png">
+                        <img class="mod-screenshot" src="the-blue.jpg">
                         <h3 class="title"><a href="https://github.com/RypoFalem/The-Blue">The Blue</a> by rypofalem</h3>
                         <h5 class="desc">Adds a fishing net block to passively generate fishing loot.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="enchanters-experiments.png">
+                        <img class="mod-screenshot" src="enchanters-experiments.jpg">
                         <h3 class="title"><a href="https://github.com/Juuxel/ModFest-2020">Enchanter's Experiments</a> by Juuz</h3>
                         <h5 class="desc">Enchanter's Experiments adds a bunch of new experimental enchantments that can be found in magic gifts.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="tenor.png">
+                        <img class="mod-screenshot" src="tenor.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/tenor">Tenor</a> by vini</h3>
                         <h5 class="desc">Immersive wiring and basic tooling for the modern Minecrafter.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="dihydrogen-monoxide-reloaded.png">
+                        <img class="mod-screenshot" src="dihydrogen-monoxide-reloaded.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/dihydrogen-monoxide-reloaded">Dihydrogen Monoxide Reloaded</a> by CoolMan</h3>
                         <h5 class="desc">Changes Water Physics.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="drones.png">
+                        <img class="mod-screenshot" src="drones.jpg">
                         <h3 class="title"><a href="https://ci.dblsaiko.net/job/drones/">Drones</a> by 2xsaiko</h3>
                         <h5 class="desc">Adds remote-controllable drones with camera.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="capybara-commune.png">
+                        <img class="mod-screenshot" src="capybara-commune.jpg">
                         <h3 class="title"><a href="https://github.com/mjart/capybara-commune">Capybara Commune</a> by mjart, marjoleinkaal, and FireFlyForLife</h3>
                         <h5 class="desc">A Mod which adds the amazing animal 'the Capybara' which chills out all aggressive mobs.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="net-weight.png">
+                        <img class="mod-screenshot" src="net-weight.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/net-weight">Net Weight</a> by UpcraftLP</h3>
                         <h5 class="desc">An (In)Complete Fishing Overhaul.<br><br>
 
@@ -231,84 +268,84 @@
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="archcreatia.png">
+                        <img class="mod-screenshot" src="archcreatia.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/archcreatia">ArchCreatia</a> by CynicalPhenomenon</h3>
                         <h5 class="desc">A magic mod based on production and enhancing abilities.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="simple-accessories.png">
+                        <img class="mod-screenshot" src="simple-accessories.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/simple-accessories-fabric">Simple Accessories</a> by rjmunhoz</h3>
                         <h5 class="desc">It adds accessories that give you the same effects as some potions, but lasting longer.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="reliccraft.png">
+                        <img class="mod-screenshot" src="reliccraft.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/reliccraft">RelicCraft</a> by TheBrokenRail</h3>
                         <h5 class="desc">This mod adds several magical items and blocks that can be found randomly throughout the world.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="tacocraft.png">
+                        <img class="mod-screenshot" src="tacocraft.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/tacocraft-fabric">TacoCraft</a> by ffrann</h3>
                         <h5 class="desc">Adds tacos to Minecraft!</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="crystalmodifiers.png">
+                        <img class="mod-screenshot" src="crystalmodifiers.jpg">
                         <h3 class="title"><a href="https://github.com/Maowcraft/CrystalModifiers">CrystalModifiers</a> by Maowcraft</h3>
                         <h5 class="desc">Harness the power of new naturally spawning crystals to apply potion effects to you and your enemies in a more strategy-oriented, quick, and reliable method.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="little-rocket-man.png">
+                        <img class="mod-screenshot" src="little-rocket-man.jpg">
                         <h3 class="title"><a>Little Rocket Man</a> by Yoghurt4C</h3>
                         <h5 class="desc">Little Rocket Man is a mod that adds Gnome Chompski into the world of minecraft. His mission is to reach space by any means necessary... Your mission is to help him with that.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="chunk-in-a-globe.png">
+                        <img class="mod-screenshot" src="chunk-in-a-globe.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-in-a-globe">Chunk In A Globe</a> by modmuss50</h3>
                         <h5 class="desc">Chunk in a globe that you can enter.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="lil-tater.png">
+                        <img class="mod-screenshot" src="lil-tater.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/lil-tater">Lil' Tater (Rewrite)</a> by VatuuKomalia</h3>
                         <h5 class="desc">Adds lil' taters to the game. Crucial for any modded instance.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="overgrown-cities.png">
+                        <img class="mod-screenshot" src="overgrown-cities.jpg">
                         <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/overgrown-cities-fabric">Overgrown Cities</a> by TelepathicGrunt, SuperCoder, and Halotroop</h3>
                         <h5 class="desc">Creates a new dimension with an old decaying city hidden among the overgrown wilderness with an Abandoned Warehouse in the Overworld to let you enter it!</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="offshore-plus.png">
+                        <img class="mod-screenshot" src="offshore-plus.jpg">
                         <h3 class="title"><a href="https://github.com/trewghil/offshoreplus">Offshore Plus</a> by trewghil</h3>
                         <h5 class="desc">Adds more cool stuff to the ocean.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="vantacine.png">
+                        <img class="mod-screenshot" src="vantacine.jpg">
                         <h3 class="title"><a>Vantacine</a> by haykam</h3>
                         <h5 class="desc">Improves the Nether through miscellaneous additions that bring together utility, decoration, and fun.</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card mod-card">
-                        <img class="mod-screenshot" src="extradetectors.png">
+                        <img class="mod-screenshot" src="extradetectors.jpg">
                         <h3 class="title"><a href="https://github.com/ExtraCrafTX/ExtraDetectors">ExtraDetectors</a> by ExtraCrafTX</h3>
                         <h5 class="desc">Adds a whether detector similar to clock.</h5>
                     </div>
