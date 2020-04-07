@@ -7,6 +7,7 @@
 #v15a {
 	--accent-color: rgb(123, 39, 255);
 	--text-color: #000000;
+	--desc-text-color: #2e2e2e;
 	--accent-text-color: rgb(255, 255, 255);
 	--darker-accent-color: rgb(105, 26, 231);
 	--focus-accent-color: rgb(94, 19, 216);
@@ -39,17 +40,32 @@ body {
 	font-family: 'Jua', sans-serif;
 }
 
+.mod-row .col {
+	padding: 5px;
+}
+
 .mod-card {
-	height:100% !important;
+	height: 100% !important;
+	padding: 10px;
 }
 
 .mod-screenshot {
-    width: 100%
+	object-fit: cover;
+    width: 100%;
+	height: 250px;
+	border-radius: 8px;
 }
 
 .mod-card h3 {
-    margin-top: 10px;
-    margin-bottom: -10px;
+	margin-top: 10px;
+	margin-bottom: -2px;
+}
+
+.mod-card h5 {
+	font-size: 18px;
+	line-height: 22px;
+	color: var(--desc-text-color);
+	font-weight: 400;
 }
 
 .header {
@@ -89,8 +105,8 @@ body {
 	border-radius: 10px;
 	padding-top: 10px;
 	padding-bottom: 2px;
-	height:92%;
-	margin-bottom:15px;
+	height: 92%;
+	margin-bottom: 15px;
 	min-width: 300px;
 	box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
 }
