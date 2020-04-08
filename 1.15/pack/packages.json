@@ -1,0 +1,10 @@
+{
+    "packages": [
+        {
+            "title": "Modfest",
+            "name": "modfest",
+            "version": "1.0.202004082328",
+            "location": "modfest.json"
+        }
+    ]
+}
