@@ -29,48 +29,68 @@
     <div class="content">
         <div class="container">
             <div class="row justify-content-center">
-                <h1 class="title">ModFest Pack</h1>
+                <h1 class="title">ModFest 1.15 Mod Pack</h1>
             </div>
             <div class="row justify-content-center">
-                <p class="text">The ModFest pack contains all <a href="../entries">ModFest entries</a> so that players can experiment with them before voting.<br></p>
+                <p class="text">The ModFest 1.15 Mod Pack contains all 39 of the <a href="../entries">ModFest 1.15 entries</a> so that players can experiment with them before they vote in the award polls.<br></p>
+            </div>
+            <div class="row justify-content-center">
+                <a class="button sign-up-button" href="" onclick="copyText('modpack-link')">
+                    <span id="theme-text">Copy Pack Download URL</span>
+                </a>
             </div>
             <div class="row justify-content-center">
                 <div class="col">
                     <div class="info-card">
-                        <h4 class="title">Installation Instructions:</h4>
+                        <h4 class="title">How To Install:</h4>
                         <ol>
-                            <li>Click "Add Instance" in MultiMC</li>
-                            <li>Go to "Import from zip" and paste in the download URL, or select the downloaded ZIP from your computer</li>
-                            <li>Launch once to initialize auto-updating, then launch again to run</li>
-                            <li>When the Voodoo dialogue appears, click "Install"</li>
+                            <li>Download & Install <a href="https://multimc.org/" target="_blank">MultiMC</a>.</li>
+                            <li>In MultiMC, click on "<b>Add Instance</b>"</li>
+                            <li>Select the "<b>Import from zip</b>" option from the list on the left.</li>
+                            <li>Click the link below to copy it, go back to MultiMC, and paste it into the text box labeled "<b>Local file or link to a direct download</b>".</li>
+                            <div id="modpack-link" onclick="copyText('modpack-link')">https://modfest.net/1.15/pack/modfest.zip</div>
+                            <li>Click "<b>Launch</b>" once to initialize auto-updating, and then it will crash saying "The process failed to start."</li>
+                            <li>Click "<b>Launch</b>" again to run the pack.</li>
+                            <li>You should see a dialog appear that has a big "<b>Install</b>" button on it. Click on the Install button.</li>
                         </ol>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info-card">
-                        <h4 class="title">Additional Mods:</h4>
+                        <h4 class="title">Additional Mods Included:</h4>
                         <ul>
-                            <li>Roughly Enough Items</li>
+                            <li>CustomTitleScreen</li>
                             <li>HWYLA</li>
-                            <li>Tech Reborn</li>
                             <li>Lithium</li>
+                            <li>Mod Menu</li>
+                            <li>ModFest Extras</li>
+                            <li>Patchouli</li>
+                            <li>Roughly Enough Items</li>
+                            <li>Tech Reborn</li>
+                            <li>Trinkets</li>
                         </ul>
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <p class="text" style="color: rgb(255, 81, 81)">This pack only works with MultiMC, due to many mods not being available on CurseForge.</p>
-            </div>
-            <div class="row justify-content-center">
-                <a class="button sign-up-button" href="modfest.zip">
-                    <span id="theme-text">Download Pack</span>
-                    <h5 class="title glowing hidden">Pack will auto-update whenever a new version is published.</h5>
-                </a>
-            </div>
-            <div class="row justify-content-center">
-                <h5 class="title">Download directly or right-click to copy pack URL.</h5>
+                <p class="text" style="color: rgb(255, 81, 81)"><strong>Note:</strong> This pack only works with MultiMC, due to many mods not being available on CurseForge.</p>
             </div>
         </div>
+        <script>
+            function copyText(containerid) {
+                if (document.selection) { // IE
+                    var range = document.body.createTextRange();
+                    range.moveToElementText(document.getElementById(containerid));
+                    range.select();
+                } else if (window.getSelection) {
+                    var range = document.createRange();
+                    range.selectNode(document.getElementById(containerid));
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(range);
+                }
+                document.execCommand("copy")
+            }
+        </script>
     </div>
     <div class="footer">
         Site designed by Prospector
