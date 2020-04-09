@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004082352",
+    "version": "1.0.202004091302",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -12,10 +12,16 @@
     },
     "tasks": [
         {
-            "hash": "sha-256:2ae0fb2ec665f787faa4bfb0f54b6381ab1bf763347513357b21a0a685e3e3a5",
-            "location": "2ae0fb2e/c665f787/faa4bfb0f54b6381ab1bf763347513357b21a0a685e3e3a5",
-            "to": ".DS_Store",
-            "size": 8196
+            "hash": "sha-256:4faf6ff0b31042e04179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
+            "location": "4faf6ff0/b31042e0/4179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
+            "to": "config/cts/buttons.json5",
+            "size": 2915
+        },
+        {
+            "hash": "sha-256:2887df8df4bf45e33e59747433349b7441eaf4966917ab4a6f382d1d7f35c663",
+            "location": "2887df8d/f4bf45e3/3e59747433349b7441eaf4966917ab4a6f382d1d7f35c663",
+            "to": "config/cts/config.json5",
+            "size": 182
         },
         {
             "hash": "sha-256:770ad3c690b19f1dfa8d3ffe92ae5d20d5bd35ed0886270db0d779cde2046e8b",
@@ -52,6 +58,12 @@
             "location": "https://edge.forgecdn.net/files/2924/339/Dihydrogen Monoxide Reloaded v1_1.jar",
             "to": "mods/Dihydrogen Monoxide Reloaded v1_1.jar",
             "size": 11508
+        },
+        {
+            "hash": "sha-256:a7d64719d3a59fc92c2d65c73db4aeabcfebf7b32a6286f384c4ac0dd9e3adf9",
+            "location": "https://edge.forgecdn.net/files/2875/722/cotton-1.0.2.jar",
+            "to": "mods/cotton-1.0.2.jar",
+            "size": 562560
         },
         {
             "hash": "sha-256:6e94f24a09ffda1d21608cc5c43761594be43e5c87ab666b4e17cba028ff9dc8",
@@ -126,6 +138,12 @@
             "size": 162668
         },
         {
+            "hash": "sha-256:4c3d3e841fb2c787a9deed24a469f6a6e41edb824df61e63d74c3cfefa246f41",
+            "location": "https://edge.forgecdn.net/files/2925/96/Cornflower-1.2.3+fabric.1.15.2.jar",
+            "to": "mods/Cornflower-1.2.3+fabric.1.15.2.jar",
+            "size": 121231
+        },
+        {
             "hash": "sha-256:739d7a6aa6fbfa06f139caf1b18a63da0a24cb7c335548a8c573a4ff48264e5f",
             "location": "http://maven.modmuss50.me/TechReborn/TechReborn-1.15/3.3.6%2Bbuild.207/TechReborn-1.15-3.3.6%2Bbuild.207.jar",
             "to": "mods/TechReborn-1.15-3.3.6%2Bbuild.207.jar",
@@ -156,18 +174,6 @@
             "size": 3717092
         },
         {
-            "hash": "sha-256:cd64ec0c454aa8a16dc83db75c889f7ba33e37ddaea78e094d9a11c1794e0cd6",
-            "location": "https://edge.forgecdn.net/files/2924/724/reliccraft-1.0.11+1.15.2.jar",
-            "to": "mods/reliccraft-1.0.11+1.15.2.jar",
-            "size": 379597
-        },
-        {
-            "hash": "sha-256:60a49b90477d089932e3803232db02114ad4f3a5bf1f8945da0ddf78f39d44be",
-            "location": "https://edge.forgecdn.net/files/2924/567/Cornflower-1.2.2+fabric.1.15.2.jar",
-            "to": "mods/Cornflower-1.2.2+fabric.1.15.2.jar",
-            "size": 121378
-        },
-        {
             "hash": "sha-256:f78397e86a4736b7808125c9d5130acaf60db05e6d91db24badc7279e9080105",
             "location": "https://cdn.discordapp.com/attachments/528472643221848085/694976720930996344/LittleRocketMan-1.0.0.jar",
             "to": "mods/LittleRocketMan-1.0.0.jar",
@@ -192,6 +198,12 @@
             "size": 147718
         },
         {
+            "hash": "sha-256:c70487721905b4e88c57495f7106acdd9167687999337bc4d4c11d5c4f756dc5",
+            "location": "https://edge.forgecdn.net/files/2870/802/customtitlescreen-1.15.2-0.1.1.jar",
+            "to": "mods/customtitlescreen-1.15.2-0.1.1.jar",
+            "size": 21141
+        },
+        {
             "hash": "sha-256:3dcd0b6b47b3a7bd727a090fccf51dfa60c921af08625a36a5a73669cc629c1e",
             "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.1/extradetectors-0.0.1.jar",
             "to": "mods/extradetectors-0.0.1.jar",
@@ -204,16 +216,22 @@
             "size": 1267603
         },
         {
-            "hash": "sha-256:c54801b9b238a3900ec4480bb7a6f23fa7ccafab300608c263d9b9d35e5d6151",
-            "location": "https://github.com/trewghil/offshoreplus/releases/download/0.0.1/offshoreplus-0.0.1.jar",
-            "to": "mods/offshoreplus-0.0.1.jar",
-            "size": 409658
+            "hash": "sha-256:8533dc39b29b33c87abedb457604eac09b06fece9b4884f298d5110fe13013e3",
+            "location": "https://edge.forgecdn.net/files/2924/940/reliccraft-1.0.12+1.15.2.jar",
+            "to": "mods/reliccraft-1.0.12+1.15.2.jar",
+            "size": 379598
         },
         {
             "hash": "sha-256:1c27e5c91ea731c2a6ab03e3adf27e97fd7b0dec7b5519e6c877516179ed54ea",
             "location": "https://edge.forgecdn.net/files/2921/635/RoughlyEnoughItems-3.6.6.jar",
             "to": "mods/RoughlyEnoughItems-3.6.6.jar",
             "size": 1281882
+        },
+        {
+            "hash": "sha-256:0d6f39b1ee2368f241139969db486b1cbbba01b1d10fbf5ae5421346cad97792",
+            "location": "https://github.com/trewghil/offshoreplus/releases/download/0.0.2/offshoreplus-0.0.2.jar",
+            "to": "mods/offshoreplus-0.0.2.jar",
+            "size": 410521
         },
         {
             "hash": "sha-256:7435df1dc9c31cbb96b0c5f4a8a05f124c0bde8ccdd9a5790bcec61ff1f0ee76",
@@ -232,6 +250,12 @@
             "location": "https://edge.forgecdn.net/files/2898/702/fabric-api-0.5.1+build.294-1.15.jar",
             "to": "mods/fabric-api-0.5.1+build.294-1.15.jar",
             "size": 507707
+        },
+        {
+            "hash": "sha-256:dbb9c80d3fa5619e29ac99ec1ebde4cbba2ee849bb6415130cdad6f0f2831cd8",
+            "location": "https://edge.forgecdn.net/files/2925/97/Mechanized-1.2.0.jar",
+            "to": "mods/Mechanized-1.2.0.jar",
+            "size": 946089
         },
         {
             "hash": "sha-256:cf4587d8593a269e76d79c6589f601059c75bcfb6397a6845f39fa3995d0e52a",
@@ -316,12 +340,6 @@
             "location": "https://edge.forgecdn.net/files/2922/169/unfortunately-1.0.jar",
             "to": "mods/unfortunately-1.0.jar",
             "size": 114530
-        },
-        {
-            "hash": "sha-256:4d66fee54b6aa7fbc6f7ba39fb2e25a5f6b354abf35fdaa8c33aff5575db04bd",
-            "location": "https://edge.forgecdn.net/files/2923/851/Mechanized-1.1.0.jar",
-            "to": "mods/Mechanized-1.1.0.jar",
-            "size": 938504
         },
         {
             "hash": "sha-256:c4e68f7b8c4ae62a548b3c71c9d7d8a71f64e0734b0f7593f44e4e3a1ad049c1",
