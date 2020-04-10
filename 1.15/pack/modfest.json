@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004100428",
+    "version": "1.0.202004101437",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -72,6 +72,12 @@
             "size": 285603
         },
         {
+            "hash": "sha-256:89d86183e0fca1a747f5a9b6bcaf0d264e913263d0ba5e930ad6f0dd4e9247cf",
+            "location": "https://github.com/Forkk/Greenstone/releases/download/v0.0.1/greenstone-circuit-mod-0.0.1.jar",
+            "to": "mods/greenstone-circuit-mod-0.0.1.jar",
+            "size": 1391801
+        },
+        {
             "hash": "sha-256:c7c4418d941051709abf3780145b6f1b914ab3ba9edb6917f4ca42c6f893e2b4",
             "location": "https://edge.forgecdn.net/files/2925/735/chunk-in-a-globe-1.15.2-1.0.2.jar",
             "to": "mods/chunk-in-a-globe-1.15.2-1.0.2.jar",
@@ -94,12 +100,6 @@
             "location": "https://edge.forgecdn.net/files/2925/821/archcreatia-mod-0.9.3.jar",
             "to": "mods/archcreatia-mod-0.9.3.jar",
             "size": 154160
-        },
-        {
-            "hash": "sha-256:401beee0e0eb300c514d6652e035c9b6f5ed801f909a869d2e74aa4d96512c2a",
-            "location": "https://github.com/Forkk/Greenstone/releases/download/modfest-v2/greenstone-circuit-mod-0.0.0.jar",
-            "to": "mods/greenstone-circuit-mod-0.0.0.jar",
-            "size": 1391115
         },
         {
             "hash": "sha-256:2b1049c4d7b61320259918e517df46f705137d3ace59206432e926d9e4c5e93c",
@@ -156,10 +156,10 @@
             "size": 3406628
         },
         {
-            "hash": "sha-256:a563b9f75b25c83dfa83572af50163e0ce82d2b9c6cabc34b1391e15a469efdf",
-            "location": "https://edge.forgecdn.net/files/2923/12/tenor-1.0.2.jar",
-            "to": "mods/tenor-1.0.2.jar",
-            "size": 287886
+            "hash": "sha-256:5c2db5c698533d0252391188f97d0f343eeae911035cfea60d1b717b2dd223d8",
+            "location": "https://edge.forgecdn.net/files/2926/144/tenor-1.0.3.jar",
+            "to": "mods/tenor-1.0.3.jar",
+            "size": 289057
         },
         {
             "hash": "sha-256:d6156defd34c2dcd7b6575364b73ad84aaf21060f4a4aec15ef22ae26bab2c39",
@@ -216,6 +216,12 @@
             "size": 21141
         },
         {
+            "hash": "sha-256:278ca8f1bafab16802b67ced46edc4da985e2e2ba95c85a22953f15441e9ac9c",
+            "location": "https://edge.forgecdn.net/files/2926/219/RoughlyEnoughItems-3.6.7.jar",
+            "to": "mods/RoughlyEnoughItems-3.6.7.jar",
+            "size": 1293398
+        },
+        {
             "hash": "sha-256:3dcd0b6b47b3a7bd727a090fccf51dfa60c921af08625a36a5a73669cc629c1e",
             "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.1/extradetectors-0.0.1.jar",
             "to": "mods/extradetectors-0.0.1.jar",
@@ -226,12 +232,6 @@
             "location": "https://edge.forgecdn.net/files/2924/592/azuma-1.2.5.jar",
             "to": "mods/azuma-1.2.5.jar",
             "size": 1267603
-        },
-        {
-            "hash": "sha-256:1c27e5c91ea731c2a6ab03e3adf27e97fd7b0dec7b5519e6c877516179ed54ea",
-            "location": "https://edge.forgecdn.net/files/2921/635/RoughlyEnoughItems-3.6.6.jar",
-            "to": "mods/RoughlyEnoughItems-3.6.6.jar",
-            "size": 1281882
         },
         {
             "hash": "sha-256:bb13a90b44a02e2c8af900955728f46708429d0fdc6adbfa5d5f052d10cb4bac",
