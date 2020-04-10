@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004101839",
+    "version": "1.0.202004101908",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -22,8 +22,8 @@
     ],
     "tasks": [
         {
-            "hash": "sha-256:4faf6ff0b31042e04179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
-            "location": "4faf6ff0/b31042e0/4179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
+            "hash": "sha-256:f22cb79a66c2401c0855eb0981a08dd45aebf1d834a2896ec7b2b734c62e9d93",
+            "location": "f22cb79a/66c2401c/0855eb0981a08dd45aebf1d834a2896ec7b2b734c62e9d93",
             "to": "config/cts/buttons.json5",
             "size": 2915
         },
@@ -238,12 +238,6 @@
             }
         },
         {
-            "hash": "sha-256:3dcd0b6b47b3a7bd727a090fccf51dfa60c921af08625a36a5a73669cc629c1e",
-            "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.1/extradetectors-0.0.1.jar",
-            "to": "mods/extradetectors-0.0.1.jar",
-            "size": 44951
-        },
-        {
             "hash": "sha-256:6fdf32611e472ce7f998180485c17c20b7ae93ad5656744cc83aa12805588998",
             "location": "https://edge.forgecdn.net/files/2924/592/azuma-1.2.5.jar",
             "to": "mods/azuma-1.2.5.jar",
@@ -254,6 +248,12 @@
             "location": "https://github.com/trewghil/offshoreplus/releases/download/0.0.3/offshoreplus-0.0.3.jar",
             "to": "mods/offshoreplus-0.0.3.jar",
             "size": 410557
+        },
+        {
+            "hash": "sha-256:7aa10a5f2014612348c5e277d646fa26894687c0a94b0ad3b2b6b5fe24350e83",
+            "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.3/extradetectors-0.0.3.jar",
+            "to": "mods/extradetectors-0.0.3.jar",
+            "size": 21105
         },
         {
             "hash": "sha-256:7435df1dc9c31cbb96b0c5f4a8a05f124c0bde8ccdd9a5790bcec61ff1f0ee76",
