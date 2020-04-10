@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004101908",
+    "version": "1.0.202004101957",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -22,8 +22,8 @@
     ],
     "tasks": [
         {
-            "hash": "sha-256:f22cb79a66c2401c0855eb0981a08dd45aebf1d834a2896ec7b2b734c62e9d93",
-            "location": "f22cb79a/66c2401c/0855eb0981a08dd45aebf1d834a2896ec7b2b734c62e9d93",
+            "hash": "sha-256:4faf6ff0b31042e04179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
+            "location": "4faf6ff0/b31042e0/4179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
             "to": "config/cts/buttons.json5",
             "size": 2915
         },
