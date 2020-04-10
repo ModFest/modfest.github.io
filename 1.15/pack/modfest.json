@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004101437",
+    "version": "1.0.202004101839",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -11,6 +11,10 @@
         "installer": "0.5.2.39"
     },
     "features": [
+        {
+            "name": "MiniHUD",
+            "description": "Displays server TPS and MSPT. Helpful for debugging."
+        },
         {
             "name": "retiNO",
             "description": "Fixes issues with retina display on Mac. Don't use otherwise."
@@ -108,12 +112,6 @@
             "size": 47172
         },
         {
-            "hash": "sha-256:80b0724f02e37242667b912139f6c85a57fa2cb7443c6b5365c5dc171a72a9fe",
-            "location": "https://edge.forgecdn.net/files/2923/200/composing-1.0.1+1.15.2.jar",
-            "to": "mods/composing-1.0.1+1.15.2.jar",
-            "size": 633627
-        },
-        {
             "hash": "sha-256:c3f7409182fc1776a89feda98af981f2a92dc27bf41fe58d774ceec869909ab0",
             "location": "https://edge.forgecdn.net/files/2917/893/Hwyla-fabric-1.15.2-1.9.21-72.jar",
             "to": "mods/Hwyla-fabric-1.15.2-1.9.21-72.jar",
@@ -168,6 +166,12 @@
             "size": 163479
         },
         {
+            "hash": "sha-256:d461a5cb54176c98af6a5db0db18dcec3385cf317f2cc5a75746dab970429ae6",
+            "location": "https://edge.forgecdn.net/files/2912/843/malilib-fabric-1.15.2-0.10.0-dev.20+arne.6.jar",
+            "to": "mods/malilib-fabric-1.15.2-0.10.0-dev.20+arne.6.jar",
+            "size": 455678
+        },
+        {
             "hash": "sha-256:90e1017c07fb242ecce10010cc6212aea43489b55740d9aba5682a0f3da58ee0",
             "location": "https://edge.forgecdn.net/files/2925/513/reliccraft-1.0.14+1.15.2.jar",
             "to": "mods/reliccraft-1.0.14+1.15.2.jar",
@@ -198,8 +202,8 @@
             "size": 238023
         },
         {
-            "hash": "sha-256:ad454eddbe16e6a8ae8dde8ff9bc76ff02ae3f0eb6c9a538904d8448f07c1870",
-            "location": "https://edge.forgecdn.net/files/2922/874/net-weight-0.1.0-alpha+custom-1.15.jar",
+            "hash": "sha-256:0545cfe252c3bd3a1a0c7444d1c0955042c2af0aa3d0050c1406c57a3f483ec2",
+            "location": "https://edge.forgecdn.net/files/2926/345/net-weight-0.1.0-alpha+custom-1.15.jar",
             "to": "mods/net-weight-0.1.0-alpha+custom-1.15.jar",
             "size": 567832
         },
@@ -220,6 +224,18 @@
             "location": "https://edge.forgecdn.net/files/2926/219/RoughlyEnoughItems-3.6.7.jar",
             "to": "mods/RoughlyEnoughItems-3.6.7.jar",
             "size": 1293398
+        },
+        {
+            "hash": "sha-256:7b127f9ce16f53aa7cee00c7fef2042c581a67f375f06e3d833ed6fbc51bdfe2",
+            "location": "https://edge.forgecdn.net/files/2880/367/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
+            "to": "mods/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
+            "size": 201315,
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "MiniHUD"
+                ]
+            }
         },
         {
             "hash": "sha-256:3dcd0b6b47b3a7bd727a090fccf51dfa60c921af08625a36a5a73669cc629c1e",
@@ -276,6 +292,12 @@
             "size": 157474
         },
         {
+            "hash": "sha-256:2f885afc839395b4e05886ead0ea2741feaebc72f7578c958c503b211edab249",
+            "location": "https://edge.forgecdn.net/files/2926/374/tacocraft-1.1.1.jar",
+            "to": "mods/tacocraft-1.1.1.jar",
+            "size": 641697
+        },
+        {
             "hash": "sha-256:ce097c722089ccdf229def30a7e1298e6291416123ac5520e6c7ac3b02150e6b",
             "location": "https://edge.forgecdn.net/files/2913/792/retino-1.0.0.jar",
             "to": "mods/retino-1.0.0.jar",
@@ -312,10 +334,10 @@
             "size": 314549
         },
         {
-            "hash": "sha-256:cde9f813b8b69fe7c8f7ba6c56a5f69f14cf32966757ed864ad20c3ba9203afb",
-            "location": "https://edge.forgecdn.net/files/2924/29/tacocraft-1.1.0.jar",
-            "to": "mods/tacocraft-1.1.0.jar",
-            "size": 641817
+            "hash": "sha-256:b68140886ea809fefa5923f2523e5eb67546e2e719b6a487c1af6a6b1cf1a60b",
+            "location": "https://edge.forgecdn.net/files/2926/423/composing-1.0.2+1.15.2.jar",
+            "to": "mods/composing-1.0.2+1.15.2.jar",
+            "size": 672120
         },
         {
             "hash": "sha-256:efd3427620476debf2e773685fc3147fcee11c655bca51a1fd00a0a5e840fe46",
