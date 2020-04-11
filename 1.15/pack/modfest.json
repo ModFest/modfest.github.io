@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004101957",
+    "version": "1.0.202004110648",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -106,10 +106,10 @@
             "size": 154160
         },
         {
-            "hash": "sha-256:2b1049c4d7b61320259918e517df46f705137d3ace59206432e926d9e4c5e93c",
-            "location": "https://github.com/RypoFalem/The-Blue/releases/download/1.15.2-1.0/the_blue-1.15.2-1.0.jar",
-            "to": "mods/the_blue-1.15.2-1.0.jar",
-            "size": 47172
+            "hash": "sha-256:27a3878d3098098b1ee291df1a640a6215c7be3fc558d88cb851e94897ebcc68",
+            "location": "https://github.com/RypoFalem/The-Blue/releases/download/1.15.2-1.1/the_blue-1.15.2-1.1.jar",
+            "to": "mods/the_blue-1.15.2-1.1.jar",
+            "size": 59726
         },
         {
             "hash": "sha-256:c3f7409182fc1776a89feda98af981f2a92dc27bf41fe58d774ceec869909ab0",
@@ -172,12 +172,6 @@
             "size": 455678
         },
         {
-            "hash": "sha-256:90e1017c07fb242ecce10010cc6212aea43489b55740d9aba5682a0f3da58ee0",
-            "location": "https://edge.forgecdn.net/files/2925/513/reliccraft-1.0.14+1.15.2.jar",
-            "to": "mods/reliccraft-1.0.14+1.15.2.jar",
-            "size": 380538
-        },
-        {
             "hash": "sha-256:5d2e3cb04f8ff3a8a7718a3f2ebbdac6fe2da6dc3ff16da0eb06d859c13e5dac",
             "location": "https://github.com/TheBrokenRail/ModFest-1.15-Extras/releases/download/1.0.4/modfest-extras.jar",
             "to": "mods/modfest-extras.jar",
@@ -220,6 +214,12 @@
             "size": 21141
         },
         {
+            "hash": "sha-256:49d897ff7679a459098c09cde656f3e391c66caee2c36d7e537ac32525a39668",
+            "location": "https://edge.forgecdn.net/files/2926/612/azuma-1.2.6-beta_1.15.2 (1).jar",
+            "to": "mods/azuma-1.2.6-beta_1.15.2 (1).jar",
+            "size": 1304642
+        },
+        {
             "hash": "sha-256:278ca8f1bafab16802b67ced46edc4da985e2e2ba95c85a22953f15441e9ac9c",
             "location": "https://edge.forgecdn.net/files/2926/219/RoughlyEnoughItems-3.6.7.jar",
             "to": "mods/RoughlyEnoughItems-3.6.7.jar",
@@ -238,12 +238,6 @@
             }
         },
         {
-            "hash": "sha-256:6fdf32611e472ce7f998180485c17c20b7ae93ad5656744cc83aa12805588998",
-            "location": "https://edge.forgecdn.net/files/2924/592/azuma-1.2.5.jar",
-            "to": "mods/azuma-1.2.5.jar",
-            "size": 1267603
-        },
-        {
             "hash": "sha-256:bb13a90b44a02e2c8af900955728f46708429d0fdc6adbfa5d5f052d10cb4bac",
             "location": "https://github.com/trewghil/offshoreplus/releases/download/0.0.3/offshoreplus-0.0.3.jar",
             "to": "mods/offshoreplus-0.0.3.jar",
@@ -254,6 +248,12 @@
             "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.3/extradetectors-0.0.3.jar",
             "to": "mods/extradetectors-0.0.3.jar",
             "size": 21105
+        },
+        {
+            "hash": "sha-256:1c276737d8f0cd61b11689f280b6e7572f09512822bcf8557cdb4aabfda31b5c",
+            "location": "https://edge.forgecdn.net/files/2926/906/Mechanized-1.4.1.jar",
+            "to": "mods/Mechanized-1.4.1.jar",
+            "size": 954412
         },
         {
             "hash": "sha-256:7435df1dc9c31cbb96b0c5f4a8a05f124c0bde8ccdd9a5790bcec61ff1f0ee76",
@@ -340,12 +340,6 @@
             "size": 672120
         },
         {
-            "hash": "sha-256:efd3427620476debf2e773685fc3147fcee11c655bca51a1fd00a0a5e840fe46",
-            "location": "https://edge.forgecdn.net/files/2925/729/Mechanized-1.3.0.jar",
-            "to": "mods/Mechanized-1.3.0.jar",
-            "size": 948924
-        },
-        {
             "hash": "sha-256:df7721a9a749350bf0a775c38be8794aa6a98258f9bbe21884f42c50702446de",
             "location": "https://edge.forgecdn.net/files/2925/915/lint-1.2.0.jar",
             "to": "mods/lint-1.2.0.jar",
@@ -380,6 +374,12 @@
             "location": "https://edge.forgecdn.net/files/2924/539/gravestones-1.1.1.jar",
             "to": "mods/gravestones-1.1.1.jar",
             "size": 685543
+        },
+        {
+            "hash": "sha-256:67a9d4fb363e393dd2d5e49f27e42d7f8b10e99d46511e0640194d60220b1296",
+            "location": "https://edge.forgecdn.net/files/2926/751/reliccraft-1.0.15+1.15.2.jar",
+            "to": "mods/reliccraft-1.0.15+1.15.2.jar",
+            "size": 380385
         },
         {
             "hash": "sha-256:f2fe10c7aec92d99785372fee4efd13b942d6e0f511c2b851acc148acb2eee9c",
