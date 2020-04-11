@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004111946",
+    "version": "1.0.202004112135",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -77,6 +77,12 @@
             "size": 562560
         },
         {
+            "hash": "sha-256:81bd60fb9819bef539cb025f794d0843b61173260ce861eeea2b6bbf644869ac",
+            "location": "https://edge.forgecdn.net/files/2926/654/Esther-1.0.9.jar",
+            "to": "mods/Esther-1.0.9.jar",
+            "size": 694112
+        },
+        {
             "hash": "sha-256:6e94f24a09ffda1d21608cc5c43761594be43e5c87ab666b4e17cba028ff9dc8",
             "location": "https://github.com/Maowcraft/CrystalModifiers/releases/download/1.0.0/CrystalModifiers-1.15.2-1.0.0.jar",
             "to": "mods/CrystalModifiers-1.15.2-1.0.0.jar",
@@ -137,12 +143,6 @@
             "size": 837765
         },
         {
-            "hash": "sha-256:a2f0b98e9d74344cc35df4e0fdc5a3d9f9f01e2e29bdaf47ec1f8acc45183626",
-            "location": "https://cdn.discordapp.com/attachments/696494482698535052/698608389202378875/bruh-moment-0.1.0.jar",
-            "to": "mods/bruh-moment-0.1.0.jar",
-            "size": 106045
-        },
-        {
             "hash": "sha-256:d4bf1112afdb53e2478f1ec32fcde2334f8ec4337cf87961036b6dddcd5623c3",
             "location": "https://edge.forgecdn.net/files/2923/13/lil-tater-0.9.1-SNAPSHOT.jar",
             "to": "mods/lil-tater-0.9.1-SNAPSHOT.jar",
@@ -171,6 +171,12 @@
             "location": "https://edge.forgecdn.net/files/2927/156/Underpowered-1.15.2-fabric-1.0.3.jar",
             "to": "mods/Underpowered-1.15.2-fabric-1.0.3.jar",
             "size": 164079
+        },
+        {
+            "hash": "sha-256:e5684fa1cd166ef98412ac38ae5d149099efd6c28f1b6bd64613cdb3bef5ab38",
+            "location": "https://cdn.discordapp.com/attachments/696494482698535052/698638004276822056/bruh-moment-0.1.2.jar",
+            "to": "mods/bruh-moment-0.1.2.jar",
+            "size": 110099
         },
         {
             "hash": "sha-256:5c2db5c698533d0252391188f97d0f343eeae911035cfea60d1b717b2dd223d8",
@@ -381,12 +387,6 @@
             "location": "https://edge.forgecdn.net/files/2923/736/simpleaccessories-0.1.4.jar",
             "to": "mods/simpleaccessories-0.1.4.jar",
             "size": 542116
-        },
-        {
-            "hash": "sha-256:f3fada46a5c67b2fac96be88e13f88f56af8bb7a749ada6c2a56a792aee005a3",
-            "location": "https://edge.forgecdn.net/files/2925/525/Esther-1.0.6.jar",
-            "to": "mods/Esther-1.0.6.jar",
-            "size": 693328
         },
         {
             "hash": "sha-256:e2c12052fedb543ecb7332a3eebde9663e0afe4255c611c62e84784a76f43e66",
