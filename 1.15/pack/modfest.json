@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004110648",
+    "version": "1.0.202004111946",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -22,6 +22,13 @@
     ],
     "tasks": [
         {
+            "hash": "sha-256:c971db020b0308fb420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "location": "c971db02/0b0308fb/420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "to": "servers.dat",
+            "size": 66,
+            "userFile": true
+        },
+        {
             "hash": "sha-256:4faf6ff0b31042e04179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
             "location": "4faf6ff0/b31042e0/4179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
             "to": "config/cts/buttons.json5",
@@ -34,10 +41,10 @@
             "size": 182
         },
         {
-            "hash": "sha-256:770ad3c690b19f1dfa8d3ffe92ae5d20d5bd35ed0886270db0d779cde2046e8b",
-            "location": "770ad3c6/90b19f1d/fa8d3ffe92ae5d20d5bd35ed0886270db0d779cde2046e8b",
+            "hash": "sha-256:8d90c4c8e396c7cf238160dfe4ca91e687586973a621e4b87ca1345a21d53782",
+            "location": "8d90c4c8/e396c7cf/238160dfe4ca91e687586973a621e4b87ca1345a21d53782",
             "to": "cassettes/The.Small.One.wav",
-            "size": 10588
+            "size": 10590
         },
         {
             "hash": "sha-256:af3ec9bfa1b8b691133d03537bcd7fd65c0de51d650f3f99f4d6bdcd16be35a8",
@@ -82,6 +89,12 @@
             "size": 1391801
         },
         {
+            "hash": "sha-256:9c4d0562c729db2d597dbcdfe2ef4fb22b6ee0f3787a8b3b3f26f8e30030e886",
+            "location": "https://edge.forgecdn.net/files/2927/351/reliccraft-1.0.16+1.15.2.jar",
+            "to": "mods/reliccraft-1.0.16+1.15.2.jar",
+            "size": 381466
+        },
+        {
             "hash": "sha-256:c7c4418d941051709abf3780145b6f1b914ab3ba9edb6917f4ca42c6f893e2b4",
             "location": "https://edge.forgecdn.net/files/2925/735/chunk-in-a-globe-1.15.2-1.0.2.jar",
             "to": "mods/chunk-in-a-globe-1.15.2-1.0.2.jar",
@@ -124,10 +137,10 @@
             "size": 837765
         },
         {
-            "hash": "sha-256:e50fa01537d2c99c1b9365b89ef66b198b96e4e7bda0a874fa64f68b80ba3ea7",
-            "location": "https://edge.forgecdn.net/files/2925/437/campanion-1.0.6+custom.jar",
-            "to": "mods/campanion-1.0.6+custom.jar",
-            "size": 794117
+            "hash": "sha-256:a2f0b98e9d74344cc35df4e0fdc5a3d9f9f01e2e29bdaf47ec1f8acc45183626",
+            "location": "https://cdn.discordapp.com/attachments/696494482698535052/698608389202378875/bruh-moment-0.1.0.jar",
+            "to": "mods/bruh-moment-0.1.0.jar",
+            "size": 106045
         },
         {
             "hash": "sha-256:d4bf1112afdb53e2478f1ec32fcde2334f8ec4337cf87961036b6dddcd5623c3",
@@ -154,22 +167,28 @@
             "size": 3406628
         },
         {
+            "hash": "sha-256:a48dde45cf1bf306e9907331b374b931939798be6e121b8396992f21985382bd",
+            "location": "https://edge.forgecdn.net/files/2927/156/Underpowered-1.15.2-fabric-1.0.3.jar",
+            "to": "mods/Underpowered-1.15.2-fabric-1.0.3.jar",
+            "size": 164079
+        },
+        {
             "hash": "sha-256:5c2db5c698533d0252391188f97d0f343eeae911035cfea60d1b717b2dd223d8",
             "location": "https://edge.forgecdn.net/files/2926/144/tenor-1.0.3.jar",
             "to": "mods/tenor-1.0.3.jar",
             "size": 289057
         },
         {
-            "hash": "sha-256:d6156defd34c2dcd7b6575364b73ad84aaf21060f4a4aec15ef22ae26bab2c39",
-            "location": "https://edge.forgecdn.net/files/2923/538/Underpowered-1.15.2-fabric-1.0.2.jar",
-            "to": "mods/Underpowered-1.15.2-fabric-1.0.2.jar",
-            "size": 163479
-        },
-        {
             "hash": "sha-256:d461a5cb54176c98af6a5db0db18dcec3385cf317f2cc5a75746dab970429ae6",
             "location": "https://edge.forgecdn.net/files/2912/843/malilib-fabric-1.15.2-0.10.0-dev.20+arne.6.jar",
             "to": "mods/malilib-fabric-1.15.2-0.10.0-dev.20+arne.6.jar",
             "size": 455678
+        },
+        {
+            "hash": "sha-256:f505ccf8db4105e073f1eee5661145d3f3ca6566b8cfa9603893e0a7b8eeedbc",
+            "location": "https://edge.forgecdn.net/files/2927/380/RoughlyEnoughItems-3.6.8.jar",
+            "to": "mods/RoughlyEnoughItems-3.6.8.jar",
+            "size": 1295810
         },
         {
             "hash": "sha-256:5d2e3cb04f8ff3a8a7718a3f2ebbdac6fe2da6dc3ff16da0eb06d859c13e5dac",
@@ -220,12 +239,6 @@
             "size": 1304642
         },
         {
-            "hash": "sha-256:278ca8f1bafab16802b67ced46edc4da985e2e2ba95c85a22953f15441e9ac9c",
-            "location": "https://edge.forgecdn.net/files/2926/219/RoughlyEnoughItems-3.6.7.jar",
-            "to": "mods/RoughlyEnoughItems-3.6.7.jar",
-            "size": 1293398
-        },
-        {
             "hash": "sha-256:7b127f9ce16f53aa7cee00c7fef2042c581a67f375f06e3d833ed6fbc51bdfe2",
             "location": "https://edge.forgecdn.net/files/2880/367/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
             "to": "mods/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
@@ -238,6 +251,12 @@
             }
         },
         {
+            "hash": "sha-256:bc279bf86ed4dbc67763f1ba3ab81e8251bb9b027d49c14c9819c388c51dd85d",
+            "location": "https://edge.forgecdn.net/files/2927/15/Mechanized-1.4.2.jar",
+            "to": "mods/Mechanized-1.4.2.jar",
+            "size": 954416
+        },
+        {
             "hash": "sha-256:bb13a90b44a02e2c8af900955728f46708429d0fdc6adbfa5d5f052d10cb4bac",
             "location": "https://github.com/trewghil/offshoreplus/releases/download/0.0.3/offshoreplus-0.0.3.jar",
             "to": "mods/offshoreplus-0.0.3.jar",
@@ -248,12 +267,6 @@
             "location": "https://github.com/ExtraCrafTX/ExtraDetectors/releases/download/v0.0.3/extradetectors-0.0.3.jar",
             "to": "mods/extradetectors-0.0.3.jar",
             "size": 21105
-        },
-        {
-            "hash": "sha-256:1c276737d8f0cd61b11689f280b6e7572f09512822bcf8557cdb4aabfda31b5c",
-            "location": "https://edge.forgecdn.net/files/2926/906/Mechanized-1.4.1.jar",
-            "to": "mods/Mechanized-1.4.1.jar",
-            "size": 954412
         },
         {
             "hash": "sha-256:7435df1dc9c31cbb96b0c5f4a8a05f124c0bde8ccdd9a5790bcec61ff1f0ee76",
@@ -346,22 +359,28 @@
             "size": 962004
         },
         {
+            "hash": "sha-256:fd4d9ef8e5147f8368da64deb7c1a9098e9f774283cd3eaad45b097ff5b13ef4",
+            "location": "https://github.com/Chocohead/Modjam/releases/download/v0.5/Salts.Mill-0.5.jar",
+            "to": "mods/Salts.Mill-0.5.jar",
+            "size": 407165
+        },
+        {
             "hash": "sha-256:49a9da54ceb7e2e2374e07b5e6cf89527fe6c8250e833394c0e5f061b1ee508e",
             "location": "https://edge.forgecdn.net/files/2902/148/modmenu-1.10.2+build.32.jar",
             "to": "mods/modmenu-1.10.2+build.32.jar",
             "size": 85726
         },
         {
+            "hash": "sha-256:e6d57008b6f93412c3b7a331f1407d726cf40abc484a6935f71240add7ef0be1",
+            "location": "https://edge.forgecdn.net/files/2927/295/campanion-1.0.7+custom.jar",
+            "to": "mods/campanion-1.0.7+custom.jar",
+            "size": 794102
+        },
+        {
             "hash": "sha-256:26359183bf42bee0f2ac8638b45ae4230365539a2995bb69b828dfcf2474e11d",
             "location": "https://edge.forgecdn.net/files/2923/736/simpleaccessories-0.1.4.jar",
             "to": "mods/simpleaccessories-0.1.4.jar",
             "size": 542116
-        },
-        {
-            "hash": "sha-256:2b72c0126045a0ae0bc5962681cd88ddc418a9e60662316f2368061e4c4f3a66",
-            "location": "https://github.com/Chocohead/Modjam/releases/download/v0.4/Salts.Mill-0.4.jar",
-            "to": "mods/Salts.Mill-0.4.jar",
-            "size": 406713
         },
         {
             "hash": "sha-256:f3fada46a5c67b2fac96be88e13f88f56af8bb7a749ada6c2a56a792aee005a3",
@@ -374,12 +393,6 @@
             "location": "https://edge.forgecdn.net/files/2924/539/gravestones-1.1.1.jar",
             "to": "mods/gravestones-1.1.1.jar",
             "size": 685543
-        },
-        {
-            "hash": "sha-256:67a9d4fb363e393dd2d5e49f27e42d7f8b10e99d46511e0640194d60220b1296",
-            "location": "https://edge.forgecdn.net/files/2926/751/reliccraft-1.0.15+1.15.2.jar",
-            "to": "mods/reliccraft-1.0.15+1.15.2.jar",
-            "size": 380385
         },
         {
             "hash": "sha-256:f2fe10c7aec92d99785372fee4efd13b942d6e0f511c2b851acc148acb2eee9c",
