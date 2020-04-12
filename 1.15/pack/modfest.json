@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004120003",
+    "version": "1.0.202004120009",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -281,12 +281,6 @@
             "size": 417380
         },
         {
-            "hash": "sha-256:5812577bec709875c9289895e89cb308e0bd5b0d7e108d03342de7871a63786b",
-            "location": "https://cdn.discordapp.com/attachments/692799982058864650/696924186861633617/vantacine-1.0.0.jar",
-            "to": "mods/vantacine-1.0.0.jar",
-            "size": 75500
-        },
-        {
             "hash": "sha-256:bc88c8a342bf28542efcd44fb973a359b24438a08aa55f1cee33b12a28116bea",
             "location": "https://edge.forgecdn.net/files/2898/702/fabric-api-0.5.1+build.294-1.15.jar",
             "to": "mods/fabric-api-0.5.1+build.294-1.15.jar",
@@ -297,6 +291,12 @@
             "location": "cf4587d8/593a269e/76d79c6589f601059c75bcfb6397a6845f39fa3995d0e52a",
             "to": "mods/drones-0.1.3.jar",
             "size": 75532
+        },
+        {
+            "hash": "sha-256:757d7419b283b0fe15e275fe55425c08cb4a2bc9f40853e835b6b778a2ef2e77",
+            "location": "https://cdn.discordapp.com/attachments/696494482698535052/698685448771338290/vantacine-1.0.0-pre4.jar",
+            "to": "mods/vantacine-1.0.0-pre4.jar",
+            "size": 76828
         },
         {
             "hash": "sha-256:c263115af381454b48e9356b561e01601a05edc7adc67ce2bf19e25eb266e459",
