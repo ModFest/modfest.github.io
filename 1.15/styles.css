@@ -239,6 +239,8 @@ a:focus {
 	font-weight: 100;
 	letter-spacing: 2px;
 	text-transform: none;
+	margin-left: 8px;
+	margin-right: 8px;
 }
 
 .button.sign-up-button:hover{
