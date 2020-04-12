@@ -1,7 +1,7 @@
 {
     "id": "modfest",
     "title": "Modfest",
-    "version": "1.0.202004112135",
+    "version": "1.0.202004120003",
     "objectsLocation": "objects",
     "gameVersion": "1.15.2",
     "modLoader": {
@@ -29,8 +29,8 @@
             "userFile": true
         },
         {
-            "hash": "sha-256:4faf6ff0b31042e04179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
-            "location": "4faf6ff0/b31042e0/4179e5bccd61f7d4c08747b59600bc90ae5455eb31c040b0",
+            "hash": "sha-256:b26aedfb4b1ac7dcd6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
+            "location": "b26aedfb/4b1ac7dc/d6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
             "to": "config/cts/buttons.json5",
             "size": 2915
         },
@@ -245,6 +245,12 @@
             "size": 1304642
         },
         {
+            "hash": "sha-256:dad1812587090115e97f84aebf4b255bf48e7d344d9dafc8518cff8de2939332",
+            "location": "https://edge.forgecdn.net/files/2927/574/Mechanized-1.4.3.jar",
+            "to": "mods/Mechanized-1.4.3.jar",
+            "size": 954497
+        },
+        {
             "hash": "sha-256:7b127f9ce16f53aa7cee00c7fef2042c581a67f375f06e3d833ed6fbc51bdfe2",
             "location": "https://edge.forgecdn.net/files/2880/367/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
             "to": "mods/minihud-fabric-1.15.2-0.19.0-dev.20200121.203515.jar",
@@ -255,12 +261,6 @@
                     "MiniHUD"
                 ]
             }
-        },
-        {
-            "hash": "sha-256:bc279bf86ed4dbc67763f1ba3ab81e8251bb9b027d49c14c9819c388c51dd85d",
-            "location": "https://edge.forgecdn.net/files/2927/15/Mechanized-1.4.2.jar",
-            "to": "mods/Mechanized-1.4.2.jar",
-            "size": 954416
         },
         {
             "hash": "sha-256:bb13a90b44a02e2c8af900955728f46708429d0fdc6adbfa5d5f052d10cb4bac",
