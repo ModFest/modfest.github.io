@@ -111,6 +111,26 @@ body {
 	min-width: 300px;
 }
 
+.info-card.award {
+	background-color: var(--accent-color);
+	color: rgb(54, 54, 54);
+}
+
+.info-card.award a{
+	color: black;
+}
+
+.mod-card.award h5 {
+	font-size: 18px;
+	line-height: 22px;
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+}
+
+.topmargin {
+	margin-top: 20px;
+}
+
 #modpack-link {
 	border-radius: 8px;
 	background-color: rgb(223, 223, 223);

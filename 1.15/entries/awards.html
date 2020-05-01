@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ModFest</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
+        <link rel="manifest" href="../site.webmanifest">
+        <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#7b27ff">
+        <meta name="msapplication-TileColor" content="#7b27ff">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                $(".mod-row").each(function() {
+                    var divs = $(this).children()
+                    for(var i = 0; i < divs.length; i++) {
+                        $(divs[i]).remove()
+                    }
+                    alphabetize(divs)
+                    // shuffle(divs)
+                    for(var i = 0; i < divs.length; i++) {
+                        $(divs[i]).appendTo(this)
+                    }
+                })
+            })
+
+            /* Randomize array in-place using Durstenfeld shuffle algorithm */
+            function shuffle(array) {
+                for (var i = array.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1))
+                    var temp = array[i]
+                    array[i] = array[j]
+                    array[j] = temp
+                }
+            }
+
+            function alphabetize(divs) {
+                divs.sort(function(a, b) {
+                    var nameA = getModTitle(a).toLowerCase(), nameB = getModTitle(b).toLowerCase();
+                    if (nameA < nameB) {
+                        return -1
+                    }
+                    if (nameA > nameB) {
+                        return 1
+                    }
+                    return 0
+                });
+            }
+
+            function getModTitle(div){
+                return div.querySelector(".mod-card").querySelector(".title").textContent
+            }
+        </script>
+    </head>
+    <body id="v15a">
+      <div class="header">
+        <div class="container">
+            <div class="row">
+                <a id="home-link" href=".." class="col-auto home">
+                <img class="logo" src="../modfest.svg">
+                </a>
+                <div class="col">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="title">ModFest 1.15 Awards</h1>
+            </div>
+            <div class="row justify-content-center">
+                <a class="button sign-up-button" href="index.html">
+                    <span id="theme-text">Back to All Entries</span>
+                </a>
+            </div>
+            <div class="row justify-content-center">
+                <p class="text">Note: The order of entries are in <b>alphabetical order</b> and do not indicate ranking.<br></p>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title">Theme Award: Industrial<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="funky-forcefields.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/funky-forcefields" target="_blank">Funky Forcefields</a> by comp500</h3>
+                        <h5 class="desc">Adds forcefields that allow you to stop your enemies and protect yourself from mobs!</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="mechanized.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/mechanized-steam-power" target="_blank">Mechanized</a> by Snakefangox</h3>
+                        <h5 class="desc">Automate and mess around with a variety of unique steam powered machines and tools. Or just make a really cool trampoline.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Theme Award: Exploration<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="overgrown-cities.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/overgrown-cities-fabric" target="_blank">Overgrown Cities</a> by TelepathicGrunt, SuperCoder, and Halotroop</h3>
+                        <h5 class="desc">Creates a new dimension with an old decaying city hidden among the overgrown wilderness with an Abandoned Warehouse in the Overworld to let you enter it!</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="yungs-better-mineshafts.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric" target="_blank">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</h3>
+                        <h5 class="desc">An abandoned mineshaft overhaul!</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Theme Award: Magic<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="azuma.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/azuma" target="_blank">Azuma</a> by Ljime and Draylar</h3>
+                        <h5 class="desc">Our mod adds a special crafting system powered by a magical energy alongside several useful utility items and tools.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="composing.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/composing" target="_blank">Composing</a> by B0undarybreaker, Martmists, PK Anti, and NuclearFarts</h3>
+                        <h5 class="desc">Adds a system to power up tools, weapons, armor, and trinkets by composing them with elemental crystals.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="unfortunately.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/unfortunately" target="_blank">Unfortunately</a> by quat</h3>
+                        <h5 class="desc">The Fortune Teller villager peers into their crystal ball and tells you what happens in your future... for a small fee, of course. Some outcomes are good. Some outcomes are bad. Maybe you'll regret asking.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <p class="text topmargin">And now, some additional awards from the community:<br></p>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title">Funniest<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="lil-tater.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/lil-tater" target="_blank">Lil' Tater (Rewrite)</a> by VatuuKomalia</h3>
+                        <h5 class="desc">Adds lil' taters to the game. Crucial for any modded instance.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="lint.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/lint" target="_blank">Lint</a> by hydos and ramidzkh</h3>
+                        <h5 class="desc">Adds a new dimension to explore. accessed through an "Adventure Transformer".</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="little-rocket-man.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/little-rocket-man"target="_blank">Little Rocket Man</a> by Yoghurt4C</h3>
+                        <h5 class="desc">Little Rocket Man is a mod that adds Gnome Chompski into the world of minecraft. His mission is to reach space by any means necessary... Your mission is to help him with that.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Most Interesting<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="chunk-in-a-globe.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-in-a-globe" target="_blank">Chunk In A Globe</a> by modmuss50</h3>
+                        <h5 class="desc">Chunk in a globe that you can enter.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Most Innovative<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="chunk-in-a-globe.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-in-a-globe" target="_blank">Chunk In A Globe</a> by modmuss50</h3>
+                        <h5 class="desc">Chunk in a globe that you can enter.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="drones.jpg">
+                        <h3 class="title"><a href="https://ci.dblsaiko.net/job/drones/" target="_blank">Drones</a> by 2xsaiko</h3>
+                        <h5 class="desc">Adds remote-controllable drones with camera.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Most Complete<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="chunk-in-a-globe.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-in-a-globe" target="_blank">Chunk In A Globe</a> by modmuss50</h3>
+                        <h5 class="desc">Chunk in a globe that you can enter.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="yungs-better-mineshafts.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric" target="_blank">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</h3>
+                        <h5 class="desc">An abandoned mineshaft overhaul!</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Most Likely to Use<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="chunk-in-a-globe.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/chunk-in-a-globe" target="_blank">Chunk In A Globe</a> by modmuss50</h3>
+                        <h5 class="desc">Chunk in a globe that you can enter.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="yungs-better-mineshafts.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric" target="_blank">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</h3>
+                        <h5 class="desc">An abandoned mineshaft overhaul!</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Most Potential<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="mechanized.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/mechanized-steam-power" target="_blank">Mechanized</a> by Snakefangox</h3>
+                        <h5 class="desc">Automate and mess around with a variety of unique steam powered machines and tools. Or just make a really cool trampoline.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Overall Community Favorites<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="campanion.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/campanion" target="_blank">Campanion</a> by NeusFear, Wyn Price, and Prospector</h3>
+                        <h5 class="desc">Campanion is a drop in and play solution to the nomadic lifestyle for Minecraft. The mod adds various decoration and utility items that are guaranteed to liven up your Minecraft world. The goal of Campanion was to create a themed mod that adds all kinds of features that we wanted in the game or otherwise we believe should be in the game anyway.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="reichenbach.jpg">
+                        <h3 class="title"><a href="https://github.com/vxlgames/Reichenbach" target="_blank">Reichenbach</a> by Coded, Lakmatiol, Yerti, and Least Reality</h3>
+                        <h5 class="desc">Inspired by Satisfactory & Factorio, Reichenbach aims to distance itself from usual tech mods through interesting crafting mechanics & machinery.</h5>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="info-card mod-card award">
+                        <img class="mod-screenshot" src="yungs-better-mineshafts.jpg">
+                        <h3 class="title"><a href="https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric" target="_blank">YUNG's Better Mineshafts</a> by YUNGNICKYOUNG</h3>
+                        <h5 class="desc">An abandoned mineshaft overhaul!</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <h3 class="title topmargin">Honorable Mention<br></h3>
+            </div>
+            <div class="row justify-content-center mod-row">
+                <div class="col">
+                    <div class="info-card mod-card">
+                        <h3 class="title"><a href="https://github.com/dreeks/ModularFlyships-fabric" target="_blank">Modular Flyships</a> by Oxado</h3>
+                        <h5 class="desc">Modular Flyships unfortunately had to drop out of ModFest after submission due to having issues too big to fix before the showcasing and voting began. RIP ModFest 1.15 entry #40.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Site designed by Prospector
+        <a id="source-button" class="button white-outline " href="https://github.com/ModFest/modfest.github.io"
+            target="_blank">
+        <img class="accent-invert" src="../github.svg">
+        View source on GitHub
+        </a>
+    </div>
+    </body>
+</html>
