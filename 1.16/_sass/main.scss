@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import "../node_modules/bulma-carousel/src/sass/index.sass";
+
+// Set initial variables
+$accent: #ff3939;
+$accent-dark: #d12828;
+$accent-darker: #a31a1a;
+$main: #0c0c0c;
+$main-alt: rgb(37, 37, 37);
+$main-invert: rgb(211, 211, 211);
+$main-invert-alt: rgb(211, 211, 211);
+$main-invert-strong: rgb(255, 255, 255);
+
+// Set the derived variables
+$primary: $accent;
+$primary-invert: $main;
+$border: $main-alt;
+$navbar-height: 4.2rem;
+$navbar-item-img-max-height: 4rem;
+$navbar-padding-vertical: 0rem;
+$navbar-padding-horizontal: 30rem;
+$text: $main-invert;
+$text-invert: $main;
+$text-light: $main;
+$text-strong: $main-invert-strong;
+$code: $main-invert-alt;
+$pre: $main-invert-alt;
+$background: $main-alt;
+$link: $accent;
+$link-invert: $main;
+$link-hover: $accent-dark;
+$link-hover-border: $accent-dark;
+$link-active: $accent-darker;
+$link-active-border: $accent-darker;
+$scheme-main: $main;
+$scheme-main-bis: $main-alt;
+$scheme-invert: $main-invert-strong;
+
+// Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+
+.past-modfest-image {
+	object-fit: cover;
+	height: 350px;
+	width: 480px;
+    border-radius: 10px;
+}
