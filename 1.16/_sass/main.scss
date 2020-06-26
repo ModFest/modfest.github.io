@@ -2,13 +2,13 @@
 
 // Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
-@import "../node_modules/bulma-carousel/src/sass/index.sass";
 
 // Set initial variables
 $accent: #ff3939;
 $accent-dark: #d12828;
 $accent-darker: #a31a1a;
 $main: #0c0c0c;
+$card: rgb(20, 20, 20);
 $main-alt: rgb(37, 37, 37);
 $main-invert: rgb(211, 211, 211);
 $main-invert-alt: rgb(211, 211, 211);
@@ -47,4 +47,35 @@ $scheme-invert: $main-invert-strong;
 	height: 350px;
 	width: 480px;
     border-radius: 10px;
+}
+
+.entries-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+	grid-gap: 1em;
+}
+
+.mod-card {
+	border-radius: 16px;
+	background-color: $card;
+	box-shadow: none;
+}
+
+.content figure {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.mod-screenshot {
+	border-radius: 8px;
+}
+
+.mod-screenshot img {
+	object-fit: cover;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.mod-card a .title {
+	color: $accent;
+	margin-bottom: 4px;
 }
