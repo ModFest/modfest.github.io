@@ -79,3 +79,20 @@ $scheme-invert: $main-invert-strong;
 	color: $accent;
 	margin-bottom: 4px;
 }
+
+#modpack-link {
+	border-radius: 10px;
+	background-color: $main;
+	padding: 8px 20px 8px 20px;
+	text-align: center;
+	color: $accent;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	box-shadow: 0 0 16px #ff3939de;
+}
+
+#modpack-link::selection {
+	background: $accent;
+	color: white;
+}

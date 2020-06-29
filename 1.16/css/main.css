@@ -7143,3 +7143,18 @@ label.panel-block {
 .mod-card a .title {
   color: #ff3939;
   margin-bottom: 4px; }
+
+#modpack-link {
+  border-radius: 10px;
+  background-color: #0c0c0c;
+  padding: 8px 20px 8px 20px;
+  text-align: center;
+  color: #ff3939;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 16px #ff3939de; }
+
+#modpack-link::selection {
+  background: #ff3939;
+  color: white; }

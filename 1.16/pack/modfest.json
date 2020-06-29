@@ -1,0 +1,347 @@
+{
+    "formatVersion": "0.5.7",
+    "id": "modfest",
+    "title": "ModFest 1.16",
+    "version": "1.0.202006291904",
+    "objectsLocation": "objects",
+    "gameVersion": "1.16.1",
+    "modLoader": {
+        "type": "modloader.Fabric",
+        "loader": "0.8.8+build.202",
+        "intermediateMappings": "1.16.1",
+        "installer": "0.6.1.45"
+    },
+    "tasks": [
+        {
+            "hash": "sha-256:b26aedfb4b1ac7dcd6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
+            "location": "b26aedfb/4b1ac7dc/d6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
+            "to": "config/cts/buttons.json5",
+            "size": 2915
+        },
+        {
+            "hash": "sha-256:248adc07dbd6527bad1e2d1d21403a7978f1d8a3a68ece6733c91e8379ef2670",
+            "location": "248adc07/dbd6527b/ad1e2d1d21403a7978f1d8a3a68ece6733c91e8379ef2670",
+            "to": "config/cts/config.json5",
+            "size": 175
+        },
+        {
+            "hash": "sha-256:3e707adda4ce74ca69bb69f891a998214af596a1252e33f4be3746a14f141e37",
+            "location": "https://edge.forgecdn.net/files/2988/48/adventurez-1.0.1.jar",
+            "to": "mods/adventurez-1.0.1.jar",
+            "size": 777090
+        },
+        {
+            "hash": "sha-256:40fddd0cf174b608a6d5ff2c3a95d8988f152041f91035146e7c3e307b20d631",
+            "location": "https://edge.forgecdn.net/files/2992/203/astromine-1.0.16+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.16+fabric-1.16.1.jar",
+            "size": 3181818
+        },
+        {
+            "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
+            "location": "https://github.com/The-Code-Monkey/ModFest/releases/download/1.0.1/astrum-1.0.0.jar",
+            "to": "mods/astrum-1.0.0.jar",
+            "size": 160434
+        },
+        {
+            "hash": "sha-256:1a0596a9e2747e5aaef5e707a0a634d041583298a41f5f706576f093d60d4da3",
+            "location": "https://github.com/comp500/attack-of-the-bikeshed/releases/download/1.0.1/bikeshed-1.0.1.jar",
+            "to": "mods/bikeshed-1.0.1.jar",
+            "size": 191108
+        },
+        {
+            "hash": "sha-256:634d837b472ef9b76c348b62d59e8a8b93fe1e2a1c7ea403351790c799ce7bc6",
+            "location": "https://edge.forgecdn.net/files/2988/88/biomechanics-1.0.1.jar",
+            "to": "mods/biomechanics-1.0.1.jar",
+            "size": 1518619
+        },
+        {
+            "hash": "sha-256:71a44a9155d58d44607fc4cbf88b6b3253a6f7ce1662f8299bd5179b9fa37307",
+            "location": "https://edge.forgecdn.net/files/2990/133/biospheres_generator-0.0.2.jar",
+            "to": "mods/biospheres_generator-0.0.2.jar",
+            "size": 52970
+        },
+        {
+            "hash": "sha-256:c7c5c382062fb8ae784c1186c19a7dd1874b755cb52a5d962af46bb747cc6c3f",
+            "location": "https://github.com/JSJBDEV/PiratesAndPlunderers/releases/download/0.6.1/Blockwake-1.16-0.6.1.jar",
+            "to": "mods/Blockwake-1.16-0.6.1.jar",
+            "size": 788148
+        },
+        {
+            "hash": "sha-256:f3e29501b99e100da6e56f8887f5f59646cb2980e39ad7c4e70b2df5e54ed486",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727051566380744735/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
+            "to": "mods/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
+            "size": 13664
+        },
+        {
+            "hash": "sha-256:c344ca77e1f7dbdc7bd600d62b2fb6fe24b418114e3f2d8344ec0d5d67ee8191",
+            "location": "https://edge.forgecdn.net/files/2989/428/canvas-mc116-1.0.728.jar",
+            "to": "mods/canvas-mc116-1.0.728.jar",
+            "size": 1995621
+        },
+        {
+            "hash": "sha-256:3dbef5255d16e2f3a724e2dae6d1761548bef5056bc1f154d060135c554b15de",
+            "location": "https://edge.forgecdn.net/files/2990/259/Cardinal-Components-API-2.4.1.jar",
+            "to": "mods/Cardinal-Components-API-2.4.1.jar",
+            "size": 221339
+        },
+        {
+            "hash": "sha-256:ae3148867523cbd6b0646dcf214d5070d191c51b0a6e05a5b439f713706fb454",
+            "location": "https://github.com/JoeZwet/CargoRockets/releases/download/0.1.0-alpha%2B1.16.1/CargoRockets-0.1.0-alpha+1.16.1.jar",
+            "to": "mods/CargoRockets-0.1.0-alpha+1.16.1.jar",
+            "size": 842900
+        },
+        {
+            "hash": "sha-256:684789ca71a97c22b15e19e7a465c870afd7dc7ff399fd851c9c85cb480b5ed9",
+            "location": "https://github.com/TheEpicBlock/concraftwaylifeofgamemine/releases/download/v1.1.0/concraftwaylifeofgamemine-1.1.0+1.16.1.jar",
+            "to": "mods/concraftwaylifeofgamemine-1.1.0+1.16.1.jar",
+            "size": 154023
+        },
+        {
+            "hash": "sha-256:4c7ef507d9bc07cd1b39a7c13a312558fb3d2760686b41680cdd560a38cce335",
+            "location": "https://edge.forgecdn.net/files/2989/686/crusade-mod-1.1.0-1.16.all.jar",
+            "to": "mods/crusade-mod-1.1.0-1.16.all.jar",
+            "size": 80730
+        },
+        {
+            "hash": "sha-256:beee2d745b9ac1cbfb462f272c06e8b2a378bd17a251bd67b0e8110471bb9056",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727054419832864768/cursed-1.0.0-SNAPSHOT-without-the-debugging.jar",
+            "to": "mods/cursed-1.0.0-SNAPSHOT-without-the-debugging.jar",
+            "size": 24316
+        },
+        {
+            "hash": "sha-256:4691da9cf0171e0b7393e185901ec08f4a7dbbafd4adeec8eaf0180fa24836ec",
+            "location": "https://edge.forgecdn.net/files/2981/722/dishes-1.0.1.jar",
+            "to": "mods/dishes-1.0.1.jar",
+            "size": 389452
+        },
+        {
+            "hash": "sha-256:5dcf6a4b06232f0e866491f4ef6e180f6d8b774278a4590eedbdae56a05d4e4b",
+            "location": "https://edge.forgecdn.net/files/2989/22/eldritch-mobs-1.0.0.jar",
+            "to": "mods/eldritch-mobs-1.0.0.jar",
+            "size": 68390
+        },
+        {
+            "hash": "sha-256:3f97766740407894bf13e87b7f12b2334c30c32c9809df4cb97642ecb93ab4c2",
+            "location": "https://edge.forgecdn.net/files/2988/824/fabric-api-0.14.0+build.371-1.16.jar",
+            "to": "mods/fabric-api-0.14.0+build.371-1.16.jar",
+            "size": 608446
+        },
+        {
+            "hash": "sha-256:c35af4039817b6bc27278ee68026a9b28f27ec269ded24ecbb30fb05a48d8b92",
+            "location": "https://edge.forgecdn.net/files/2989/695/fabric-language-kotlin-1.3.72+build.1.jar",
+            "to": "mods/fabric-language-kotlin-1.3.72+build.1.jar",
+            "size": 5370673
+        },
+        {
+            "hash": "sha-256:40b5bba1d6c8893396db8eeb77889f2fa84e762fbe82abc72a57333487df6848",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.0.jar",
+            "to": "mods/fasterthanc-1.0.jar",
+            "size": 4955628
+        },
+        {
+            "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
+            "location": "https://github.com/Scotsguy/fly-creeper-fly/releases/download/v1.0.0%2B1.16.1/fly-creeper-fly-1.0.0+1.16.1.jar",
+            "to": "mods/fly-creeper-fly-1.0.0+1.16.1.jar",
+            "size": 4392
+        },
+        {
+            "hash": "sha-256:c6de6016ed5590308e58f7c0549a37b57e5bd5b649f2e4a1f09d23748358f6e2",
+            "location": "https://edge.forgecdn.net/files/2989/76/glowcase-0.0.3.jar",
+            "to": "mods/glowcase-0.0.3.jar",
+            "size": 234896
+        },
+        {
+            "hash": "sha-256:9756bb96f7d41b4eb1625d1b063486b3e10cbb0ac435cbf82f118d4944bf0a87",
+            "location": "https://cdn.discordapp.com/attachments/458307292421554178/727236571228799086/gud_modfest116-1.0.4.jar",
+            "to": "mods/gud_modfest116-1.0.4.jar",
+            "size": 361925
+        },
+        {
+            "hash": "sha-256:602bbadc45d9287159c121d9a36d59a3807c1072b61507a829d861f7d3fc5ef2",
+            "location": "https://github.com/williambl/haema/releases/download/v1.0.0/haema-1.0.0.jar",
+            "to": "mods/haema-1.0.0.jar",
+            "size": 156534
+        },
+        {
+            "hash": "sha-256:3a5501a58be78dc11f95d77d0e35606a4cc7b06a34b76a95115f620f5dc6f27c",
+            "location": "https://edge.forgecdn.net/files/2988/449/heart-of-the-machine-1.16.1-0.1.0.jar",
+            "to": "mods/heart-of-the-machine-1.16.1-0.1.0.jar",
+            "size": 327126
+        },
+        {
+            "hash": "sha-256:8f05b0ed596f4285d7e4eaebd82ed870e1286aa9f61d6fd3e06c82d879908dd9",
+            "location": "https://edge.forgecdn.net/files/2990/657/herbocraft-v1.0.5.jar",
+            "to": "mods/herbocraft-v1.0.5.jar",
+            "size": 898356
+        },
+        {
+            "hash": "sha-256:d02d22a04ed5e7b472b868764ffbe9714330412105c44715dbca0f6eacef8792",
+            "location": "https://immibis.com/mcmodjam/homestuck_loading_screen-1.0.0.jar",
+            "to": "mods/homestuck_loading_screen-1.0.0.jar",
+            "size": 3166328
+        },
+        {
+            "hash": "sha-256:dc008e793ce85bb163c2eeb587282cb7bd6f86458ca102fd79877ef15e2551b7",
+            "location": "https://edge.forgecdn.net/files/2990/840/identity-1.1.0-beta-1.16.jar",
+            "to": "mods/identity-1.1.0-beta-1.16.jar",
+            "size": 901281
+        },
+        {
+            "hash": "sha-256:1e4ca8789d2b80df9736ecc00e1bc5cfcace24b090b15b5d64a4b9fed9704ee8",
+            "location": "https://github.com/FoundationGames/Labyrinthine/releases/download/0.1.0/labyrinthine-0.1.0.jar",
+            "to": "mods/labyrinthine-0.1.0.jar",
+            "size": 225799
+        },
+        {
+            "hash": "sha-256:0ee0e9e8962a98b819f8553d9e3e0d76febad1f5928512290dac5a11769fc9a8",
+            "location": "https://ci.dblsaiko.net/job/lacrimis/6/artifact/build/libs/lacrimis-1.0.3.jar",
+            "to": "mods/lacrimis-1.0.3.jar",
+            "size": 1034842
+        },
+        {
+            "hash": "sha-256:7c22a8558439bfa4876bea13a01523539ecefc3469299a12f084fd63b57f8fd4",
+            "location": "https://edge.forgecdn.net/files/2992/204/landmark-0.1.3.jar",
+            "to": "mods/landmark-0.1.3.jar",
+            "size": 957444
+        },
+        {
+            "hash": "sha-256:780b6eeb97dd98f43bde9037f50a7de179276161b2b5cd85fa22680ea1c344fe",
+            "location": "https://edge.forgecdn.net/files/2981/668/libblockattributes-all-0.7.0.jar",
+            "to": "mods/libblockattributes-all-0.7.0.jar",
+            "size": 399390
+        },
+        {
+            "hash": "sha-256:693e8113bf216c8436951c1eb822b69d287bf5351dd1a2c085b4adb89ad4daea",
+            "location": "https://github.com/PheonixVX/lil-tater-block/releases/download/0.0.1-1.16/lil-tater-1368-revision-1.0.0.jar",
+            "to": "mods/lil-tater-1368-revision-1.0.0.jar",
+            "size": 14896
+        },
+        {
+            "hash": "sha-256:bf9bb980d5e74f9c8ea4a521923b3beaaaeecc0edf097adac029267471e8467f",
+            "location": "https://edge.forgecdn.net/files/2986/981/makkit-1.0.2.jar",
+            "to": "mods/makkit-1.0.2.jar",
+            "size": 729297
+        },
+        {
+            "hash": "sha-256:5d4a5d20e77d65468d31cc95b1a0ea465fb93ec60e02bbfb861bc8a8b631a8fe",
+            "location": "https://github.com/valoeghese/TheManhattanProject/releases/download/1.0.1/manhattan_project-1.0.1.jar",
+            "to": "mods/manhattan_project-1.0.1.jar",
+            "size": 59926
+        },
+        {
+            "hash": "sha-256:b26310ec00f75782c4af8d1274b65f123021d795584584955d6ab54780849af3",
+            "location": "https://edge.forgecdn.net/files/2990/365/mobs-attempt-parkour-0.1.1-1.16.1.jar",
+            "to": "mods/mobs-attempt-parkour-0.1.1-1.16.1.jar",
+            "size": 111519
+        },
+        {
+            "hash": "sha-256:d007c27c10337eab2ab5509d6e3aae1478695e538f9aa473f93b33387df4a897",
+            "location": "https://edge.forgecdn.net/files/2988/292/modmenu-1.12.2+build.17.jar",
+            "to": "mods/modmenu-1.12.2+build.17.jar",
+            "size": 88711
+        },
+        {
+            "hash": "sha-256:06bbb898e1b6299c456e1782eb061d218198684548e2908756168b61383c4350",
+            "location": "https://edge.forgecdn.net/files/2992/60/modupdater-1.1.6+1.16.1.jar",
+            "to": "mods/modupdater-1.1.6+1.16.1.jar",
+            "size": 260091
+        },
+        {
+            "hash": "sha-256:2e6f1645385dcad763f1d413df557d3818a8ee42d18e87679a5f18f67720c506",
+            "location": "https://edge.forgecdn.net/files/2988/542/muffle-0.1.0.jar",
+            "to": "mods/muffle-0.1.0.jar",
+            "size": 21415
+        },
+        {
+            "hash": "sha-256:cf2598a3bf574a5615fd4398d0db3e133437f89df0fa05eca968338396d681cd",
+            "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/0.1.0%2B1.16.1/mycoturgy-0.1.0+1.16.1.jar",
+            "to": "mods/mycoturgy-0.1.0+1.16.1.jar",
+            "size": 1060659
+        },
+        {
+            "hash": "sha-256:29736482e6597646335d5130ea0a54732f7731ad0dd314c237efda73e1198c1e",
+            "location": "https://edge.forgecdn.net/files/2986/825/Patchouli-1.16-36-FABRIC.jar",
+            "to": "mods/Patchouli-1.16-36-FABRIC.jar",
+            "size": 752035
+        },
+        {
+            "hash": "sha-256:24aba66bc6a261d712ec9212719aa81d93d08855b860ff7b98a1186efce5aed4",
+            "location": "https://github.com/Earthcomputer/PolyDungeons/releases/download/v1.0/polydungeons-1.0.jar",
+            "to": "mods/polydungeons-1.0.jar",
+            "size": 767752
+        },
+        {
+            "hash": "sha-256:5bd107d229c8ed86bed3b55c5920a7c02047142919cb8ff7827c2bc665b52ab8",
+            "location": "https://github.com/Scotsguy/potion-of-get-his-ass/releases/download/v1.1.2%2B1.16.1/potion-of-get-his-ass-1.1.2+1.16.1.jar",
+            "to": "mods/potion-of-get-his-ass-1.1.2+1.16.1.jar",
+            "size": 9638
+        },
+        {
+            "hash": "sha-256:fffe104d7b9bf1954fa1d0a8067b786ae5f022947c5c8f92cbb1511e0ae1d123",
+            "location": "https://edge.forgecdn.net/files/2988/830/quantum-gems-0.1.1.jar",
+            "to": "mods/quantum-gems-0.1.1.jar",
+            "size": 78020
+        },
+        {
+            "hash": "sha-256:fa91f84db12bbf9ede372c7a47d51987177bc28a2461b16066a6605b5396535b",
+            "location": "https://ci.hexeption.dev/job/Rainbow/job/master/14/artifact/build/libs/rainbow-1.16.1+1.0.0+build.14.jar",
+            "to": "mods/rainbow-1.16.1+1.0.0+build.14.jar",
+            "size": 13343
+        },
+        {
+            "hash": "sha-256:47e03292d64ce9c21ebc970a32e495320238a38f4713f85df4116334d44dc147",
+            "location": "https://edge.forgecdn.net/files/2988/210/RoughlyEnoughItems-4.5.5.jar",
+            "to": "mods/RoughlyEnoughItems-4.5.5.jar",
+            "size": 1366940
+        },
+        {
+            "hash": "sha-256:78c6cb49ff3a176d23cd113036cd824ae291bf5979b43a5c17c66815d9f5636d",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727154350186692608/rpgstats-1.0.21.16.1.jar",
+            "to": "mods/rpgstats-1.0.21.16.1.jar",
+            "size": 127948
+        },
+        {
+            "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727050999868686337/smol-dragons-1.0.1.jar",
+            "to": "mods/smol-dragons-1.0.1.jar",
+            "size": 26643
+        },
+        {
+            "hash": "sha-256:5611495ef50697b5db5d17def162f5db3344be35092bec2753d820d8e8ed012c",
+            "location": "https://github.com/TIVJ-dev/SunIRL/releases/download/1.1/sunirl-1.1.jar",
+            "to": "mods/sunirl-1.1.jar",
+            "size": 674152
+        },
+        {
+            "hash": "sha-256:4398c403e86aa8ad845d604fb9ef161a805a20eb8672e2775d9c3d7425a56d5d",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/726354727545339945/superworld-1.0.0-pre.6.jar",
+            "to": "mods/superworld-1.0.0-pre.6.jar",
+            "size": 294697
+        },
+        {
+            "hash": "sha-256:c429a2352f36b9fd0508cc3b509bd95ebd08788dc5432aafb8ba88659a9504fb",
+            "location": "https://edge.forgecdn.net/files/2990/466/twine-1.0.3+1.16.1.jar",
+            "to": "mods/twine-1.0.3+1.16.1.jar",
+            "size": 92620
+        },
+        {
+            "hash": "sha-256:573a55857d459555c22aba3d653b0577683363973ec29474368c2aca85384db5",
+            "location": "https://edge.forgecdn.net/files/2987/851/WoodsAndMires-1.0.0+1.16.1.jar",
+            "to": "mods/WoodsAndMires-1.0.0+1.16.1.jar",
+            "size": 226059
+        },
+        {
+            "hash": "sha-256:88dc4f96109d86b1f459dfc1b691615babf984133fa70ba8b293711bcd08fa1e",
+            "location": "https://edge.forgecdn.net/files/2988/278/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
+            "to": "mods/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
+            "size": 3602387
+        },
+        {
+            "hash": "sha-256:c971db020b0308fb420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "location": "c971db02/0b0308fb/420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "to": "servers.dat",
+            "size": 66,
+            "userFile": true
+        }
+    ]
+}
