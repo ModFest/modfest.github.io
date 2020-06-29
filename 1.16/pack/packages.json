@@ -5,6 +5,12 @@
             "name": "modfest",
             "version": "1.0.202006291904",
             "location": "modfest.json"
+        },
+        {
+            "title": "ModFest 1.16",
+            "name": "modfest-1-16",
+            "version": "1.0.202006291917",
+            "location": "modfest-1-16.json"
         }
     ]
 }

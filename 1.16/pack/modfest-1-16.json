@@ -1,8 +1,8 @@
 {
     "formatVersion": "0.5.7",
-    "id": "modfest",
+    "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202006291904",
+    "version": "1.0.202006291917",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -12,18 +12,6 @@
         "installer": "0.6.1.45"
     },
     "tasks": [
-        {
-            "hash": "sha-256:b26aedfb4b1ac7dcd6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
-            "location": "b26aedfb/4b1ac7dc/d6b18f7bae3de8a5dcbb98264bf648f497e62916ad7cfce0",
-            "to": "config/cts/buttons.json5",
-            "size": 2915
-        },
-        {
-            "hash": "sha-256:248adc07dbd6527bad1e2d1d21403a7978f1d8a3a68ece6733c91e8379ef2670",
-            "location": "248adc07/dbd6527b/ad1e2d1d21403a7978f1d8a3a68ece6733c91e8379ef2670",
-            "to": "config/cts/config.json5",
-            "size": 175
-        },
         {
             "hash": "sha-256:3e707adda4ce74ca69bb69f891a998214af596a1252e33f4be3746a14f141e37",
             "location": "https://edge.forgecdn.net/files/2988/48/adventurez-1.0.1.jar",
@@ -335,13 +323,6 @@
             "location": "https://edge.forgecdn.net/files/2988/278/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
             "to": "mods/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
             "size": 3602387
-        },
-        {
-            "hash": "sha-256:c971db020b0308fb420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
-            "location": "c971db02/0b0308fb/420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
-            "to": "servers.dat",
-            "size": 66,
-            "userFile": true
         }
     ]
 }
