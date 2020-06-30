@@ -2,12 +2,12 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202006291917",
+    "version": "1.0.202006302205",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
         "type": "modloader.Fabric",
-        "loader": "0.8.8+build.202",
+        "loader": "0.8.9+build.203",
         "intermediateMappings": "1.16.1",
         "installer": "0.6.1.45"
     },
@@ -85,6 +85,12 @@
             "size": 154023
         },
         {
+            "hash": "sha-256:529c536cca913a4fbe7c0878338472524bd3198b1bbc33cfef5b05c4f6fe9857",
+            "location": "https://edge.forgecdn.net/files/2993/390/cotton-resources+unspecified-1.7.1.jar",
+            "to": "mods/cotton-resources+unspecified-1.7.1.jar",
+            "size": 643038
+        },
+        {
             "hash": "sha-256:4c7ef507d9bc07cd1b39a7c13a312558fb3d2760686b41680cdd560a38cce335",
             "location": "https://edge.forgecdn.net/files/2989/686/crusade-mod-1.1.0-1.16.all.jar",
             "to": "mods/crusade-mod-1.1.0-1.16.all.jar",
@@ -97,10 +103,10 @@
             "size": 24316
         },
         {
-            "hash": "sha-256:4691da9cf0171e0b7393e185901ec08f4a7dbbafd4adeec8eaf0180fa24836ec",
-            "location": "https://edge.forgecdn.net/files/2981/722/dishes-1.0.1.jar",
-            "to": "mods/dishes-1.0.1.jar",
-            "size": 389452
+            "hash": "sha-256:b8b35dd15842c688ef11232d6c7caad82dbaf78370fa38e0c071bce74a6b6e3d",
+            "location": "https://edge.forgecdn.net/files/2991/883/dishes-1.0.2.jar",
+            "to": "mods/dishes-1.0.2.jar",
+            "size": 389308
         },
         {
             "hash": "sha-256:5dcf6a4b06232f0e866491f4ef6e180f6d8b774278a4590eedbdae56a05d4e4b",
@@ -139,10 +145,10 @@
             "size": 234896
         },
         {
-            "hash": "sha-256:9756bb96f7d41b4eb1625d1b063486b3e10cbb0ac435cbf82f118d4944bf0a87",
-            "location": "https://cdn.discordapp.com/attachments/458307292421554178/727236571228799086/gud_modfest116-1.0.4.jar",
-            "to": "mods/gud_modfest116-1.0.4.jar",
-            "size": 361925
+            "hash": "sha-256:899101e4200381117c39178ed8e1a83fc2e17c4a526baec1a6e86e09e0dc31f7",
+            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727259569507532870/gud_modfest116_specialsauce-1.0.5.jar",
+            "to": "mods/gud_modfest116_specialsauce-1.0.5.jar",
+            "size": 367213
         },
         {
             "hash": "sha-256:602bbadc45d9287159c121d9a36d59a3807c1072b61507a829d861f7d3fc5ef2",
@@ -181,16 +187,16 @@
             "size": 225799
         },
         {
-            "hash": "sha-256:0ee0e9e8962a98b819f8553d9e3e0d76febad1f5928512290dac5a11769fc9a8",
-            "location": "https://ci.dblsaiko.net/job/lacrimis/6/artifact/build/libs/lacrimis-1.0.3.jar",
-            "to": "mods/lacrimis-1.0.3.jar",
-            "size": 1034842
+            "hash": "sha-256:7fabf3509de9368d8bd20958cdce7953eeb7c42ba974536335f2e204098757db",
+            "location": "https://ci.dblsaiko.net/job/lacrimis/8/artifact/build/libs/lacrimis-1.0.5.jar",
+            "to": "mods/lacrimis-1.0.5.jar",
+            "size": 625993
         },
         {
-            "hash": "sha-256:7c22a8558439bfa4876bea13a01523539ecefc3469299a12f084fd63b57f8fd4",
-            "location": "https://edge.forgecdn.net/files/2992/204/landmark-0.1.3.jar",
-            "to": "mods/landmark-0.1.3.jar",
-            "size": 957444
+            "hash": "sha-256:c9a7348d93a8da7ab2df22900b1d378e29b5872a59b1f64e59951b5cf0a83ae7",
+            "location": "https://edge.forgecdn.net/files/2992/734/landmark-0.1.4.jar",
+            "to": "mods/landmark-0.1.4.jar",
+            "size": 961100
         },
         {
             "hash": "sha-256:780b6eeb97dd98f43bde9037f50a7de179276161b2b5cd85fa22680ea1c344fe",
@@ -211,10 +217,10 @@
             "size": 729297
         },
         {
-            "hash": "sha-256:5d4a5d20e77d65468d31cc95b1a0ea465fb93ec60e02bbfb861bc8a8b631a8fe",
-            "location": "https://github.com/valoeghese/TheManhattanProject/releases/download/1.0.1/manhattan_project-1.0.1.jar",
-            "to": "mods/manhattan_project-1.0.1.jar",
-            "size": 59926
+            "hash": "sha-256:ca1b9107fce7e0e63d8c139e9c5b3d5898662bac30868077e6f534ad4a22b36b",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727634754035253292/manhattan_project-1.0.2.jar",
+            "to": "mods/manhattan_project-1.0.2.jar",
+            "size": 60126
         },
         {
             "hash": "sha-256:b26310ec00f75782c4af8d1274b65f123021d795584584955d6ab54780849af3",
@@ -283,10 +289,10 @@
             "size": 1366940
         },
         {
-            "hash": "sha-256:78c6cb49ff3a176d23cd113036cd824ae291bf5979b43a5c17c66815d9f5636d",
-            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727154350186692608/rpgstats-1.0.21.16.1.jar",
-            "to": "mods/rpgstats-1.0.21.16.1.jar",
-            "size": 127948
+            "hash": "sha-256:6e1eab0127d7b83fdfdc49ace0d388a1716e82129e95eef64f5bc5c09fe38c29",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727643284218052648/rpgstats-1.1.31.16.1.jar",
+            "to": "mods/rpgstats-1.1.31.16.1.jar",
+            "size": 130502
         },
         {
             "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
