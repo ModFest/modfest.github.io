@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202006302205",
+    "version": "1.0.202006302216",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,10 +13,10 @@
     },
     "tasks": [
         {
-            "hash": "sha-256:3e707adda4ce74ca69bb69f891a998214af596a1252e33f4be3746a14f141e37",
-            "location": "https://edge.forgecdn.net/files/2988/48/adventurez-1.0.1.jar",
-            "to": "mods/adventurez-1.0.1.jar",
-            "size": 777090
+            "hash": "sha-256:9a3d33e7c5195d327731ca268255d49e685f4606786658b348fd4e7640c66a8c",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727648262143868980/adventurez-1.0.2.jar",
+            "to": "mods/adventurez-1.0.2.jar",
+            "size": 772602
         },
         {
             "hash": "sha-256:40fddd0cf174b608a6d5ff2c3a95d8988f152041f91035146e7c3e307b20d631",
@@ -277,10 +277,10 @@
             "size": 78020
         },
         {
-            "hash": "sha-256:fa91f84db12bbf9ede372c7a47d51987177bc28a2461b16066a6605b5396535b",
-            "location": "https://ci.hexeption.dev/job/Rainbow/job/master/14/artifact/build/libs/rainbow-1.16.1+1.0.0+build.14.jar",
-            "to": "mods/rainbow-1.16.1+1.0.0+build.14.jar",
-            "size": 13343
+            "hash": "sha-256:435a029ae42da62fd9b3ad683023e4865912062a0f50073dc9a1b65342699b07",
+            "location": "https://ci.hexeption.dev/job/Rainbow/job/master/15/artifact/build/libs/rainbow-1.16.1+1.0.1+build.15.jar",
+            "to": "mods/rainbow-1.16.1+1.0.1+build.15.jar",
+            "size": 13411
         },
         {
             "hash": "sha-256:47e03292d64ce9c21ebc970a32e495320238a38f4713f85df4116334d44dc147",
