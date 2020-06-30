@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202006302216",
+    "version": "1.0.202006302250",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -121,6 +121,12 @@
             "size": 608446
         },
         {
+            "hash": "sha-256:458ce05c786a05b01bbeac0f136b434a53af07cdf934964bf9118ccdfdde2040",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727654198359097367/fabric-carpet-1.16-1.4.0v200623-custom.jar",
+            "to": "mods/fabric-carpet-1.16-1.4.0v200623-custom.jar",
+            "size": 1023772
+        },
+        {
             "hash": "sha-256:c35af4039817b6bc27278ee68026a9b28f27ec269ded24ecbb30fb05a48d8b92",
             "location": "https://edge.forgecdn.net/files/2989/695/fabric-language-kotlin-1.3.72+build.1.jar",
             "to": "mods/fabric-language-kotlin-1.3.72+build.1.jar",
@@ -211,6 +217,12 @@
             "size": 14896
         },
         {
+            "hash": "sha-256:bdf23d32dc32fdaeffc67530b95c1ca7764228e7c5a7ab69eef3edadbc1285b1",
+            "location": "https://edge.forgecdn.net/files/2987/754/lithium-fabric-mc1.16.1-0.5.0-rc1.jar",
+            "to": "mods/lithium-fabric-mc1.16.1-0.5.0-rc1.jar",
+            "size": 202862
+        },
+        {
             "hash": "sha-256:bf9bb980d5e74f9c8ea4a521923b3beaaaeecc0edf097adac029267471e8467f",
             "location": "https://edge.forgecdn.net/files/2986/981/makkit-1.0.2.jar",
             "to": "mods/makkit-1.0.2.jar",
@@ -257,6 +269,12 @@
             "location": "https://edge.forgecdn.net/files/2986/825/Patchouli-1.16-36-FABRIC.jar",
             "to": "mods/Patchouli-1.16-36-FABRIC.jar",
             "size": 752035
+        },
+        {
+            "hash": "sha-256:293438895970fb9fc09de8551c6fcb278cfd3683de7695c1a495ece9cf6a277b",
+            "location": "https://edge.forgecdn.net/files/2987/621/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar",
+            "to": "mods/phosphor-fabric-mc1.16.1-0.6.0+build.7.jar",
+            "size": 60106
         },
         {
             "hash": "sha-256:24aba66bc6a261d712ec9212719aa81d93d08855b860ff7b98a1186efce5aed4",
