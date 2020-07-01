@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010241",
+    "version": "1.0.202007010628",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "retiNO",
-            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
-        },
-        {
             "name": "MiniHUD",
             "description": "Displays server TPS and MSPT. Helpful for debugging."
+        },
+        {
+            "name": "retiNO",
+            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
         }
     ],
     "tasks": [
@@ -29,10 +29,10 @@
             "size": 772602
         },
         {
-            "hash": "sha-256:e758dbd3214eaac384eb341a0ceb0469601341749b2902f7618e6e47f88177a2",
-            "location": "https://edge.forgecdn.net/files/2993/539/astromine-1.0.19+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.19+fabric-1.16.1.jar",
-            "size": 3192930
+            "hash": "sha-256:55102451735168aa481ad928935b26732fbb145ddbabd51707f2addb3ab0d9fd",
+            "location": "https://edge.forgecdn.net/files/2993/606/astromine-1.0.21+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.21+fabric-1.16.1.jar",
+            "size": 3193668
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -143,16 +143,16 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:c6de6016ed5590308e58f7c0549a37b57e5bd5b649f2e4a1f09d23748358f6e2",
-            "location": "https://edge.forgecdn.net/files/2989/76/glowcase-0.0.3.jar",
-            "to": "mods/glowcase-0.0.3.jar",
-            "size": 234896
+            "hash": "sha-256:f80d1dfc3c0a4fb6d7cedd6fa53641052bf76043b8cbfc651ccdcf9b92bc7277",
+            "location": "https://edge.forgecdn.net/files/2993/620/glowcase-0.0.4.jar",
+            "to": "mods/glowcase-0.0.4.jar",
+            "size": 234995
         },
         {
-            "hash": "sha-256:899101e4200381117c39178ed8e1a83fc2e17c4a526baec1a6e86e09e0dc31f7",
-            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727259569507532870/gud_modfest116_specialsauce-1.0.5.jar",
-            "to": "mods/gud_modfest116_specialsauce-1.0.5.jar",
-            "size": 367213
+            "hash": "sha-256:ae423fde191b0114f4e10013d566a8d66551b828c9aa754bbcb881da6059c2f8",
+            "location": "https://cdn.discordapp.com/attachments/458307292421554178/727749737217785916/gud_modfest116_specialsauce-1.0.7.jar",
+            "to": "mods/gud_modfest116_specialsauce-1.0.7.jar",
+            "size": 124873
         },
         {
             "hash": "sha-256:602bbadc45d9287159c121d9a36d59a3807c1072b61507a829d861f7d3fc5ef2",
@@ -311,10 +311,10 @@
             "size": 9638
         },
         {
-            "hash": "sha-256:fffe104d7b9bf1954fa1d0a8067b786ae5f022947c5c8f92cbb1511e0ae1d123",
-            "location": "https://edge.forgecdn.net/files/2988/830/quantum-gems-0.1.1.jar",
-            "to": "mods/quantum-gems-0.1.1.jar",
-            "size": 78020
+            "hash": "sha-256:1d41305e0745ae8171e72e402958eb5190716603a757bb85604d1a03c6c8450c",
+            "location": "https://edge.forgecdn.net/files/2993/585/quantum-gems-0.1.2.jar",
+            "to": "mods/quantum-gems-0.1.2.jar",
+            "size": 78805
         },
         {
             "hash": "sha-256:435a029ae42da62fd9b3ad683023e4865912062a0f50073dc9a1b65342699b07",
