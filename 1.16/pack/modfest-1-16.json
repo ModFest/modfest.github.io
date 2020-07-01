@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010628",
+    "version": "1.0.202007010716",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "MiniHUD",
-            "description": "Displays server TPS and MSPT. Helpful for debugging."
-        },
-        {
             "name": "retiNO",
             "description": "Fixes issues with retina display on Mac. Don't use otherwise."
+        },
+        {
+            "name": "MiniHUD",
+            "description": "Displays server TPS and MSPT. Helpful for debugging."
         }
     ],
     "tasks": [
@@ -143,10 +143,10 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:f80d1dfc3c0a4fb6d7cedd6fa53641052bf76043b8cbfc651ccdcf9b92bc7277",
-            "location": "https://edge.forgecdn.net/files/2993/620/glowcase-0.0.4.jar",
+            "hash": "sha-256:25df0fef04acaa2fc49568ddae0cd098520245e78bb07d0c539475ff14a72ca7",
+            "location": "https://edge.forgecdn.net/files/2993/641/glowcase-0.0.4.jar",
             "to": "mods/glowcase-0.0.4.jar",
-            "size": 234995
+            "size": 235019
         },
         {
             "hash": "sha-256:ae423fde191b0114f4e10013d566a8d66551b828c9aa754bbcb881da6059c2f8",
