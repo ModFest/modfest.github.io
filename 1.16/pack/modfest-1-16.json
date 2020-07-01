@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007011642",
+    "version": "1.0.202007011647",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -341,10 +341,10 @@
             }
         },
         {
-            "hash": "sha-256:1de67de462d52f3df7a95ed888630c4ac9a236bbf687fd7a5f22bb78135c286c",
-            "location": "https://edge.forgecdn.net/files/2993/681/RoughlyEnoughItems-4.6.2.jar",
-            "to": "mods/RoughlyEnoughItems-4.6.2.jar",
-            "size": 1370154
+            "hash": "sha-256:67f4397187f209b1d5d7dacb4c2ed4a180272f5aa9c5367d34d601358d727fb3",
+            "location": "https://edge.forgecdn.net/files/2993/832/RoughlyEnoughItems-4.6.5.jar",
+            "to": "mods/RoughlyEnoughItems-4.6.5.jar",
+            "size": 1370208
         },
         {
             "hash": "sha-256:8f7e5f8e8f76afac7176de96f14385910749f9b4b2ece38c5e246bca98975c2f",
