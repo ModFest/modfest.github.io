@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010924",
+    "version": "1.0.202007011642",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "MiniHUD",
-            "description": "Displays server TPS and MSPT. Helpful for debugging."
-        },
-        {
             "name": "retiNO",
             "description": "Fixes issues with retina display on Mac. Don't use otherwise."
+        },
+        {
+            "name": "MiniHUD",
+            "description": "Displays server TPS and MSPT. Helpful for debugging."
         }
     ],
     "tasks": [
@@ -29,10 +29,10 @@
             "size": 772602
         },
         {
-            "hash": "sha-256:54a9f0e6e34b06e5c6f8d0b1c5b01be20689ced0e0abe44c2e42581704fe6cba",
-            "location": "https://edge.forgecdn.net/files/2993/665/astromine-1.0.22+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.22+fabric-1.16.1.jar",
-            "size": 3089277
+            "hash": "sha-256:10bfcace6e34ea6e8d581da0913f16a43a3774705d19fca580428fec3e86701c",
+            "location": "https://edge.forgecdn.net/files/2993/748/astromine-1.0.23+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.23+fabric-1.16.1.jar",
+            "size": 3089312
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -101,10 +101,10 @@
             "size": 643038
         },
         {
-            "hash": "sha-256:4c7ef507d9bc07cd1b39a7c13a312558fb3d2760686b41680cdd560a38cce335",
-            "location": "https://edge.forgecdn.net/files/2989/686/crusade-mod-1.1.0-1.16.all.jar",
-            "to": "mods/crusade-mod-1.1.0-1.16.all.jar",
-            "size": 80730
+            "hash": "sha-256:362d28091c991a7a94fe8c1e445ea0cee579d86983aa9411e55eb2e2cb7480d9",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727926651048165376/crusade-mod-1.1.11.16.1.jar",
+            "to": "mods/crusade-mod-1.1.11.16.1.jar",
+            "size": 80776
         },
         {
             "hash": "sha-256:beee2d745b9ac1cbfb462f272c06e8b2a378bd17a251bd67b0e8110471bb9056",
@@ -161,10 +161,10 @@
             "size": 124873
         },
         {
-            "hash": "sha-256:602bbadc45d9287159c121d9a36d59a3807c1072b61507a829d861f7d3fc5ef2",
-            "location": "https://github.com/williambl/haema/releases/download/v1.0.0/haema-1.0.0.jar",
-            "to": "mods/haema-1.0.0.jar",
-            "size": 156534
+            "hash": "sha-256:7686656d6ac6571de58d070e98edc496b1c6181320418b1f834e58d572977ece",
+            "location": "https://github.com/williambl/haema/releases/download/v1.1.0/haema-1.1.0.jar",
+            "to": "mods/haema-1.1.0.jar",
+            "size": 161700
         },
         {
             "hash": "sha-256:456a44e60df9f07d714c2d69e9c3ff8bc79a098f40b1006062956d5928b31f72",
@@ -173,10 +173,10 @@
             "size": 128256
         },
         {
-            "hash": "sha-256:3a5501a58be78dc11f95d77d0e35606a4cc7b06a34b76a95115f620f5dc6f27c",
-            "location": "https://edge.forgecdn.net/files/2988/449/heart-of-the-machine-1.16.1-0.1.0.jar",
-            "to": "mods/heart-of-the-machine-1.16.1-0.1.0.jar",
-            "size": 327126
+            "hash": "sha-256:52b659994bd9842db7992231e166a910be79f5868024cbcafbaf4c0f44333662",
+            "location": "https://edge.forgecdn.net/files/2993/851/heart-of-the-machine-1.16.1-0.1.1.jar",
+            "to": "mods/heart-of-the-machine-1.16.1-0.1.1.jar",
+            "size": 358612
         },
         {
             "hash": "sha-256:8f05b0ed596f4285d7e4eaebd82ed870e1286aa9f61d6fd3e06c82d879908dd9",
@@ -341,22 +341,22 @@
             }
         },
         {
-            "hash": "sha-256:798b668fb4cee3566c1d119b7d0de8e7465cb155f6482ef43a73f7be4ea70034",
-            "location": "https://edge.forgecdn.net/files/2993/694/RoughlyEnoughItems-4.6.4.jar",
-            "to": "mods/RoughlyEnoughItems-4.6.4.jar",
-            "size": 1370191
+            "hash": "sha-256:1de67de462d52f3df7a95ed888630c4ac9a236bbf687fd7a5f22bb78135c286c",
+            "location": "https://edge.forgecdn.net/files/2993/681/RoughlyEnoughItems-4.6.2.jar",
+            "to": "mods/RoughlyEnoughItems-4.6.2.jar",
+            "size": 1370154
         },
         {
-            "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
-            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727050999868686337/smol-dragons-1.0.1.jar",
+            "hash": "sha-256:8f7e5f8e8f76afac7176de96f14385910749f9b4b2ece38c5e246bca98975c2f",
+            "location": "https://dblsaiko.net/pub/modfest/mods/smol-dragons-1.0.1.jar",
             "to": "mods/smol-dragons-1.0.1.jar",
-            "size": 26643
+            "size": 26650
         },
         {
-            "hash": "sha-256:5611495ef50697b5db5d17def162f5db3344be35092bec2753d820d8e8ed012c",
-            "location": "https://github.com/TIVJ-dev/SunIRL/releases/download/1.1/sunirl-1.1.jar",
-            "to": "mods/sunirl-1.1.jar",
-            "size": 674152
+            "hash": "sha-256:d389a72433e4d1facc694d6a4366b174378bf48836b662afba0d3eb95e9c6c62",
+            "location": "https://github.com/TIVJ-dev/SunIRL/releases/download/1.1.1/sunirl-1.1.1.jar",
+            "to": "mods/sunirl-1.1.1.jar",
+            "size": 674406
         },
         {
             "hash": "sha-256:4398c403e86aa8ad845d604fb9ef161a805a20eb8672e2775d9c3d7425a56d5d",
