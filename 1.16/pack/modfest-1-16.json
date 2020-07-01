@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010913",
+    "version": "1.0.202007010924",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "retiNO",
-            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
-        },
-        {
             "name": "MiniHUD",
             "description": "Displays server TPS and MSPT. Helpful for debugging."
+        },
+        {
+            "name": "retiNO",
+            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
         }
     ],
     "tasks": [
@@ -69,6 +69,12 @@
             "location": "https://cdn.discordapp.com/attachments/720484460197314590/727051566380744735/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
             "to": "mods/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
             "size": 13664
+        },
+        {
+            "hash": "sha-256:d3c6a057291ddbe9de674733294a02dd85231ff924216decd3d7223b0436408b",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727807352182407208/bruh-moment-0.2.0.jar",
+            "to": "mods/bruh-moment-0.2.0.jar",
+            "size": 110101
         },
         {
             "hash": "sha-256:3dbef5255d16e2f3a724e2dae6d1761548bef5056bc1f154d060135c554b15de",
@@ -123,12 +129,6 @@
             "location": "https://edge.forgecdn.net/files/2988/824/fabric-api-0.14.0+build.371-1.16.jar",
             "to": "mods/fabric-api-0.14.0+build.371-1.16.jar",
             "size": 608446
-        },
-        {
-            "hash": "sha-256:458ce05c786a05b01bbeac0f136b434a53af07cdf934964bf9118ccdfdde2040",
-            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727654198359097367/fabric-carpet-1.16-1.4.0v200623-custom.jar",
-            "to": "mods/fabric-carpet-1.16-1.4.0v200623-custom.jar",
-            "size": 1023772
         },
         {
             "hash": "sha-256:c35af4039817b6bc27278ee68026a9b28f27ec269ded24ecbb30fb05a48d8b92",
