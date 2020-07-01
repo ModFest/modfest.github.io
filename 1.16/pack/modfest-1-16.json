@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010716",
+    "version": "1.0.202007010839",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -29,10 +29,10 @@
             "size": 772602
         },
         {
-            "hash": "sha-256:55102451735168aa481ad928935b26732fbb145ddbabd51707f2addb3ab0d9fd",
-            "location": "https://edge.forgecdn.net/files/2993/606/astromine-1.0.21+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.21+fabric-1.16.1.jar",
-            "size": 3193668
+            "hash": "sha-256:54a9f0e6e34b06e5c6f8d0b1c5b01be20689ced0e0abe44c2e42581704fe6cba",
+            "location": "https://edge.forgecdn.net/files/2993/665/astromine-1.0.22+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.22+fabric-1.16.1.jar",
+            "size": 3089277
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -335,10 +335,10 @@
             }
         },
         {
-            "hash": "sha-256:47e03292d64ce9c21ebc970a32e495320238a38f4713f85df4116334d44dc147",
-            "location": "https://edge.forgecdn.net/files/2988/210/RoughlyEnoughItems-4.5.5.jar",
-            "to": "mods/RoughlyEnoughItems-4.5.5.jar",
-            "size": 1366940
+            "hash": "sha-256:78875051d7fce54059438229839e5fa5abe77ff3670dd3e0632b49f34a41051e",
+            "location": "https://edge.forgecdn.net/files/2993/643/RoughlyEnoughItems-4.6.1.jar",
+            "to": "mods/RoughlyEnoughItems-4.6.1.jar",
+            "size": 1370136
         },
         {
             "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
