@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202006302250",
+    "version": "1.0.202007010241",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -11,6 +11,16 @@
         "intermediateMappings": "1.16.1",
         "installer": "0.6.1.45"
     },
+    "features": [
+        {
+            "name": "retiNO",
+            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
+        },
+        {
+            "name": "MiniHUD",
+            "description": "Displays server TPS and MSPT. Helpful for debugging."
+        }
+    ],
     "tasks": [
         {
             "hash": "sha-256:9a3d33e7c5195d327731ca268255d49e685f4606786658b348fd4e7640c66a8c",
@@ -19,10 +29,10 @@
             "size": 772602
         },
         {
-            "hash": "sha-256:40fddd0cf174b608a6d5ff2c3a95d8988f152041f91035146e7c3e307b20d631",
-            "location": "https://edge.forgecdn.net/files/2992/203/astromine-1.0.16+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.16+fabric-1.16.1.jar",
-            "size": 3181818
+            "hash": "sha-256:e758dbd3214eaac384eb341a0ceb0469601341749b2902f7618e6e47f88177a2",
+            "location": "https://edge.forgecdn.net/files/2993/539/astromine-1.0.19+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.19+fabric-1.16.1.jar",
+            "size": 3192930
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -59,12 +69,6 @@
             "location": "https://cdn.discordapp.com/attachments/720484460197314590/727051566380744735/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
             "to": "mods/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
             "size": 13664
-        },
-        {
-            "hash": "sha-256:c344ca77e1f7dbdc7bd600d62b2fb6fe24b418114e3f2d8344ec0d5d67ee8191",
-            "location": "https://edge.forgecdn.net/files/2989/428/canvas-mc116-1.0.728.jar",
-            "to": "mods/canvas-mc116-1.0.728.jar",
-            "size": 1995621
         },
         {
             "hash": "sha-256:3dbef5255d16e2f3a724e2dae6d1761548bef5056bc1f154d060135c554b15de",
@@ -109,22 +113,16 @@
             "size": 389308
         },
         {
-            "hash": "sha-256:5dcf6a4b06232f0e866491f4ef6e180f6d8b774278a4590eedbdae56a05d4e4b",
-            "location": "https://edge.forgecdn.net/files/2989/22/eldritch-mobs-1.0.0.jar",
-            "to": "mods/eldritch-mobs-1.0.0.jar",
-            "size": 68390
+            "hash": "sha-256:282a23b9bedc89542d5822c8d652e36355d45b2136c9e51a4366a84746fab60b",
+            "location": "https://edge.forgecdn.net/files/2993/480/eldritch-mobs-1.1.0.jar",
+            "to": "mods/eldritch-mobs-1.1.0.jar",
+            "size": 626036
         },
         {
             "hash": "sha-256:3f97766740407894bf13e87b7f12b2334c30c32c9809df4cb97642ecb93ab4c2",
             "location": "https://edge.forgecdn.net/files/2988/824/fabric-api-0.14.0+build.371-1.16.jar",
             "to": "mods/fabric-api-0.14.0+build.371-1.16.jar",
             "size": 608446
-        },
-        {
-            "hash": "sha-256:458ce05c786a05b01bbeac0f136b434a53af07cdf934964bf9118ccdfdde2040",
-            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727654198359097367/fabric-carpet-1.16-1.4.0v200623-custom.jar",
-            "to": "mods/fabric-carpet-1.16-1.4.0v200623-custom.jar",
-            "size": 1023772
         },
         {
             "hash": "sha-256:c35af4039817b6bc27278ee68026a9b28f27ec269ded24ecbb30fb05a48d8b92",
@@ -163,6 +161,12 @@
             "size": 156534
         },
         {
+            "hash": "sha-256:456a44e60df9f07d714c2d69e9c3ff8bc79a098f40b1006062956d5928b31f72",
+            "location": "https://cdn.discordapp.com/attachments/345364115726008332/727695753757327430/hahayesrpgstats-1.1.31.16.1.jar",
+            "to": "mods/hahayesrpgstats-1.1.31.16.1.jar",
+            "size": 128256
+        },
+        {
             "hash": "sha-256:3a5501a58be78dc11f95d77d0e35606a4cc7b06a34b76a95115f620f5dc6f27c",
             "location": "https://edge.forgecdn.net/files/2988/449/heart-of-the-machine-1.16.1-0.1.0.jar",
             "to": "mods/heart-of-the-machine-1.16.1-0.1.0.jar",
@@ -187,16 +191,16 @@
             "size": 901281
         },
         {
-            "hash": "sha-256:1e4ca8789d2b80df9736ecc00e1bc5cfcace24b090b15b5d64a4b9fed9704ee8",
-            "location": "https://github.com/FoundationGames/Labyrinthine/releases/download/0.1.0/labyrinthine-0.1.0.jar",
-            "to": "mods/labyrinthine-0.1.0.jar",
-            "size": 225799
+            "hash": "sha-256:dfe283964f58362914e86aa71ba79e2891f18646f9fcf7f68a8507be92b3b504",
+            "location": "https://github.com/FoundationGames/Labyrinthine/releases/download/0.1.1/labyrinthine-0.1.1.jar",
+            "to": "mods/labyrinthine-0.1.1.jar",
+            "size": 225863
         },
         {
-            "hash": "sha-256:7fabf3509de9368d8bd20958cdce7953eeb7c42ba974536335f2e204098757db",
-            "location": "https://ci.dblsaiko.net/job/lacrimis/8/artifact/build/libs/lacrimis-1.0.5.jar",
-            "to": "mods/lacrimis-1.0.5.jar",
-            "size": 625993
+            "hash": "sha-256:b9d3366890d460fbc04cd76867a2710731b0c4926889cb6563bd3ffba2123b6b",
+            "location": "https://ci.dblsaiko.net/job/lacrimis/lastSuccessfulBuild/artifact/build/libs/lacrimis-1.0.7.jar",
+            "to": "mods/lacrimis-1.0.7.jar",
+            "size": 625373
         },
         {
             "hash": "sha-256:c9a7348d93a8da7ab2df22900b1d378e29b5872a59b1f64e59951b5cf0a83ae7",
@@ -229,10 +233,28 @@
             "size": 729297
         },
         {
+            "hash": "sha-256:238bb7f6b42deb0d894edf47b16f7ba24c8714e7ec90daf677574e48521f1dbc",
+            "location": "https://edge.forgecdn.net/files/2993/139/malilib-fabric-1.16.1-0.10.0-dev.21+arne.1.jar",
+            "to": "mods/malilib-fabric-1.16.1-0.10.0-dev.21+arne.1.jar",
+            "size": 464370
+        },
+        {
             "hash": "sha-256:ca1b9107fce7e0e63d8c139e9c5b3d5898662bac30868077e6f534ad4a22b36b",
             "location": "https://cdn.discordapp.com/attachments/690273715166117899/727634754035253292/manhattan_project-1.0.2.jar",
             "to": "mods/manhattan_project-1.0.2.jar",
             "size": 60126
+        },
+        {
+            "hash": "sha-256:7fa86dfcc92fafb273887aa3d3aa475ab2bf05671366a59e118fc1c39aff0e68",
+            "location": "https://edge.forgecdn.net/files/2993/429/minihud-fabric-1.16.1-0.19.0-dev.20200701.005153.jar",
+            "to": "mods/minihud-fabric-1.16.1-0.19.0-dev.20200701.005153.jar",
+            "size": 232966,
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "MiniHUD"
+                ]
+            }
         },
         {
             "hash": "sha-256:b26310ec00f75782c4af8d1274b65f123021d795584584955d6ab54780849af3",
@@ -265,10 +287,10 @@
             "size": 1060659
         },
         {
-            "hash": "sha-256:29736482e6597646335d5130ea0a54732f7731ad0dd314c237efda73e1198c1e",
-            "location": "https://edge.forgecdn.net/files/2986/825/Patchouli-1.16-36-FABRIC.jar",
-            "to": "mods/Patchouli-1.16-36-FABRIC.jar",
-            "size": 752035
+            "hash": "sha-256:51a21abee3eced2a20112e8893ddd927fcd2a3c54971089fd849a6a79063071b",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727711990608560158/Patchouli-1.16-36.190.jar",
+            "to": "mods/Patchouli-1.16-36.190.jar",
+            "size": 551368
         },
         {
             "hash": "sha-256:293438895970fb9fc09de8551c6fcb278cfd3683de7695c1a495ece9cf6a277b",
@@ -301,16 +323,22 @@
             "size": 13411
         },
         {
+            "hash": "sha-256:ce097c722089ccdf229def30a7e1298e6291416123ac5520e6c7ac3b02150e6b",
+            "location": "https://edge.forgecdn.net/files/2913/792/retino-1.0.0.jar",
+            "to": "mods/retino-1.0.0.jar",
+            "size": 26438,
+            "when": {
+                "if": "requireAny",
+                "features": [
+                    "retiNO"
+                ]
+            }
+        },
+        {
             "hash": "sha-256:47e03292d64ce9c21ebc970a32e495320238a38f4713f85df4116334d44dc147",
             "location": "https://edge.forgecdn.net/files/2988/210/RoughlyEnoughItems-4.5.5.jar",
             "to": "mods/RoughlyEnoughItems-4.5.5.jar",
             "size": 1366940
-        },
-        {
-            "hash": "sha-256:6e1eab0127d7b83fdfdc49ace0d388a1716e82129e95eef64f5bc5c09fe38c29",
-            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727643284218052648/rpgstats-1.1.31.16.1.jar",
-            "to": "mods/rpgstats-1.1.31.16.1.jar",
-            "size": 130502
         },
         {
             "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
