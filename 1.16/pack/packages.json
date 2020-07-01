@@ -2,14 +2,8 @@
     "packages": [
         {
             "title": "ModFest 1.16",
-            "name": "modfest",
-            "version": "1.0.202006291904",
-            "location": "modfest.json"
-        },
-        {
-            "title": "ModFest 1.16",
             "name": "modfest-1-16",
-            "version": "1.0.202007010839",
+            "version": "1.0.202007010913",
             "location": "modfest-1-16.json"
         }
     ]

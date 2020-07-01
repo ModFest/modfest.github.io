@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007010839",
+    "version": "1.0.202007010913",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -123,6 +123,12 @@
             "location": "https://edge.forgecdn.net/files/2988/824/fabric-api-0.14.0+build.371-1.16.jar",
             "to": "mods/fabric-api-0.14.0+build.371-1.16.jar",
             "size": 608446
+        },
+        {
+            "hash": "sha-256:458ce05c786a05b01bbeac0f136b434a53af07cdf934964bf9118ccdfdde2040",
+            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727654198359097367/fabric-carpet-1.16-1.4.0v200623-custom.jar",
+            "to": "mods/fabric-carpet-1.16-1.4.0v200623-custom.jar",
+            "size": 1023772
         },
         {
             "hash": "sha-256:c35af4039817b6bc27278ee68026a9b28f27ec269ded24ecbb30fb05a48d8b92",
@@ -281,10 +287,10 @@
             "size": 21415
         },
         {
-            "hash": "sha-256:cf2598a3bf574a5615fd4398d0db3e133437f89df0fa05eca968338396d681cd",
-            "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/0.1.0%2B1.16.1/mycoturgy-0.1.0+1.16.1.jar",
-            "to": "mods/mycoturgy-0.1.0+1.16.1.jar",
-            "size": 1060659
+            "hash": "sha-256:41375ba2cfa72d7ea69630e3728cfba694e4de014e164ff668d711e8a5d8c38f",
+            "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/0.1.1%2B1.16.1/mycoturgy-0.1.1+1.16.1.jar",
+            "to": "mods/mycoturgy-0.1.1+1.16.1.jar",
+            "size": 1078743
         },
         {
             "hash": "sha-256:51a21abee3eced2a20112e8893ddd927fcd2a3c54971089fd849a6a79063071b",
@@ -335,10 +341,10 @@
             }
         },
         {
-            "hash": "sha-256:78875051d7fce54059438229839e5fa5abe77ff3670dd3e0632b49f34a41051e",
-            "location": "https://edge.forgecdn.net/files/2993/643/RoughlyEnoughItems-4.6.1.jar",
-            "to": "mods/RoughlyEnoughItems-4.6.1.jar",
-            "size": 1370136
+            "hash": "sha-256:798b668fb4cee3566c1d119b7d0de8e7465cb155f6482ef43a73f7be4ea70034",
+            "location": "https://edge.forgecdn.net/files/2993/694/RoughlyEnoughItems-4.6.4.jar",
+            "to": "mods/RoughlyEnoughItems-4.6.4.jar",
+            "size": 1370191
         },
         {
             "hash": "sha-256:488c804bd350fda47ead1df16aed0606017f9a0c0b23d6fe50963729a6d06353",
