@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007020152",
+    "version": "1.0.202007022120",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,26 +13,26 @@
     },
     "features": [
         {
-            "name": "MiniHUD",
-            "description": "Displays server TPS and MSPT. Helpful for debugging."
-        },
-        {
             "name": "retiNO",
             "description": "Fixes issues with retina display on Mac. Don't use otherwise."
+        },
+        {
+            "name": "MiniHUD",
+            "description": "Displays server TPS and MSPT. Helpful for debugging."
         }
     ],
     "tasks": [
         {
-            "hash": "sha-256:9a3d33e7c5195d327731ca268255d49e685f4606786658b348fd4e7640c66a8c",
-            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727648262143868980/adventurez-1.0.2.jar",
+            "hash": "sha-256:f44fb77bc6a7aa97a6f699a6326190ceeb2311b716824dd6172fad9bbb23903e",
+            "location": "https://edge.forgecdn.net/files/2994/466/adventurez-1.0.2.jar",
             "to": "mods/adventurez-1.0.2.jar",
-            "size": 772602
+            "size": 778220
         },
         {
-            "hash": "sha-256:624a9757de77c0da7f964d64dc57ac0d024b7fcfdc5375a01459d4644691791d",
-            "location": "https://edge.forgecdn.net/files/2994/299/astromine-1.0.24+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.24+fabric-1.16.1.jar",
-            "size": 3197810
+            "hash": "sha-256:8706cf23dd4c64c19187d529c3742625ab357095f16cff9c4c52989e15883800",
+            "location": "https://edge.forgecdn.net/files/2994/662/astromine-1.0.25+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.25+fabric-1.16.1.jar",
+            "size": 3275890
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -149,10 +149,10 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:25df0fef04acaa2fc49568ddae0cd098520245e78bb07d0c539475ff14a72ca7",
-            "location": "https://edge.forgecdn.net/files/2993/641/glowcase-0.0.4.jar",
-            "to": "mods/glowcase-0.0.4.jar",
-            "size": 235019
+            "hash": "sha-256:9a96e9bdf50a63482fd590a3a378af407fe123bf77131920a3a04f53ea12d53e",
+            "location": "https://edge.forgecdn.net/files/2994/531/glowcase-0.0.5.jar",
+            "to": "mods/glowcase-0.0.5.jar",
+            "size": 246775
         },
         {
             "hash": "sha-256:a8d05425adee58fa74aa92358069763e9703cf57af711642b2a4baa4627700ea",
@@ -185,10 +185,10 @@
             "size": 898356
         },
         {
-            "hash": "sha-256:d02d22a04ed5e7b472b868764ffbe9714330412105c44715dbca0f6eacef8792",
-            "location": "https://immibis.com/mcmodjam/homestuck_loading_screen-1.0.0.jar",
-            "to": "mods/homestuck_loading_screen-1.0.0.jar",
-            "size": 3166328
+            "hash": "sha-256:5894d610d6cf664a8c469cf7c898d6860344d534eb9bbc66d5cdd73cddba9220",
+            "location": "https://immibis.com/mcmodjam/homestuck_loading_screen-1.0.1.jar",
+            "to": "mods/homestuck_loading_screen-1.0.1.jar",
+            "size": 3166811
         },
         {
             "hash": "sha-256:e7f8d67042156a68f091c5ce12818dcea8a11948790d399f2d719c0431e89edf",
@@ -209,10 +209,10 @@
             "size": 225863
         },
         {
-            "hash": "sha-256:b9d3366890d460fbc04cd76867a2710731b0c4926889cb6563bd3ffba2123b6b",
-            "location": "https://ci.dblsaiko.net/job/lacrimis/lastSuccessfulBuild/artifact/build/libs/lacrimis-1.0.7.jar",
-            "to": "mods/lacrimis-1.0.7.jar",
-            "size": 625373
+            "hash": "sha-256:91e46ef23d6bdf7d08f2a0f94036b23daa177bb0ddfe43659dbdcf757d57e2ee",
+            "location": "https://ci.dblsaiko.net/job/lacrimis/13/artifact/build/libs/lacrimis-1.1.0.jar",
+            "to": "mods/lacrimis-1.1.0.jar",
+            "size": 625307
         },
         {
             "hash": "sha-256:a6a9c6cfcf3694d8008d93180cd3b82700719e3690df24e4a6e5213bed9941ad",
@@ -365,10 +365,10 @@
             "size": 674406
         },
         {
-            "hash": "sha-256:4398c403e86aa8ad845d604fb9ef161a805a20eb8672e2775d9c3d7425a56d5d",
-            "location": "https://cdn.discordapp.com/attachments/720484460197314590/726354727545339945/superworld-1.0.0-pre.6.jar",
-            "to": "mods/superworld-1.0.0-pre.6.jar",
-            "size": 294697
+            "hash": "sha-256:4a74c862de9de64da019b95fa1d12c2f4e9f1fc20436ad243edee7750a5b9ed9",
+            "location": "https://cdn.discordapp.com/attachments/720485528402657384/728339715631218708/superworld-1.0.0-pre.8.jar",
+            "to": "mods/superworld-1.0.0-pre.8.jar",
+            "size": 303351
         },
         {
             "hash": "sha-256:c429a2352f36b9fd0508cc3b509bd95ebd08788dc5432aafb8ba88659a9504fb",
