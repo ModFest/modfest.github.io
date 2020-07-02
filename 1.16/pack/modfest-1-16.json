@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007022340",
+    "version": "1.0.202007022342",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -27,12 +27,6 @@
             "location": "https://edge.forgecdn.net/files/2994/466/adventurez-1.0.2.jar",
             "to": "mods/adventurez-1.0.2.jar",
             "size": 778220
-        },
-        {
-            "hash": "sha-256:8706cf23dd4c64c19187d529c3742625ab357095f16cff9c4c52989e15883800",
-            "location": "https://edge.forgecdn.net/files/2994/662/astromine-1.0.25+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.25+fabric-1.16.1.jar",
-            "size": 3275890
         },
         {
             "hash": "sha-256:8a90529ca5df90a6a488db06d7da1fed4848004fc2559e9bbb463bf7422cccb1",
