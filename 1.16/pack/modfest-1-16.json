@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007011647",
+    "version": "1.0.202007020141",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -29,10 +29,10 @@
             "size": 772602
         },
         {
-            "hash": "sha-256:10bfcace6e34ea6e8d581da0913f16a43a3774705d19fca580428fec3e86701c",
-            "location": "https://edge.forgecdn.net/files/2993/748/astromine-1.0.23+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.23+fabric-1.16.1.jar",
-            "size": 3089312
+            "hash": "sha-256:624a9757de77c0da7f964d64dc57ac0d024b7fcfdc5375a01459d4644691791d",
+            "location": "https://edge.forgecdn.net/files/2994/299/astromine-1.0.24+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.24+fabric-1.16.1.jar",
+            "size": 3197810
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -137,10 +137,10 @@
             "size": 5370673
         },
         {
-            "hash": "sha-256:40b5bba1d6c8893396db8eeb77889f2fa84e762fbe82abc72a57333487df6848",
-            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.0.jar",
-            "to": "mods/fasterthanc-1.0.jar",
-            "size": 4955628
+            "hash": "sha-256:a58e5afd46a90be5df8f38720cca760d7c40480fb3e313ef67b59fa6b37a6b11",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.1.jar",
+            "to": "mods/fasterthanc-1.1.jar",
+            "size": 4342444
         },
         {
             "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
@@ -155,16 +155,16 @@
             "size": 235019
         },
         {
-            "hash": "sha-256:ae423fde191b0114f4e10013d566a8d66551b828c9aa754bbcb881da6059c2f8",
-            "location": "https://cdn.discordapp.com/attachments/458307292421554178/727749737217785916/gud_modfest116_specialsauce-1.0.7.jar",
-            "to": "mods/gud_modfest116_specialsauce-1.0.7.jar",
-            "size": 124873
+            "hash": "sha-256:a8d05425adee58fa74aa92358069763e9703cf57af711642b2a4baa4627700ea",
+            "location": "https://cdn.discordapp.com/attachments/458307292421554178/728039942831472711/gud_modfest116_specialsauce-1.0.8.jar",
+            "to": "mods/gud_modfest116_specialsauce-1.0.8.jar",
+            "size": 165918
         },
         {
-            "hash": "sha-256:7686656d6ac6571de58d070e98edc496b1c6181320418b1f834e58d572977ece",
-            "location": "https://github.com/williambl/haema/releases/download/v1.1.0/haema-1.1.0.jar",
-            "to": "mods/haema-1.1.0.jar",
-            "size": 161700
+            "hash": "sha-256:579dda75aa0916c62e911f1ae036f7d55be1f25caefe46340c3cb02fd06b8a81",
+            "location": "https://github.com/williambl/haema/releases/download/v1.1.1/haema-1.1.1.jar",
+            "to": "mods/haema-1.1.1.jar",
+            "size": 166311
         },
         {
             "hash": "sha-256:456a44e60df9f07d714c2d69e9c3ff8bc79a098f40b1006062956d5928b31f72",
@@ -191,6 +191,12 @@
             "size": 3166328
         },
         {
+            "hash": "sha-256:e7f8d67042156a68f091c5ce12818dcea8a11948790d399f2d719c0431e89edf",
+            "location": "https://edge.forgecdn.net/files/2989/943/Hwyla-fabric-1.16.1-1.9.22-75.jar",
+            "to": "mods/Hwyla-fabric-1.16.1-1.9.22-75.jar",
+            "size": 264303
+        },
+        {
             "hash": "sha-256:dc008e793ce85bb163c2eeb587282cb7bd6f86458ca102fd79877ef15e2551b7",
             "location": "https://edge.forgecdn.net/files/2990/840/identity-1.1.0-beta-1.16.jar",
             "to": "mods/identity-1.1.0-beta-1.16.jar",
@@ -209,10 +215,10 @@
             "size": 625373
         },
         {
-            "hash": "sha-256:c9a7348d93a8da7ab2df22900b1d378e29b5872a59b1f64e59951b5cf0a83ae7",
-            "location": "https://edge.forgecdn.net/files/2992/734/landmark-0.1.4.jar",
-            "to": "mods/landmark-0.1.4.jar",
-            "size": 961100
+            "hash": "sha-256:a6a9c6cfcf3694d8008d93180cd3b82700719e3690df24e4a6e5213bed9941ad",
+            "location": "https://edge.forgecdn.net/files/2994/370/landmark-0.1.6.jar",
+            "to": "mods/landmark-0.1.6.jar",
+            "size": 963080
         },
         {
             "hash": "sha-256:780b6eeb97dd98f43bde9037f50a7de179276161b2b5cd85fa22680ea1c344fe",
