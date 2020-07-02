@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007022120",
+    "version": "1.0.202007022236",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "retiNO",
-            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
-        },
-        {
             "name": "MiniHUD",
             "description": "Displays server TPS and MSPT. Helpful for debugging."
+        },
+        {
+            "name": "retiNO",
+            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
         }
     ],
     "tasks": [
