@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007020141",
+    "version": "1.0.202007020152",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -13,12 +13,12 @@
     },
     "features": [
         {
-            "name": "retiNO",
-            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
-        },
-        {
             "name": "MiniHUD",
             "description": "Displays server TPS and MSPT. Helpful for debugging."
+        },
+        {
+            "name": "retiNO",
+            "description": "Fixes issues with retina display on Mac. Don't use otherwise."
         }
     ],
     "tasks": [
@@ -137,10 +137,10 @@
             "size": 5370673
         },
         {
-            "hash": "sha-256:a58e5afd46a90be5df8f38720cca760d7c40480fb3e313ef67b59fa6b37a6b11",
-            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.1.jar",
-            "to": "mods/fasterthanc-1.1.jar",
-            "size": 4342444
+            "hash": "sha-256:1749c685d57c88ec817794ccd49e35e1bab2c2b2bc07e9f89d46318970ab5f08",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.2.jar",
+            "to": "mods/fasterthanc-1.2.jar",
+            "size": 4342535
         },
         {
             "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
@@ -293,10 +293,10 @@
             "size": 21415
         },
         {
-            "hash": "sha-256:41375ba2cfa72d7ea69630e3728cfba694e4de014e164ff668d711e8a5d8c38f",
-            "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/0.1.1%2B1.16.1/mycoturgy-0.1.1+1.16.1.jar",
-            "to": "mods/mycoturgy-0.1.1+1.16.1.jar",
-            "size": 1078743
+            "hash": "sha-256:dc5ea07735e64f6b8fb33a099f206a6ffbdecd50468634a3622a292122ecc7f4",
+            "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/1.0.2%2B1.16.1/mycoturgy-0.1.2+1.16.1.jar",
+            "to": "mods/mycoturgy-0.1.2+1.16.1.jar",
+            "size": 1078860
         },
         {
             "hash": "sha-256:51a21abee3eced2a20112e8893ddd927fcd2a3c54971089fd849a6a79063071b",
