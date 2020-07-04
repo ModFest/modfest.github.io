@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007022342",
+    "version": "1.0.202007040040",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -23,16 +23,16 @@
     ],
     "tasks": [
         {
-            "hash": "sha-256:f44fb77bc6a7aa97a6f699a6326190ceeb2311b716824dd6172fad9bbb23903e",
-            "location": "https://edge.forgecdn.net/files/2994/466/adventurez-1.0.2.jar",
-            "to": "mods/adventurez-1.0.2.jar",
-            "size": 778220
+            "hash": "sha-256:ee51b1772ad3bd0740c7bd54825335885d0438256088236df74dca10c5120ad3",
+            "location": "https://edge.forgecdn.net/files/2995/966/adventurez-1.0.3.jar",
+            "to": "mods/adventurez-1.0.3.jar",
+            "size": 780061
         },
         {
-            "hash": "sha-256:8a90529ca5df90a6a488db06d7da1fed4848004fc2559e9bbb463bf7422cccb1",
-            "location": "https://github.com/Chainmail-Studios/Astromine/releases/download/1.0.26/astromine-1.0.26+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.26+fabric-1.16.1.jar",
-            "size": 3384598
+            "hash": "sha-256:2d028dfb9dbf60a5977038b6e63ef530ada7658dbbfe28bea285d738e3e5cdd4",
+            "location": "https://github.com/Chainmail-Studios/Astromine/releases/download/1.0.29/astromine-1.0.29+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.29+fabric-1.16.1.jar",
+            "size": 3385005
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -47,10 +47,10 @@
             "size": 191108
         },
         {
-            "hash": "sha-256:634d837b472ef9b76c348b62d59e8a8b93fe1e2a1c7ea403351790c799ce7bc6",
-            "location": "https://edge.forgecdn.net/files/2988/88/biomechanics-1.0.1.jar",
-            "to": "mods/biomechanics-1.0.1.jar",
-            "size": 1518619
+            "hash": "sha-256:fb94d27e41e425f6f0fa45d34a12e68dc17ee2560c6bb1cfe210282d77f2077b",
+            "location": "https://edge.forgecdn.net/files/2995/721/biomechanics-1.0.3.jar",
+            "to": "mods/biomechanics-1.0.3.jar",
+            "size": 1518594
         },
         {
             "hash": "sha-256:71a44a9155d58d44607fc4cbf88b6b3253a6f7ce1662f8299bd5179b9fa37307",
@@ -149,10 +149,10 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:9a96e9bdf50a63482fd590a3a378af407fe123bf77131920a3a04f53ea12d53e",
-            "location": "https://edge.forgecdn.net/files/2994/531/glowcase-0.0.5.jar",
-            "to": "mods/glowcase-0.0.5.jar",
-            "size": 246775
+            "hash": "sha-256:ccb3c81eba4e0620b622dfca48731f2a02218ff3572cd4715daa9d61de7d9d67",
+            "location": "https://edge.forgecdn.net/files/2995/703/glowcase-0.0.6.jar",
+            "to": "mods/glowcase-0.0.6.jar",
+            "size": 250588
         },
         {
             "hash": "sha-256:a8d05425adee58fa74aa92358069763e9703cf57af711642b2a4baa4627700ea",
@@ -209,10 +209,10 @@
             "size": 227350
         },
         {
-            "hash": "sha-256:91e46ef23d6bdf7d08f2a0f94036b23daa177bb0ddfe43659dbdcf757d57e2ee",
-            "location": "https://ci.dblsaiko.net/job/lacrimis/13/artifact/build/libs/lacrimis-1.1.0.jar",
-            "to": "mods/lacrimis-1.1.0.jar",
-            "size": 625307
+            "hash": "sha-256:a44a055d6df8cddfaa9241b7ac703cd6433ff7d51351d4497bcc7325a94196b8",
+            "location": "https://ci.dblsaiko.net/job/lacrimis/16/artifact/build/libs/lacrimis-1.1.2.jar",
+            "to": "mods/lacrimis-1.1.2.jar",
+            "size": 625308
         },
         {
             "hash": "sha-256:a6a9c6cfcf3694d8008d93180cd3b82700719e3690df24e4a6e5213bed9941ad",
