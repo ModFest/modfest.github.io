@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007040040",
+    "version": "1.0.202007062117",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -119,10 +119,10 @@
             "size": 389308
         },
         {
-            "hash": "sha-256:282a23b9bedc89542d5822c8d652e36355d45b2136c9e51a4366a84746fab60b",
-            "location": "https://edge.forgecdn.net/files/2993/480/eldritch-mobs-1.1.0.jar",
-            "to": "mods/eldritch-mobs-1.1.0.jar",
-            "size": 626036
+            "hash": "sha-256:7f1198718dec7a6f27c8b70b342fe99299b22004fcc7253ffc8c99b0bbff658f",
+            "location": "https://edge.forgecdn.net/files/2996/577/eldritch-mobs-1.2.4.jar",
+            "to": "mods/eldritch-mobs-1.2.4.jar",
+            "size": 628986
         },
         {
             "hash": "sha-256:3f97766740407894bf13e87b7f12b2334c30c32c9809df4cb97642ecb93ab4c2",
@@ -137,10 +137,10 @@
             "size": 5370673
         },
         {
-            "hash": "sha-256:1749c685d57c88ec817794ccd49e35e1bab2c2b2bc07e9f89d46318970ab5f08",
-            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.2.jar",
-            "to": "mods/fasterthanc-1.2.jar",
-            "size": 4342535
+            "hash": "sha-256:514c380043fb5e34a4166c94a3982899727f23b53078b905a322149ebb98e36b",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.4.jar",
+            "to": "mods/fasterthanc-1.4.jar",
+            "size": 4358895
         },
         {
             "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
@@ -149,10 +149,10 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:ccb3c81eba4e0620b622dfca48731f2a02218ff3572cd4715daa9d61de7d9d67",
-            "location": "https://edge.forgecdn.net/files/2995/703/glowcase-0.0.6.jar",
-            "to": "mods/glowcase-0.0.6.jar",
-            "size": 250588
+            "hash": "sha-256:da82c65014d706f391b6c3f059c1e78cf086a1e6e3c99c1ebf5a548866b43252",
+            "location": "https://edge.forgecdn.net/files/2996/545/glowcase-0.0.7.jar",
+            "to": "mods/glowcase-0.0.7.jar",
+            "size": 244491
         },
         {
             "hash": "sha-256:a8d05425adee58fa74aa92358069763e9703cf57af711642b2a4baa4627700ea",
@@ -185,10 +185,10 @@
             "size": 898356
         },
         {
-            "hash": "sha-256:5894d610d6cf664a8c469cf7c898d6860344d534eb9bbc66d5cdd73cddba9220",
-            "location": "https://immibis.com/mcmodjam/homestuck_loading_screen-1.0.1.jar",
-            "to": "mods/homestuck_loading_screen-1.0.1.jar",
-            "size": 3166811
+            "hash": "sha-256:c455ea1a12748a2d5ea099ad46c963d409c7feb2a3616fd67be3f8422f99de4e",
+            "location": "https://immibis.com/mcmodjam/homestuck_loading_screen-1.0.2.jar",
+            "to": "mods/homestuck_loading_screen-1.0.2.jar",
+            "size": 3166878
         },
         {
             "hash": "sha-256:e7f8d67042156a68f091c5ce12818dcea8a11948790d399f2d719c0431e89edf",
@@ -251,10 +251,10 @@
             "size": 464370
         },
         {
-            "hash": "sha-256:ca1b9107fce7e0e63d8c139e9c5b3d5898662bac30868077e6f534ad4a22b36b",
-            "location": "https://cdn.discordapp.com/attachments/690273715166117899/727634754035253292/manhattan_project-1.0.2.jar",
-            "to": "mods/manhattan_project-1.0.2.jar",
-            "size": 60126
+            "hash": "sha-256:4c9fd667cbaae4ea233b463265ff2c91f91178b75e9072f37ccb337727c1e7c5",
+            "location": "https://github.com/valoeghese/TheManhattanProject/releases/download/1.0.3/manhattan_project-1.0.3.jar",
+            "to": "mods/manhattan_project-1.0.3.jar",
+            "size": 61000
         },
         {
             "hash": "sha-256:7fa86dfcc92fafb273887aa3d3aa475ab2bf05671366a59e118fc1c39aff0e68",
@@ -311,10 +311,10 @@
             "size": 60106
         },
         {
-            "hash": "sha-256:24aba66bc6a261d712ec9212719aa81d93d08855b860ff7b98a1186efce5aed4",
-            "location": "https://github.com/Earthcomputer/PolyDungeons/releases/download/v1.0/polydungeons-1.0.jar",
-            "to": "mods/polydungeons-1.0.jar",
-            "size": 767752
+            "hash": "sha-256:50205c825d6ad43594b24c214d09291b4bcfda18a5b186325c8dcddbd81746a7",
+            "location": "https://github.com/Earthcomputer/PolyDungeons/releases/download/v1.0.2/polydungeons-1.0.2.jar",
+            "to": "mods/polydungeons-1.0.2.jar",
+            "size": 773391
         },
         {
             "hash": "sha-256:5bd107d229c8ed86bed3b55c5920a7c02047142919cb8ff7827c2bc665b52ab8",
