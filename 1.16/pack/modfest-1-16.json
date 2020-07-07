@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007062117",
+    "version": "1.0.202007070111",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -23,16 +23,70 @@
     ],
     "tasks": [
         {
+            "hash": "sha-256:df2494e8f01f5a3eac19f83fb22e61911aef08ed2cc93f9496a2bee3998a0b73",
+            "location": "df2494e8/f01f5a3e/ac19f83fb22e61911aef08ed2cc93f9496a2bee3998a0b73",
+            "to": "config/Blockwake/buildings/port_town_archery.blocks",
+            "size": 4020
+        },
+        {
+            "hash": "sha-256:463577724e17692d20405ad2a5251c0752e0986db53a9b0574a9597cc707c113",
+            "location": "46357772/4e17692d/20405ad2a5251c0752e0986db53a9b0574a9597cc707c113",
+            "to": "config/Blockwake/buildings/port_town_bottom_floor.blocks",
+            "size": 14807
+        },
+        {
+            "hash": "sha-256:f1cddfc2b883d03375ef96ff67a2942543da1cad24e9505f8072baa90941250f",
+            "location": "f1cddfc2/b883d033/75ef96ff67a2942543da1cad24e9505f8072baa90941250f",
+            "to": "config/Blockwake/buildings/port_town_farm.blocks",
+            "size": 4293
+        },
+        {
+            "hash": "sha-256:c65ad79559e3eaa3842b1c6c614f164bbabd3dfec8c6ef7f5ec127bb5cbd2fec",
+            "location": "c65ad795/59e3eaa3/842b1c6c614f164bbabd3dfec8c6ef7f5ec127bb5cbd2fec",
+            "to": "config/Blockwake/buildings/port_town_library.blocks",
+            "size": 3996
+        },
+        {
+            "hash": "sha-256:7890de47cadeadee658b72842fe476a74213e43101ba85756935c43805fc2d47",
+            "location": "7890de47/cadeadee/658b72842fe476a74213e43101ba85756935c43805fc2d47",
+            "to": "config/Blockwake/buildings/port_town_shipwright.blocks",
+            "size": 3902
+        },
+        {
+            "hash": "sha-256:2433771a13d78bdf842de8c1a2d5e0c6cff3e2ad00500d0396aa1263ad248bcb",
+            "location": "2433771a/13d78bdf/842de8c1a2d5e0c6cff3e2ad00500d0396aa1263ad248bcb",
+            "to": "config/Blockwake/buildings/port_town_storage.blocks",
+            "size": 3686
+        },
+        {
+            "hash": "sha-256:ed459a4fa56b4bba7794b742605c19412981f05e6788040dc4762b1efac69352",
+            "location": "ed459a4f/a56b4bba/7794b742605c19412981f05e6788040dc4762b1efac69352",
+            "to": "config/Blockwake/buildings/port_town_tannery.blocks",
+            "size": 3743
+        },
+        {
+            "hash": "sha-256:97904e5eec28da1570f114cf8d8be90434470ad6e568d79e83fbccfbf409a9e5",
+            "location": "97904e5e/ec28da15/70f114cf8d8be90434470ad6e568d79e83fbccfbf409a9e5",
+            "to": "config/Blockwake/ships/lord_crawlmasks_clipper.blocks",
+            "size": 15407
+        },
+        {
+            "hash": "sha-256:882b4d06f2f7be531d0f1d822160ba4fe87c0ee473cb065008bceefa0e4405f4",
+            "location": "882b4d06/f2f7be53/1d0f1d822160ba4fe87c0ee473cb065008bceefa0e4405f4",
+            "to": "config/Blockwake/ships/piratv_arcadia.blocks",
+            "size": 28834
+        },
+        {
             "hash": "sha-256:ee51b1772ad3bd0740c7bd54825335885d0438256088236df74dca10c5120ad3",
             "location": "https://edge.forgecdn.net/files/2995/966/adventurez-1.0.3.jar",
             "to": "mods/adventurez-1.0.3.jar",
             "size": 780061
         },
         {
-            "hash": "sha-256:2d028dfb9dbf60a5977038b6e63ef530ada7658dbbfe28bea285d738e3e5cdd4",
-            "location": "https://github.com/Chainmail-Studios/Astromine/releases/download/1.0.29/astromine-1.0.29+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.29+fabric-1.16.1.jar",
-            "size": 3385005
+            "hash": "sha-256:5d144e632f37fed9833e793ad783015557a364cd62977130f49d8a843577dde0",
+            "location": "https://github.com/Chainmail-Studios/Astromine/releases/download/1.0.30/astromine-1.0.30+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.30+fabric-1.16.1.jar",
+            "size": 3384396
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
@@ -137,10 +191,10 @@
             "size": 5370673
         },
         {
-            "hash": "sha-256:514c380043fb5e34a4166c94a3982899727f23b53078b905a322149ebb98e36b",
-            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest/fasterthanc-1.4.jar",
-            "to": "mods/fasterthanc-1.4.jar",
-            "size": 4358895
+            "hash": "sha-256:7a5cb43ac028a2409a7ff2be4f57e40ea20205c335730784b140592a517346ce",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest-hotfix/fasterthanc-1.5.jar",
+            "to": "mods/fasterthanc-1.5.jar",
+            "size": 4358920
         },
         {
             "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
@@ -383,10 +437,17 @@
             "size": 226059
         },
         {
-            "hash": "sha-256:88dc4f96109d86b1f459dfc1b691615babf984133fa70ba8b293711bcd08fa1e",
-            "location": "https://edge.forgecdn.net/files/2988/278/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
-            "to": "mods/worldedit-fabric-mc1.16.1-7.2.0-beta-01.jar",
-            "size": 3602387
+            "hash": "sha-256:bbb955249cc9e5edb85ba1faa8e77fb68404849a4ae139c74ae9a103ff5e66b2",
+            "location": "https://edge.forgecdn.net/files/2997/551/worldedit-fabric-mc1.16.1-7.2.0-beta-02.jar",
+            "to": "mods/worldedit-fabric-mc1.16.1-7.2.0-beta-02.jar",
+            "size": 4113791
+        },
+        {
+            "hash": "sha-256:c971db020b0308fb420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "location": "c971db02/0b0308fb/420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
+            "to": "servers.dat",
+            "size": 66,
+            "userFile": true
         }
     ]
 }
