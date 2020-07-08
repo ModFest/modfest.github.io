@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007070111",
+    "version": "1.0.202007081154",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -15,10 +15,6 @@
         {
             "name": "retiNO",
             "description": "Fixes issues with retina display on Mac. Don't use otherwise."
-        },
-        {
-            "name": "MiniHUD",
-            "description": "Displays server TPS and MSPT. Helpful for debugging."
         }
     ],
     "tasks": [
@@ -191,10 +187,10 @@
             "size": 5370673
         },
         {
-            "hash": "sha-256:7a5cb43ac028a2409a7ff2be4f57e40ea20205c335730784b140592a517346ce",
-            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest-hotfix/fasterthanc-1.5.jar",
-            "to": "mods/fasterthanc-1.5.jar",
-            "size": 4358920
+            "hash": "sha-256:0e59d4e5f706784b6cd0b1c5b38b0fa5ce21217ed2eb9b2141c2f301896b3f0a",
+            "location": "https://github.com/Snakefangox/FasterThanC/releases/download/modfest-hotfix-2/fasterthanc-1.7.jar",
+            "to": "mods/fasterthanc-1.7.jar",
+            "size": 4545299
         },
         {
             "hash": "sha-256:58aacef2bc4fd10d134da32174370ca1c9532ae046bcbb581712912384443a27",
@@ -203,10 +199,10 @@
             "size": 4392
         },
         {
-            "hash": "sha-256:da82c65014d706f391b6c3f059c1e78cf086a1e6e3c99c1ebf5a548866b43252",
-            "location": "https://edge.forgecdn.net/files/2996/545/glowcase-0.0.7.jar",
-            "to": "mods/glowcase-0.0.7.jar",
-            "size": 244491
+            "hash": "sha-256:321ccc3d1a22a13e6071323988d357341f742f2d50ea15aa6ea24c513700a3b1",
+            "location": "https://edge.forgecdn.net/files/2999/97/glowcase-0.0.8.jar",
+            "to": "mods/glowcase-0.0.8.jar",
+            "size": 266367
         },
         {
             "hash": "sha-256:a8d05425adee58fa74aa92358069763e9703cf57af711642b2a4baa4627700ea",
@@ -215,10 +211,10 @@
             "size": 165918
         },
         {
-            "hash": "sha-256:579dda75aa0916c62e911f1ae036f7d55be1f25caefe46340c3cb02fd06b8a81",
-            "location": "https://github.com/williambl/haema/releases/download/v1.1.1/haema-1.1.1.jar",
-            "to": "mods/haema-1.1.1.jar",
-            "size": 166311
+            "hash": "sha-256:23425c5f61d4942a2e75009a783e1b37ea6f09fdb42cc217f1227fd4c4034caa",
+            "location": "https://edge.forgecdn.net/files/2998/444/haema-1.1.2.jar",
+            "to": "mods/haema-1.1.2.jar",
+            "size": 166365
         },
         {
             "hash": "sha-256:456a44e60df9f07d714c2d69e9c3ff8bc79a098f40b1006062956d5928b31f72",
@@ -293,12 +289,6 @@
             "size": 202862
         },
         {
-            "hash": "sha-256:bf9bb980d5e74f9c8ea4a521923b3beaaaeecc0edf097adac029267471e8467f",
-            "location": "https://edge.forgecdn.net/files/2986/981/makkit-1.0.2.jar",
-            "to": "mods/makkit-1.0.2.jar",
-            "size": 729297
-        },
-        {
             "hash": "sha-256:238bb7f6b42deb0d894edf47b16f7ba24c8714e7ec90daf677574e48521f1dbc",
             "location": "https://edge.forgecdn.net/files/2993/139/malilib-fabric-1.16.1-0.10.0-dev.21+arne.1.jar",
             "to": "mods/malilib-fabric-1.16.1-0.10.0-dev.21+arne.1.jar",
@@ -309,18 +299,6 @@
             "location": "https://github.com/valoeghese/TheManhattanProject/releases/download/1.0.3/manhattan_project-1.0.3.jar",
             "to": "mods/manhattan_project-1.0.3.jar",
             "size": 61000
-        },
-        {
-            "hash": "sha-256:7fa86dfcc92fafb273887aa3d3aa475ab2bf05671366a59e118fc1c39aff0e68",
-            "location": "https://edge.forgecdn.net/files/2993/429/minihud-fabric-1.16.1-0.19.0-dev.20200701.005153.jar",
-            "to": "mods/minihud-fabric-1.16.1-0.19.0-dev.20200701.005153.jar",
-            "size": 232966,
-            "when": {
-                "if": "requireAny",
-                "features": [
-                    "MiniHUD"
-                ]
-            }
         },
         {
             "hash": "sha-256:b26310ec00f75782c4af8d1274b65f123021d795584584955d6ab54780849af3",
@@ -365,10 +343,10 @@
             "size": 60106
         },
         {
-            "hash": "sha-256:50205c825d6ad43594b24c214d09291b4bcfda18a5b186325c8dcddbd81746a7",
-            "location": "https://github.com/Earthcomputer/PolyDungeons/releases/download/v1.0.2/polydungeons-1.0.2.jar",
-            "to": "mods/polydungeons-1.0.2.jar",
-            "size": 773391
+            "hash": "sha-256:eeb7be74407a22b0cfba286c5d0a5d2094d937ba0f69b94ea1b02460c14ff25e",
+            "location": "https://github.com/Earthcomputer/PolyDungeons/releases/download/v1.0.3/polydungeons-1.0.3.jar",
+            "to": "mods/polydungeons-1.0.3.jar",
+            "size": 775965
         },
         {
             "hash": "sha-256:5bd107d229c8ed86bed3b55c5920a7c02047142919cb8ff7827c2bc665b52ab8",
@@ -419,10 +397,10 @@
             "size": 674406
         },
         {
-            "hash": "sha-256:4a74c862de9de64da019b95fa1d12c2f4e9f1fc20436ad243edee7750a5b9ed9",
-            "location": "https://cdn.discordapp.com/attachments/720485528402657384/728339715631218708/superworld-1.0.0-pre.8.jar",
-            "to": "mods/superworld-1.0.0-pre.8.jar",
-            "size": 303351
+            "hash": "sha-256:1356f74d88dff68f401c49dbb718b57df52c32a7314097ff0f51a9aa9aeb6173",
+            "location": "https://cdn.discordapp.com/attachments/720485528402657384/730131026512445470/superworld-1.0.0-pre.20.jar",
+            "to": "mods/superworld-1.0.0-pre.20.jar",
+            "size": 307280
         },
         {
             "hash": "sha-256:c429a2352f36b9fd0508cc3b509bd95ebd08788dc5432aafb8ba88659a9504fb",
@@ -435,12 +413,6 @@
             "location": "https://edge.forgecdn.net/files/2987/851/WoodsAndMires-1.0.0+1.16.1.jar",
             "to": "mods/WoodsAndMires-1.0.0+1.16.1.jar",
             "size": 226059
-        },
-        {
-            "hash": "sha-256:bbb955249cc9e5edb85ba1faa8e77fb68404849a4ae139c74ae9a103ff5e66b2",
-            "location": "https://edge.forgecdn.net/files/2997/551/worldedit-fabric-mc1.16.1-7.2.0-beta-02.jar",
-            "to": "mods/worldedit-fabric-mc1.16.1-7.2.0-beta-02.jar",
-            "size": 4113791
         },
         {
             "hash": "sha-256:c971db020b0308fb420f9ceb519cf8a741226592ef26e9b7cea3bdd20fc8ab95",
