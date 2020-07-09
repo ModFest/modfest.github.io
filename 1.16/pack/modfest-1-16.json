@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007082125",
+    "version": "1.0.202007092120",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -211,10 +211,10 @@
             "size": 165918
         },
         {
-            "hash": "sha-256:23425c5f61d4942a2e75009a783e1b37ea6f09fdb42cc217f1227fd4c4034caa",
-            "location": "https://edge.forgecdn.net/files/2998/444/haema-1.1.2.jar",
-            "to": "mods/haema-1.1.2.jar",
-            "size": 166365
+            "hash": "sha-256:9bcbea152fa46ae9f442e11513add5ebea523fd43eefe876cffbce57ed71f0d9",
+            "location": "https://edge.forgecdn.net/files/3000/417/haema-1.1.3.jar",
+            "to": "mods/haema-1.1.3.jar",
+            "size": 166378
         },
         {
             "hash": "sha-256:456a44e60df9f07d714c2d69e9c3ff8bc79a098f40b1006062956d5928b31f72",
@@ -329,6 +329,12 @@
             "location": "https://github.com/Boundarybreaker/Mycoturgy/releases/download/1.0.2%2B1.16.1/mycoturgy-0.1.2+1.16.1.jar",
             "to": "mods/mycoturgy-0.1.2+1.16.1.jar",
             "size": 1078860
+        },
+        {
+            "hash": "sha-256:7bce92619492eccf1907d3f422be893d76515e86aa82fb56c6237008a90239bd",
+            "location": "https://edge.forgecdn.net/files/2909/687/okzoomer-3.0.1-20w12a.jar",
+            "to": "mods/okzoomer-3.0.1-20w12a.jar",
+            "size": 521051
         },
         {
             "hash": "sha-256:51a21abee3eced2a20112e8893ddd927fcd2a3c54971089fd849a6a79063071b",
