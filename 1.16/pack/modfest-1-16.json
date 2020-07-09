@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007092120",
+    "version": "1.0.202007092137",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -115,10 +115,10 @@
             "size": 788148
         },
         {
-            "hash": "sha-256:f3e29501b99e100da6e56f8887f5f59646cb2980e39ad7c4e70b2df5e54ed486",
-            "location": "https://cdn.discordapp.com/attachments/720484460197314590/727051566380744735/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
-            "to": "mods/bonecheese-0.9.9-pre.9.9.9.9.9.9.but.without.the.include.but.reuploaded.because.prospector.deleted.t.jar",
-            "size": 13664
+            "hash": "sha-256:fc05fc10537a90786329ca77928b55d48c77b808cd8478db90bded3bf0710863",
+            "location": "https://cdn.discordapp.com/attachments/720485528402657384/730898589835984956/bonecheese-0.9.9-pre.9.9.9.9.9.9.9.whoops.wrong.parent.model.jar",
+            "to": "mods/bonecheese-0.9.9-pre.9.9.9.9.9.9.9.whoops.wrong.parent.model.jar",
+            "size": 13605
         },
         {
             "hash": "sha-256:d3c6a057291ddbe9de674733294a02dd85231ff924216decd3d7223b0436408b",
