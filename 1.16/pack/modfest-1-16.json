@@ -2,7 +2,7 @@
     "formatVersion": "0.5.7",
     "id": "modfest-1-16",
     "title": "ModFest 1.16",
-    "version": "1.0.202007110511",
+    "version": "1.0.202007130304",
     "objectsLocation": "objects",
     "gameVersion": "1.16.1",
     "modLoader": {
@@ -85,10 +85,10 @@
             "size": 9889
         },
         {
-            "hash": "sha-256:5d144e632f37fed9833e793ad783015557a364cd62977130f49d8a843577dde0",
-            "location": "https://github.com/Chainmail-Studios/Astromine/releases/download/1.0.30/astromine-1.0.30+fabric-1.16.1.jar",
-            "to": "mods/astromine-1.0.30+fabric-1.16.1.jar",
-            "size": 3384396
+            "hash": "sha-256:c714c5fad630e676732612ed348fe71b7e003c35d9a3c779ec3b10b7f4b0cb70",
+            "location": "https://edge.forgecdn.net/files/3002/338/astromine-1.0.31+fabric-1.16.1.jar",
+            "to": "mods/astromine-1.0.31+fabric-1.16.1.jar",
+            "size": 3405259
         },
         {
             "hash": "sha-256:d1af1b6cb6e77751a6246722857f68483ccf9ba98ddde556d072cadaa85dadba",
