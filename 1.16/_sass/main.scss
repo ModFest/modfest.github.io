@@ -51,14 +51,19 @@ $scheme-invert: $main-invert-strong;
 
 .entries-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
 	grid-gap: 1em;
+	margin-bottom: 20px;
 }
 
 .mod-card {
 	border-radius: 16px;
 	background-color: $card;
 	box-shadow: none;
+}
+
+.major-award .mod-card{
+	background-color: $primary;
 }
 
 .content figure {
@@ -78,6 +83,18 @@ $scheme-invert: $main-invert-strong;
 .mod-card a .title {
 	color: $accent;
 	margin-bottom: 4px;
+}
+
+.major-award a .title {
+	color: black;
+}
+
+.major-award .subtitle {
+	color: black;
+}
+
+.major-award .card {
+	color: black;
 }
 
 #modpack-link {
