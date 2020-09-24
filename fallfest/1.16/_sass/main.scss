@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+// Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// Set initial variables
+$accent: #FF781A;
+$accent-dark: #bb5812;
+$accent-darker: #9e490c;
+$main: #0c0c0c;
+$card: rgb(20, 20, 20);
+$main-alt: rgb(37, 37, 37);
+$main-invert: rgb(211, 211, 211);
+$main-invert-alt: rgb(211, 211, 211);
+$main-invert-strong: rgb(255, 255, 255);
+
+// Set the derived variables
+$primary: $accent;
+$primary-invert: $main;
+$border: $main-alt;
+$navbar-height: 4.2rem;
+$navbar-item-img-max-height: 4rem;
+$navbar-padding-vertical: 0rem;
+$text: $main-invert;
+$text-invert: $main;
+$text-light: $main;
+$text-strong: $main-invert-strong;
+$code: $main-invert-alt;
+$pre: $main-invert-alt;
+$background: $main-alt;
+$link: $accent;
+$link-invert: $main;
+$link-hover: $accent-dark;
+$link-hover-border: $accent-dark;
+$link-active: $accent-darker;
+$link-active-border: $accent-darker;
+$scheme-main: $main;
+$scheme-main-bis: $main-alt;
+$scheme-invert: $main-invert-strong;
+
+// Import the rest of Bulma
+@import "../node_modules/bulma/bulma";
+
+.past-modfest-image {
+	object-fit: cover;
+	height: 350px;
+	width: 480px;
+    border-radius: 10px;
+}
+
+.entries-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+	grid-gap: 1em;
+	margin-bottom: 20px;
+}
+
+.mod-card {
+	border-radius: 16px;
+	background-color: $card;
+	box-shadow: none;
+}
+
+.major-award .mod-card{
+	background-color: $primary;
+}
+
+.content figure {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.mod-screenshot {
+	border-radius: 8px;
+}
+
+.mod-screenshot img {
+	object-fit: cover;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.mod-card a .title {
+	color: $accent;
+	margin-bottom: 4px;
+}
+
+.major-award a .title {
+	color: black;
+}
+
+.major-award .subtitle {
+	color: black;
+}
+
+.major-award .card {
+	color: black;
+}
+
+#modpack-link {
+	border-radius: 10px;
+	background-color: $main;
+	padding: 8px 20px 8px 20px;
+	text-align: center;
+	color: $accent;
+	font-weight: bold;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	box-shadow: 0 0 16px #FF781Ade;
+}
+
+#modpack-link::selection {
+	background: $accent;
+	color: white;
+}
