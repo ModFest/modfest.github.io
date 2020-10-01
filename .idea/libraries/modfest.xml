@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="modfest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/1.15/pack/modfest.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
