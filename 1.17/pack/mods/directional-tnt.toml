@@ -1,0 +1,8 @@
+name = "Directional Tnt"
+filename = "directional-tnt-1.17-0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/miyo6032/directional-tnt/releases/download/0.1/directional-tnt-1.17-0.1.jar"
+hash-format = "sha256"
+hash = "bcf5e653ab36d45d1b65b6778c63887503415379296e6ec56ffed837fb511614"

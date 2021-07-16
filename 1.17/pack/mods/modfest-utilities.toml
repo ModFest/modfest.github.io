@@ -1,0 +1,8 @@
+name = "Modfest Utilities"
+filename = "modfest-utilities-1.1.0+1.17.jar"
+side = "both"
+
+[download]
+url = "https://github.com/ModFest/modfest-utilities/releases/download/1.1.0/modfest-utilities-1.1.0%2B1.17.jar"
+hash-format = "sha256"
+hash = "72afa6d41c6357cac96e409fa74e4b222a2d6a6078dab5ea0cde750f0a4591ba"

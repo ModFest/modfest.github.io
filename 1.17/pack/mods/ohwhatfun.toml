@@ -1,0 +1,8 @@
+name = "Oh What Fun!"
+filename = "OhWhatFun-1.17-V1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/quantamancer/OhWhatFun/releases/download/1.0/OhWhatFun-1.17-V1.0.jar"
+hash-format = "sha256"
+hash = "25acc67fdce6b45f3b4c2da62483108ef0caca0298c0385756c14238506e94d5"

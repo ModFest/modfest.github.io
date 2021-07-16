@@ -1,0 +1,8 @@
+name = "enchanters-pedestal"
+filename = "enchanterspedestal-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Reoseah/enchanters-pedestal/releases/download/1.0.0/enchanterspedestal-1.0.0.jar"
+hash-format = "sha256"
+hash = "8f90ba5a13eac11fca9f1d6d843634985d3b3245568025a8862c0d645c0f465e"

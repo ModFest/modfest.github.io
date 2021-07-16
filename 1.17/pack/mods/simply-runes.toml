@@ -1,0 +1,8 @@
+name = "Simply Runes"
+filename = "runes-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Aelpecyem/simply-runes/releases/download/1.0.1/runes-1.0.1.jar"
+hash-format = "sha256"
+hash = "73eafb60dda69d46e578b9013f93742ffadd77769513552199023f7bd3fb73aa"

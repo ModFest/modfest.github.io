@@ -1,0 +1,14 @@
+name = "Workings"
+filename = "workings-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3388/980/workings-1.0.5.jar"
+hash-format = "murmur2"
+hash = "126534533"
+
+[update]
+[update.curseforge]
+file-id = 3388980
+project-id = 500672
+release-channel = "beta"

@@ -1,0 +1,15 @@
+name = "ModFest 1.17"
+author = "ModFest"
+version = "1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "76aeadf6fc187a5c09a9bb679cd38046bc68f64dcc32869fdd8c9df4cba38c2b"
+
+[versions]
+fabric = "0.11.6"
+minecraft = "1.17.1"
+
+[options]
+acceptable-game-versions = ["1.17", "1.17.1"]

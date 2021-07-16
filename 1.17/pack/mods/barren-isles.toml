@@ -1,0 +1,13 @@
+name = "Barren Isles"
+filename = "barren-isles-1.17-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t2VoTwjz/versions/1.0.4/barren-isles-1.17-1.0.4.jar"
+hash-format = "sha512"
+hash = "581bac9610a573de2e4a5e7b33822b179f1c362141ab147e57324ef2a070e969b523a1713b26402d63f53494eb422226f9dfade2a959f191cb982726f6e1507f"
+
+[update]
+[update.modrinth]
+mod-id = "t2VoTwjz"
+version = "ONdGbFHp"

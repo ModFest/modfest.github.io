@@ -1,0 +1,8 @@
+name = "Hyperstellar"
+filename = "hyperstellar-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Snakefangox/hyperstellar/releases/download/1.1/hyperstellar-1.0.0.jar"
+hash-format = "sha256"
+hash = "f24114ad0bf351505378ead42bda6d49e90ddc65716374def871436030481f68"

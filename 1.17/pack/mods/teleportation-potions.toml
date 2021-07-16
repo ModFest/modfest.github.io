@@ -1,0 +1,14 @@
+name = "Teleportation Potions"
+filename = "teleportation_potions-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3365/908/teleportation_potions-1.0.0.jar"
+hash-format = "murmur2"
+hash = "1577865167"
+
+[update]
+[update.curseforge]
+file-id = 3365908
+project-id = 498180
+release-channel = "beta"

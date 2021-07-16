@@ -1,0 +1,13 @@
+name = "Better Scaffolding"
+filename = "betterscaffolding-1.17-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/v2Dj3ysI/versions/1.0.0/betterscaffolding-1.17-1.0.0.jar"
+hash-format = "sha512"
+hash = "1378d158aaefaf641370b59a80506daca1ad4a419106a55d81a6aa9beb023385f1f03e7cf0af1ded7e7c656c9eb82423216d07c86e1a4f568221f2c90a03ab96"
+
+[update]
+[update.modrinth]
+mod-id = "v2Dj3ysI"
+version = "bLTSvfUG"
