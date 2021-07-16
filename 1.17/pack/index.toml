@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets-fabric.toml"
-hash = "a4689c8d9755065db3e01c2b934c43ee77b7f86145f10778e5f8feb7d563b991"
+hash = "cdbd2c1492d5ccb0f8cb24e47f44cab1311240ece5b2b500276b6e59d95b7971"
 metafile = true
 
 [[files]]
@@ -201,13 +201,5 @@ metafile = true
 
 [[files]]
 file = "mods/workings.toml"
-hash = "ff78cd9d5b6e76f0198695d24dcc6cb1fca06b731aadbc48032f8417b185e491"
+hash = "c23ead8e29657a5eb88998c2d3600204927ab246f0be519078d586105d4d0e6e"
 metafile = true
-
-[[files]]
-file = "packwiz"
-hash = "3580590bbb42819fe63f4e5cbef16d817c8ebb7cfcf537a5583e23d579c16a7f"
-
-[[files]]
-file = "packwiz_ext.mjs"
-hash = "96a8e8973146522ec6005f8e49cecd006190a6a4381a2cbc15f7e9bafe0e2d74"

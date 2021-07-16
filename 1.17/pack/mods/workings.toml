@@ -1,14 +1,14 @@
 name = "Workings"
-filename = "workings-1.0.5.jar"
+filename = "workings-1.0.6.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3388/980/workings-1.0.5.jar"
+url = "https://edge.forgecdn.net/files/3390/402/workings-1.0.6.jar"
 hash-format = "murmur2"
-hash = "126534533"
+hash = "243529509"
 
 [update]
 [update.curseforge]
-file-id = 3388980
+file-id = 3390402
 project-id = 500672
 release-channel = "beta"

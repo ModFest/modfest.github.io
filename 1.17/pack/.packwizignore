@@ -1,3 +1,5 @@
 node_modules/
 *.DS_Store
 pack.zip
+packwiz
+packwiz_ext.mjs
