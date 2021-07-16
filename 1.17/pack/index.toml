@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "Face Mask Abby Smile.png"
-hash = "013eafcba3d91f83cd1980e815dffcf2a0de60d2feae809fe6e7ab7358238bb1"
-
-[[files]]
 file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
 hash = "00d6bfbdde981e45990bfef768983b0bc2e0633a55d518defe2c517bdfd7cd98"
 
