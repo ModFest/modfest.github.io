@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
-hash = "00d6bfbdde981e45990bfef768983b0bc2e0633a55d518defe2c517bdfd7cd98"
+hash = "532c4829203d12c231637f78e4d44aa39f10966ce2bdfc723e6e6dd33bd46ebb"
 
 [[files]]
 file = "mods/Mirrorstones-0.1.0.jar"
@@ -201,5 +201,10 @@ metafile = true
 
 [[files]]
 file = "mods/workings.toml"
-hash = "c23ead8e29657a5eb88998c2d3600204927ab246f0be519078d586105d4d0e6e"
+hash = "1fa174407faad261e83e8680f8485b7894867346e82a6f47bdbb282bc4016dcc"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.toml"
+hash = "41d6a669ba38d0c66ae62ba59407f5b97828d9b7235834640c5a3df3c138b011"
 metafile = true
