@@ -5,8 +5,8 @@ file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
 hash = "532c4829203d12c231637f78e4d44aa39f10966ce2bdfc723e6e6dd33bd46ebb"
 
 [[files]]
-file = "mods/Mirrorstones-0.1.0.jar"
-hash = "e3475ea9edb8406ebaecadb2c5f55210331cb0771b5fca79ffeff9ee02be28d6"
+file = "mods/Mirrorstones-0.1.1.jar"
+hash = "d5cac07e887e411842d77e2d41e1973c5cdca865e71a322bd2b45d49a118c7b1"
 
 [[files]]
 file = "mods/aroundtheworld.toml"
@@ -50,7 +50,7 @@ metafile = true
 
 [[files]]
 file = "mods/cablemod.toml"
-hash = "a7fd86d8c8214bff0b894063a13a347776c7bd5b84158a34e8bd3b783e01d926"
+hash = "9d5c019cde64d0c0ff302ae07b06f28ed1f8c5fe46264fdfe5e244a87ad63ffa"
 metafile = true
 
 [[files]]
