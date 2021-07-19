@@ -1,0 +1,8 @@
+name = "WorldShell"
+filename = "worldshell-fork-0.1.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Sorenon/worldshell/releases/download/v0.1.1/worldshell-fork-0.1.1.jar"
+hash-format = "sha256"
+hash = "bb527b6e040dae2cd72cd0379a2d71fc884409d94eebe435a575318fcca2afe7"

@@ -1,8 +1,8 @@
-name = "Grappleship"
-filename = "grappleship-0.1.0.jar"
+name = "GrappleShip"
+filename = "grappleship-0.1.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Sorenon/GrappleShip/releases/download/0.1.0/grappleship-0.1.0.jar"
+url = "https://github.com/Sorenon/GrappleShip/releases/download/v0.1.1/grappleship-0.1.1.jar"
 hash-format = "sha256"
-hash = "ffcd07651986f488e243bcca81e570e7e9de1df79c5f8e5079845b32616bef07"
+hash = "e1523a73f04e2a377e1717fe2366ed36e1b97bfdfe499758565ec251064dbf64"

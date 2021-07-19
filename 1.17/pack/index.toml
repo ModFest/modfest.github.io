@@ -98,7 +98,7 @@ hash = "1b78a9620cc4d920b9d1cba52dd34639b64daf0f0e26e9696c803f6d6690c447"
 
 [[files]]
 file = "mods/grappleship.toml"
-hash = "2a5bb0dc8a214543daef86605b0b11f1bfdb8f86064a9e2da896a1b27447586e"
+hash = "a24aa1bd3643bea1c3d94ee987caec87af0d2ebf60ac9d481623c331d4268df8"
 metafile = true
 
 [[files]]
@@ -207,4 +207,9 @@ metafile = true
 [[files]]
 file = "mods/worldedit.toml"
 hash = "41d6a669ba38d0c66ae62ba59407f5b97828d9b7235834640c5a3df3c138b011"
+metafile = true
+
+[[files]]
+file = "mods/worldshell.toml"
+hash = "ada28ecb29df1fe6c17e009361194d31331852046671feb531433fa00945bebb"
 metafile = true
