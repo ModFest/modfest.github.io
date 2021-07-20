@@ -98,7 +98,7 @@ hash = "1b78a9620cc4d920b9d1cba52dd34639b64daf0f0e26e9696c803f6d6690c447"
 
 [[files]]
 file = "mods/grappleship.toml"
-hash = "a24aa1bd3643bea1c3d94ee987caec87af0d2ebf60ac9d481623c331d4268df8"
+hash = "2665c0260ec31024e3e9fa76df0e2a373596f8b9a2cdea405cce83616c9aba87"
 metafile = true
 
 [[files]]
@@ -108,7 +108,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyperstellar.toml"
-hash = "11047e2500ca1f5fdc6dae0f298e2d75c8152e013743d4c57b782058bc15b13d"
+hash = "bf3d7e5f6177ac82710b4d2b83ec6dc078f64a1c578cbdf6de01e19f18044a29"
 metafile = true
 
 [[files]]
@@ -211,5 +211,5 @@ metafile = true
 
 [[files]]
 file = "mods/worldshell.toml"
-hash = "ada28ecb29df1fe6c17e009361194d31331852046671feb531433fa00945bebb"
+hash = "e082933eb7ebcc811759d70979eb2cd326247360fc9e1bbd9db864c1586c8c01"
 metafile = true
