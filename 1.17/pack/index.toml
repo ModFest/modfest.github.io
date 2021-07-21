@@ -39,11 +39,6 @@ hash = "eda42e7d61fa079ef3b7d11d8640d4fc684ea65ff262d8bba4820d203dd935e7"
 metafile = true
 
 [[files]]
-file = "mods/bing-bing-wahoo.toml"
-hash = "d17349343275b568efd815e7b82c961473eb84416a406d467af48c47ae3bc6c6"
-metafile = true
-
-[[files]]
 file = "mods/boats-and-beeps.toml"
 hash = "3f6ad320dfbbf1747d71debaaef1c8fa5dad3f49b172175179eb6c87e8903f5a"
 metafile = true
@@ -113,7 +108,7 @@ metafile = true
 
 [[files]]
 file = "mods/ko-maui-me-te-ra.toml"
-hash = "0c35e9bd7533ba736d27ca090004c7a01711c27679200459e437e88e52f947b0"
+hash = "fa5c09cc1d37b52dca84fbc4bb8caa449674cd3f9230277117a89adeebff8b48"
 metafile = true
 
 [[files]]
@@ -193,6 +188,11 @@ metafile = true
 [[files]]
 file = "mods/wackyvessels-1.0.jar"
 hash = "a74ceb110e792fb1464933b03d5d66289215de871f64eb2c4f94127bf8523f68"
+
+[[files]]
+file = "mods/wahoo.toml"
+hash = "a932d5597d184429b654695faeece3db18f64f561e4adfbe8d5c543b28b28d32"
+metafile = true
 
 [[files]]
 file = "mods/walkways.toml"

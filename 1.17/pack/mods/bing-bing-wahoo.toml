@@ -1,8 +1,0 @@
-name = "Bing Bing Wahoo"
-filename = "bingBingWahoo-1.0.3.jar"
-side = "both"
-
-[download]
-url = "https://github.com/Ignoramuses/bing-bing-wahoo/releases/download/1.0.3/bingBingWahoo-1.0.3.jar"
-hash-format = "sha256"
-hash = "60ae75c6891fcb5b15e52e23a4c464003079dc3242ca9d87aa7bb7303c304140"
