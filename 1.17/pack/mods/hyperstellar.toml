@@ -3,6 +3,6 @@ filename = "hyperstellar-1.0.0.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Snakefangox/Hyperstellar/releases/download/1.4/hyperstellar-1.0.0.jar"
+url = "https://github.com/Snakefangox/Hyperstellar/releases/download/1.5/hyperstellar-1.0.0.jar"
 hash-format = "sha256"
-hash = "dab69c3886357eff374b5b008450c0befb4d68245a8ef9de0fee6460d2d0a889"
+hash = "7c01a2646b7d29fa944132deb735c60ee8e16771b05bd9ef9062e8f5146441a2"
