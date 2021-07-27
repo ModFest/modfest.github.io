@@ -93,7 +93,7 @@ hash = "1b78a9620cc4d920b9d1cba52dd34639b64daf0f0e26e9696c803f6d6690c447"
 
 [[files]]
 file = "mods/grappleship.toml"
-hash = "2665c0260ec31024e3e9fa76df0e2a373596f8b9a2cdea405cce83616c9aba87"
+hash = "a9cc9053cc92a0858000f06beea697ea1c15e5672129293ca8245b4eb72c2702"
 metafile = true
 
 [[files]]
