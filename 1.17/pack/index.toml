@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravity-guns.toml"
-hash = "cb43bf367212d41490682b155492e464808bff432bd98414645f150f9e94e47d"
+hash = "5876eedc002df48d3283f2d41e07b78e76a19314d95966c2c81a7aba22a68cfd"
 metafile = true
 
 [[files]]

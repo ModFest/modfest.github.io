@@ -1,13 +1,13 @@
 name = "Gravity Guns"
-filename = "gravity-guns-0.1.1.jar"
+filename = "gravity-guns-0.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/WEhHerUD/versions/0.1.1/gravity-guns-0.1.1.jar"
+url = "https://cdn.modrinth.com/data/WEhHerUD/versions/0.1.2/gravity-guns-0.1.2.jar"
 hash-format = "sha512"
-hash = "d0a977eda49df4afa94250b0ce81f479edbf8ed3e3799e60a48147f8a78ad292ed4ea353707a9964325623d38e9b4d5a0714671c4f693341c142d2ee26affc0d"
+hash = "66bc0fd9272e22f19f1ed4ebe60d158c651a1af45c25b0005218b472df3587d68655b51440809686de46541fcb405c278fe830ac03d83717be2f622659975bb2"
 
 [update]
 [update.modrinth]
 mod-id = "WEhHerUD"
-version = "5MyZrk3G"
+version = "ASmIIUD4"
