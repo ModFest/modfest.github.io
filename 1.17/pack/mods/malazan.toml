@@ -3,12 +3,12 @@ filename = "malazan-1.0.0.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3372/515/malazan-1.0.0.jar"
+url = "https://edge.forgecdn.net/files/3401/480/malazan-1.0.0.jar"
 hash-format = "murmur2"
-hash = "485788668"
+hash = "2196815528"
 
 [update]
 [update.curseforge]
-file-id = 3372515
+file-id = 3401480
 project-id = 499642
 release-channel = "beta"

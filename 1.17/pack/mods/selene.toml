@@ -1,13 +1,13 @@
 name = "Selene"
-filename = "selene-1.0+1.17.1.jar"
+filename = "selene-1.0.1+1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/hRandqZM/versions/1.0.0+1.17.1/selene-1.0+1.17.1.jar"
+url = "https://cdn.modrinth.com/data/hRandqZM/versions/1.0.1+1.17.1/selene-1.0.1+1.17.1.jar"
 hash-format = "sha512"
-hash = "f9d0e909d831dd82051b9f42034a35a078a80052cb550ff907ed18b4aa709808db789f116a339147515092810c576dc77f0f31722b57cb05f428a14581ab91b0"
+hash = "3588dcd39eae6300f9b09d9090cb1ae9f204b5e464831c1c705f5d49617a33d107f93d218cc523662d727532b6c0615f10ad4e91c5d77093c873cfece2c8db85"
 
 [update]
 [update.modrinth]
 mod-id = "hRandqZM"
-version = "IZPQCXKF"
+version = "yiFDt64z"

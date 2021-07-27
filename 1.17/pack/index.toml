@@ -98,7 +98,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravity-guns.toml"
-hash = "797cb4bc914d14d0765a08f0f8e49d9619cf28f525be3065097247fbf9c956e7"
+hash = "cb43bf367212d41490682b155492e464808bff432bd98414645f150f9e94e47d"
 metafile = true
 
 [[files]]
@@ -123,7 +123,7 @@ metafile = true
 
 [[files]]
 file = "mods/malazan.toml"
-hash = "a65c1c9f5087ad8652d11e75ad1f1bc24afbe0a8dfbed5c04bb1ce3af0475847"
+hash = "27fc3151a68d5895429b7723c86a2e271c8379fcc47ff12426d01b1c4a82ce71"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ hash = "652606ee39f35db8ecb65e12594e4b95e9372bcfc2e2eba6c42efefb81d55cce"
 
 [[files]]
 file = "mods/selene.toml"
-hash = "49b16c9ca9a112bdebc05a62b489593ca3c6052bd2a3a3a49f3c5e2acafb92c5"
+hash = "e68b54104cc0ac84a83117aacc60d0a361ca41dee6e331aab8c4e2886609de05"
 metafile = true
 
 [[files]]
