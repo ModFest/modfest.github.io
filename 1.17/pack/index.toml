@@ -103,7 +103,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyperstellar.toml"
-hash = "89b16d525e4063a26c4cba74efc327417e1567c23b35e86b58c24038f2dfa69f"
+hash = "8b733463491c32080bc08029bf54ecf7043c67f4d4ac719d41f2ca42b6ec6f8d"
 metafile = true
 
 [[files]]
@@ -138,7 +138,7 @@ metafile = true
 
 [[files]]
 file = "mods/ohwhatfun.toml"
-hash = "e9720a44f5523e6527c388d10fef2c345d57c9162b5fb5d2449728002fc95c77"
+hash = "3ff254475ef44a926f164104fc88e7d81db5be6332decafccc85bb99b7351b68"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-track.toml"
-hash = "a92778a73999f12473ef11e40c579a3e75ebb1cc68ef5f487f23fdef3ea93c00"
+hash = "b73359e1e82522f71356908476a1deb04432edb994a86885293f03bd2860e458"
 metafile = true
 
 [[files]]
