@@ -50,7 +50,7 @@ metafile = true
 
 [[files]]
 file = "mods/canvas-renderer.toml"
-hash = "da13e06eb17a20e04196a729814079466422dbe9427bbee21f78a69c85a9594b"
+hash = "313b57170b970ccb917155ef54aec96e19e3149dbef8f8a12b9b1df3780e4b6a"
 metafile = true
 
 [[files]]
@@ -122,12 +122,12 @@ metafile = true
 
 [[files]]
 file = "mods/indium.toml"
-hash = "1d728121b2a322302f685b090a917cac1e36431e493ee9044de4b0645ad2a922"
+hash = "535608275bff9e0b9d4fbeb7267ddf801e56e17f2d3553999eb731472a81e22c"
 metafile = true
 
 [[files]]
 file = "mods/iris.toml"
-hash = "8706ecfde6c24ecace71047cbb43b1b0e514b0d3f47afbd2d4ea3b253c9c22eb"
+hash = "a0c2900f94980c61c594f172ad02a435ea4f1dc3f13d8e4c19449bd71a6a8865"
 metafile = true
 
 [[files]]
@@ -201,7 +201,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.toml"
-hash = "05445613f4ffe43ab02aab3cf8644ffa80f0e880b89013d820250a5eb63f2b34"
+hash = "59c6dbc81faf4123ad36e9483b7060d9d12a41ab9566e32d536c9ec24e9deb30"
 metafile = true
 
 [[files]]
