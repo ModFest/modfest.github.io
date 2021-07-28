@@ -1,0 +1,16 @@
+name = "Canvas Renderer"
+filename = "canvas-mc117-1.17-1.0.1851.jar"
+side = "both"
+optional = true
+description = "Mod-friendly shaders. Recommended, but incompatible with Sodium."
+
+[download]
+url = "https://edge.forgecdn.net/files/3399/845/canvas-mc117-1.17-1.0.1851.jar"
+hash-format = "murmur2"
+hash = "2132049759"
+
+[update]
+[update.curseforge]
+file-id = 3399845
+project-id = 318440
+release-channel = "beta"

@@ -49,6 +49,11 @@ hash = "9d5c019cde64d0c0ff302ae07b06f28ed1f8c5fe46264fdfe5e244a87ad63ffa"
 metafile = true
 
 [[files]]
+file = "mods/canvas-renderer.toml"
+hash = "da13e06eb17a20e04196a729814079466422dbe9427bbee21f78a69c85a9594b"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.toml"
 hash = "94b98ae68382da3bf4f3bd3115319c75bc8e078ce856cee4040d2710b97ddead"
 metafile = true
@@ -116,8 +121,23 @@ hash = "8b733463491c32080bc08029bf54ecf7043c67f4d4ac719d41f2ca42b6ec6f8d"
 metafile = true
 
 [[files]]
+file = "mods/indium.toml"
+hash = "1d728121b2a322302f685b090a917cac1e36431e493ee9044de4b0645ad2a922"
+metafile = true
+
+[[files]]
+file = "mods/iris.toml"
+hash = "8706ecfde6c24ecace71047cbb43b1b0e514b0d3f47afbd2d4ea3b253c9c22eb"
+metafile = true
+
+[[files]]
 file = "mods/ko-maui-me-te-ra.toml"
 hash = "8443b848229eddd2cf40f26c654b7ea1cfb10f25cc2359fe0588ca569df2c08e"
+metafile = true
+
+[[files]]
+file = "mods/lithium.toml"
+hash = "32fdab068429360301cf1720604f4f0dbb3ab81d3e78f9847be2ff741f04813c"
 metafile = true
 
 [[files]]
@@ -177,6 +197,11 @@ metafile = true
 [[files]]
 file = "mods/simply-runes.toml"
 hash = "1f9486f5b1afe63bcb17e0fd1d04906bb3270a1dd042d26c392e4ec6c4e6b3f0"
+metafile = true
+
+[[files]]
+file = "mods/sodium.toml"
+hash = "05445613f4ffe43ab02aab3cf8644ffa80f0e880b89013d820250a5eb63f2b34"
 metafile = true
 
 [[files]]
