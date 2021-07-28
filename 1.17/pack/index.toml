@@ -54,6 +54,10 @@ hash = "94b98ae68382da3bf4f3bd3115319c75bc8e078ce856cee4040d2710b97ddead"
 metafile = true
 
 [[files]]
+file = "mods/collectater-1.0.0.jar"
+hash = "6f6218bc3efb25e31e991d5bcb663fe38dabbec9198528a1af58f173e8bb4afa"
+
+[[files]]
 file = "mods/directional-tnt.toml"
 hash = "1c841618b3751f2ddc87207f35afa6ff297a733da92b7d6091174c853369f42a"
 metafile = true
