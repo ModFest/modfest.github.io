@@ -161,6 +161,11 @@ hash = "5603c21f3ed0ed83a77526d591a93a5124a2a0fb07d93b9c157d492060315123"
 metafile = true
 
 [[files]]
+file = "mods/modmenu.toml"
+hash = "9d23a4a8b3f3c53dd0c09691a896a4195fcae17a2d8b2ec42e3bccbe5fcaf60c"
+metafile = true
+
+[[files]]
 file = "mods/nauticality.toml"
 hash = "196d23272889eae2baa205f97a25cffd475f9bf15380d783503420a0c4480193"
 metafile = true
