@@ -1,0 +1,13 @@
+name = "Phonos"
+filename = "phonos-0.1.2+1.17.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/z5KH0yKE/versions/0.1.2+1.17/phonos-0.1.2+1.17.jar"
+hash-format = "sha512"
+hash = "23513a35817c7b69a1a039382937b6cf02239b91d932534271120b1fc842170c0d1bcb1097dca5933ebdd5ca1a2e19461eac8b05cd66bf9501af88b4fa874528"
+
+[update]
+[update.modrinth]
+mod-id = "z5KH0yKE"
+version = "KgFneFUd"

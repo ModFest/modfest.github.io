@@ -1,0 +1,14 @@
+name = "Ears"
+filename = "ears-fabric-1.17-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://edge.forgecdn.net/files/3276/415/ears-fabric-1.17-1.2.2.jar"
+hash-format = "murmur2"
+hash = "1541496625"
+
+[update]
+[update.curseforge]
+file-id = 3276415
+project-id = 412013
+release-channel = "beta"

@@ -64,6 +64,11 @@ hash = "4fc5465380b6b4da88af1caf5dbf14a4e14b2dccf5b60a68b29e73f9996a76d4"
 metafile = true
 
 [[files]]
+file = "mods/ears.toml"
+hash = "a19f8b874e50a5763e18e3979f5f4ffac9cdb4cb7e2a2a09b00e59999599cd4e"
+metafile = true
+
+[[files]]
 file = "mods/enchanters-pedestal.toml"
 hash = "f2d5ad66ad13101b7edcd7cd3921b235848e426d4acfdc3b027f4c4c56415161"
 metafile = true
@@ -84,7 +89,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "53d7db654320d752ce1332f89f166d1621919e2b3845487abd8b9357997cef1f"
+hash = "edac1378c13d907a0ff3e63587fdc7ce1fffd34f876f203c3498d1d2295e6fb8"
 metafile = true
 
 [[files]]
@@ -149,6 +154,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli-fabric.toml"
 hash = "6b235318f9ff03a31e4c929c246d07029e7c4b5588456a121ad6ae7b018b9423"
+metafile = true
+
+[[files]]
+file = "mods/phonos.toml"
+hash = "ca031549e9ec2c06a5892a2536256b68637bd40237999619708105b93e08f0a5"
 metafile = true
 
 [[files]]
