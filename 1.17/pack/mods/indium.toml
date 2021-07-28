@@ -1,8 +1,6 @@
 name = "Indium"
 filename = "indium-1.0.0+mc1.17.1.jar"
 side = "client"
-optional = true
-description = "Makes Sodium play nice with other mods. Required for Sodium."
 
 [download]
 url = "https://cdn.modrinth.com/data/Orvt0mRa/versions/1.0.0+mc1.17.1/indium-1.0.0+mc1.17.1.jar"
@@ -13,3 +11,7 @@ hash = "f44c85388430e5483a2370191f6c57626d950cb3f6fda32e9209b1c2d79ef51c2f35d12b
 [update.modrinth]
 mod-id = "Orvt0mRa"
 version = "uTvfCUBM"
+
+[option]
+optional = true
+description = "Makes Sodium play nice with other mods. Required for Sodium."

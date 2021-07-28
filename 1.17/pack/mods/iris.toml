@@ -1,8 +1,6 @@
 name = "Iris Shaders"
 filename = "iris-mc1.17-1.1.0.jar"
 side = "client"
-optional = true
-description = "Support for OptiFine shaders. May not be compatible with Canvas."
 
 [download]
 url = "https://cdn.modrinth.com/data/YL57xq9U/versions/mc1.17-v1.1.0/iris-mc1.17-1.1.0.jar"
@@ -13,3 +11,7 @@ hash = "09c473690fb28a7b9df862d2168bf5430e13e91112d67d1936399685900973956e224366
 [update.modrinth]
 mod-id = "YL57xq9U"
 version = "lQjKfhXZ"
+
+[option]
+optional = true
+description = "Support for OptiFine shaders. May not be compatible with Canvas."

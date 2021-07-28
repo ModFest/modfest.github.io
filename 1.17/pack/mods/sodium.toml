@@ -1,8 +1,6 @@
 name = "Sodium"
 filename = "sodium-fabric-mc1.17.1-0.3.0+build.5.jar"
 side = "client"
-optional = true
-description = "Powerful FPS improvements. Not compatible with Canvas, requires Indium."
 
 [download]
 url = "https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.0/sodium-fabric-mc1.17.1-0.3.0+build.5.jar"
@@ -13,3 +11,7 @@ hash = "000d00496ed4e945c4d8c4d6b70584ffec5af6034c39e22d3ccc69734ccaadd37e7e9d31
 [update.modrinth]
 mod-id = "AANobbMI"
 version = "1b0GhKHj"
+
+[option]
+optional = true
+description = "Powerful FPS improvements. Not compatible with Canvas, requires Indium."
