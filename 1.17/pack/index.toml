@@ -69,7 +69,7 @@ metafile = true
 
 [[files]]
 file = "mods/dokokashira-door.toml"
-hash = "4fc5465380b6b4da88af1caf5dbf14a4e14b2dccf5b60a68b29e73f9996a76d4"
+hash = "eb5bd65bba38c18a9e88c821d251b3195f23a55eb90000e79c045b555d4952ee"
 metafile = true
 
 [[files]]
