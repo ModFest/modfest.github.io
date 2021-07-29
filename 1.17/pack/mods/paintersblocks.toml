@@ -1,8 +1,8 @@
 name = "Painter's Blocks"
-filename = "PaintersBlocks-1.2.1+1.17.jar"
+filename = "PaintersBlocks-1.2.2+1.17.1.jar"
 side = "both"
 
 [download]
-url = "https://github.com/Juuxel/PaintersBlocks/releases/download/1.2.1/PaintersBlocks-1.2.1%2B1.17.jar"
+url = "https://github.com/Juuxel/PaintersBlocks/releases/download/1.2.2/PaintersBlocks-1.2.2%2B1.17.1.jar"
 hash-format = "sha256"
-hash = "7ae8fcee82133383575aba513cdc42a966bbd415f9df8589b50bc1126ccf85f5"
+hash = "04b634258dd2b431106d1e6780ed41a75105b303a9eaf463ec48217b96c888a8"

@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.toml"
-hash = "a0c2900f94980c61c594f172ad02a435ea4f1dc3f13d8e4c19449bd71a6a8865"
+hash = "b63ec64c661ff0fb2a7dcd90686db31b17b2529fe3e8a539687ff98be7346136"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/paintersblocks.toml"
-hash = "0d31d7402831b5a1978eed59edf1e9aaef75937f38c1fc8052ed2706fd6b607e"
+hash = "8cdd7f9a07a6d7bc61107b23d39ead63408ae5b026179dc47b4cc3d3b1186505"
 metafile = true
 
 [[files]]
@@ -255,7 +255,7 @@ hash = "a74ceb110e792fb1464933b03d5d66289215de871f64eb2c4f94127bf8523f68"
 
 [[files]]
 file = "mods/wahoo.toml"
-hash = "a932d5597d184429b654695faeece3db18f64f561e4adfbe8d5c543b28b28d32"
+hash = "a1b377b0de403976928efb974095a5862450d77127addacff1991c8f0c2e708e"
 metafile = true
 
 [[files]]
