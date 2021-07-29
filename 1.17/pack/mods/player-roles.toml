@@ -1,0 +1,8 @@
+name = "Player Roles"
+filename = "player-roles-1.4.2.jar"
+side = "both"
+
+[download]
+url = "https://github.com/NucleoidMC/player-roles/releases/download/v1.4.2/player-roles-1.4.2.jar"
+hash-format = "sha256"
+hash = "d081814f49d278bb129efc3dcb07e682d3336e34cd5fe869b3848cdca631fec6"
