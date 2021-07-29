@@ -1,13 +1,13 @@
 name = "Dokokashira Door"
-filename = "dokokashira-door-1.17-1.0.0.jar"
+filename = "dokokashira-door-1.17.1-1.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/uVnUrS2L/versions/1.0.0/dokokashira-door-1.17-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/uVnUrS2L/versions/1.0.1/dokokashira-door-1.17.1-1.0.1.jar"
 hash-format = "sha512"
-hash = "9e92ea12178cc21622e0db1c7deea66ecd8ad5b9c5282b3ba0e94943c44d5ce61fd4f3854afd0e557438620973605ef45b47dcac96d3f2e82197b62db6c3369b"
+hash = "c76bca4391d7c1f49fd435aaf2d446bebb9c62a14aa46527bc8e4a1e1ae8b32a436d7b550c587878c4dc0992be39ae2ba1aa8580878d87d27075369900b6f172"
 
 [update]
 [update.modrinth]
 mod-id = "uVnUrS2L"
-version = "e1XI4VVy"
+version = "I7ouXuTe"

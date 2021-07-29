@@ -9,6 +9,11 @@ file = "mods/Mirrorstones-0.1.1.jar"
 hash = "d5cac07e887e411842d77e2d41e1973c5cdca865e71a322bd2b45d49a118c7b1"
 
 [[files]]
+file = "mods/architectury-fabric.toml"
+hash = "49927e01c6a766f58e66f4284e299000b42d414237089d25c008ebd88c92eb9f"
+metafile = true
+
+[[files]]
 file = "mods/aroundtheworld.toml"
 hash = "f1d23dd2363ab9bbc5b23539e88af367f5251cbdece1a85a2dc04bedc527acd1"
 metafile = true
@@ -69,7 +74,7 @@ metafile = true
 
 [[files]]
 file = "mods/dokokashira-door.toml"
-hash = "4fc5465380b6b4da88af1caf5dbf14a4e14b2dccf5b60a68b29e73f9996a76d4"
+hash = "eb5bd65bba38c18a9e88c821d251b3195f23a55eb90000e79c045b555d4952ee"
 metafile = true
 
 [[files]]
@@ -136,6 +141,11 @@ hash = "8443b848229eddd2cf40f26c654b7ea1cfb10f25cc2359fe0588ca569df2c08e"
 metafile = true
 
 [[files]]
+file = "mods/lambdacontrols.toml"
+hash = "4fecf3d4c13eb285d54a48f50f6459a81320a21797b3ed1652915ae0ba7580b3"
+metafile = true
+
+[[files]]
 file = "mods/lithium.toml"
 hash = "32fdab068429360301cf1720604f4f0dbb3ab81d3e78f9847be2ff741f04813c"
 metafile = true
@@ -193,6 +203,11 @@ metafile = true
 [[files]]
 file = "mods/rayon-1.3.1.jar"
 hash = "652606ee39f35db8ecb65e12594e4b95e9372bcfc2e2eba6c42efefb81d55cce"
+
+[[files]]
+file = "mods/roughly-enough-items.toml"
+hash = "1771225ae35914d7201bc48d3de480d3cb48522dc99e56445f1627227093b8d4"
+metafile = true
 
 [[files]]
 file = "mods/selene.toml"
