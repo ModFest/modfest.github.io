@@ -55,7 +55,7 @@ metafile = true
 
 [[files]]
 file = "mods/canvas-renderer.toml"
-hash = "313b57170b970ccb917155ef54aec96e19e3149dbef8f8a12b9b1df3780e4b6a"
+hash = "09b56e4ca7dd44a78487aa3513204a16468a2e00adf2df7841f95e05d7ba152a"
 metafile = true
 
 [[files]]
