@@ -1,8 +1,8 @@
 name = "CableMod"
-filename = "cablemod-1.0.3.jar"
+filename = "cablemod-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://github.com/UserTeemu/CableMod/releases/download/v1.0.3/cablemod-1.0.3.jar"
+url = "https://github.com/UserTeemu/CableMod/releases/download/v1.0.4/cablemod-1.0.4.jar"
 hash-format = "sha256"
-hash = "0624af87b035f0f4848b2dfb7bd9c192437902e3ae26ced91e916f84c1208e3a"
+hash = "f9264a84bcb2d6c39876aac336020c71a7a5af6e1d0e2d75a948dd5dbd3f9e90"

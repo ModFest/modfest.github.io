@@ -1,14 +1,14 @@
 name = "Boats and Beeps"
-filename = "boats-and-beeps-1.0.1.jar"
+filename = "boats-and-beeps-1.0.2.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3385/889/boats-and-beeps-1.0.1.jar"
+url = "https://edge.forgecdn.net/files/3406/739/boats-and-beeps-1.0.2.jar"
 hash-format = "murmur2"
-hash = "2172740118"
+hash = "2177309730"
 
 [update]
 [update.curseforge]
-file-id = 3385889
+file-id = 3406739
 project-id = 503042
 release-channel = "beta"

@@ -45,12 +45,12 @@ metafile = true
 
 [[files]]
 file = "mods/boats-and-beeps.toml"
-hash = "3f6ad320dfbbf1747d71debaaef1c8fa5dad3f49b172175179eb6c87e8903f5a"
+hash = "303ba367084fdb374b817b664ef026b2430a096b9631fe920a14a313ba3dc5df"
 metafile = true
 
 [[files]]
 file = "mods/cablemod.toml"
-hash = "9d5c019cde64d0c0ff302ae07b06f28ed1f8c5fe46264fdfe5e244a87ad63ffa"
+hash = "8cc1cdef830aafc7c1d556427caeedfb8d02a39530c7b91a2a87af72dafdecd4"
 metafile = true
 
 [[files]]
