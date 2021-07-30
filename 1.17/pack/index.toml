@@ -74,7 +74,7 @@ metafile = true
 
 [[files]]
 file = "mods/dokokashira-door.toml"
-hash = "eb5bd65bba38c18a9e88c821d251b3195f23a55eb90000e79c045b555d4952ee"
+hash = "c8b0849bca13d8c098bd5d0db8b3b8395deef2073f6ac12a474f1907e86238f8"
 metafile = true
 
 [[files]]
@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/modfest-utilities.toml"
-hash = "5603c21f3ed0ed83a77526d591a93a5124a2a0fb07d93b9c157d492060315123"
+hash = "88b67f087f441f984f8dc5f7a3f383eddd81de1b95395c9d071af27b1d020b12"
 metafile = true
 
 [[files]]
