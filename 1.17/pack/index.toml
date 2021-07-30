@@ -45,7 +45,7 @@ metafile = true
 
 [[files]]
 file = "mods/boats-and-beeps.toml"
-hash = "303ba367084fdb374b817b664ef026b2430a096b9631fe920a14a313ba3dc5df"
+hash = "590d4f2b95cf6fd94239b19552a32fb1a3eb48aae698d912ea21202d36a7a4e6"
 metafile = true
 
 [[files]]
