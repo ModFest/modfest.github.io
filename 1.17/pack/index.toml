@@ -277,3 +277,8 @@ metafile = true
 file = "mods/worldshell.toml"
 hash = "6b9fadb2854a216eb25dead454207d97a6c4a79c66f112053eebd5161e9ddaff"
 metafile = true
+
+[[files]]
+file = "mods/wthit.toml"
+hash = "bd87abd51c0827346d7214d9e58669685cd4019a62478bfafbc1882b1829d56f"
+metafile = true
