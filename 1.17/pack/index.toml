@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyperstellar.toml"
-hash = "8b733463491c32080bc08029bf54ecf7043c67f4d4ac719d41f2ca42b6ec6f8d"
+hash = "7d6527329315b4122a34477f14bf50f9725cd71eff8dd261bc57565f5ba048f8"
 metafile = true
 
 [[files]]
