@@ -5,3 +5,4 @@ packwiz
 packwiz_ext.mjs
 package.json
 package-lock.json
+.gitignore
