@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".gitignore"
+hash = "37dcdd5349e22e3060763bdab9f32584cc29b10727cdf98a04b643a56f1ab178"
+
+[[files]]
 file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
 hash = "532c4829203d12c231637f78e4d44aa39f10966ce2bdfc723e6e6dd33bd46ebb"
 
@@ -50,7 +54,7 @@ metafile = true
 
 [[files]]
 file = "mods/cablemod.toml"
-hash = "6509a3bb336e965b9c2c1ec3256395e47a8acdeea4a7fed855534abf5da709ba"
+hash = "358aa4830ebaaa6cb244b47e090e9f2eb5464231001f720538c91756db54fe44"
 metafile = true
 
 [[files]]
@@ -282,3 +286,35 @@ metafile = true
 file = "mods/wthit.toml"
 hash = "bd87abd51c0827346d7214d9e58669685cd4019a62478bfafbc1882b1829d56f"
 metafile = true
+
+[[files]]
+file = "node_modules/.package-lock.json"
+hash = "d9bb1e61dddc54271f14f3ded5e5a3e180c710b7aea112c66d6935dadae2acc3"
+
+[[files]]
+file = "node_modules/node-fetch/CHANGELOG.md"
+hash = "93e313b4f93e5fcf1d881dd84516c9666ee93dd8298e138c37e5cb51fa24dd56"
+
+[[files]]
+file = "node_modules/node-fetch/LICENSE.md"
+hash = "84eaa985e1ef71b8c630e8aba73404c219ff425c6fdb45c62e998b58d4fbdc8e"
+
+[[files]]
+file = "node_modules/node-fetch/README.md"
+hash = "274e33c2ce8d56aa4aefe3bf523bb89e1177b0907b9bb037c2df8db28d4a9186"
+
+[[files]]
+file = "node_modules/node-fetch/browser.js"
+hash = "f30a3f86c32c62c6687166668f5fa60278d1f302f7acd8d0346f73f43df6b66f"
+
+[[files]]
+file = "node_modules/node-fetch/lib/index.es.js"
+hash = "7eceb3d46e9c14f5e3771ce2727da1d1e07bdfae77c937478a98e3e54389e588"
+
+[[files]]
+file = "node_modules/node-fetch/lib/index.js"
+hash = "11310792474b815ffb31e8890eee0fbb0670a42484d05cef76970d9ca7e52958"
+
+[[files]]
+file = "node_modules/node-fetch/lib/index.mjs"
+hash = "d0d2d882b5143435919f047c6becb9651273c2c0b4de6e9aff6cc7dcc3d13f16"
