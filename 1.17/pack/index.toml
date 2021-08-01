@@ -50,7 +50,7 @@ metafile = true
 
 [[files]]
 file = "mods/cablemod.toml"
-hash = "9dd1864c51ff08688970441cc2ae72e564a08198adaafa1f33cee669b427058e"
+hash = "6509a3bb336e965b9c2c1ec3256395e47a8acdeea4a7fed855534abf5da709ba"
 metafile = true
 
 [[files]]
@@ -122,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyperstellar.toml"
-hash = "7d6527329315b4122a34477f14bf50f9725cd71eff8dd261bc57565f5ba048f8"
+hash = "dcaf6de4cf77651b1a44596e19d62ff162581e4f878c0934ab73647e2baee417"
 metafile = true
 
 [[files]]
