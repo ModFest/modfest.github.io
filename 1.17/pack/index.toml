@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/lithium.properties"
+hash = "2e48f2eda8348f0754b99f9e13a7ad75fdb273f444a0426d8cdcc3227c01158c"
+
+[[files]]
 file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
 hash = "532c4829203d12c231637f78e4d44aa39f10966ce2bdfc723e6e6dd33bd46ebb"
 
@@ -122,7 +126,7 @@ metafile = true
 
 [[files]]
 file = "mods/hyperstellar.toml"
-hash = "8b733463491c32080bc08029bf54ecf7043c67f4d4ac719d41f2ca42b6ec6f8d"
+hash = "f4b66d6a96765ada62b12bdd769267bad23727c9684de51a40901e075e226bad"
 metafile = true
 
 [[files]]
