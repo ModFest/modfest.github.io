@@ -53,6 +53,11 @@ hash = "590d4f2b95cf6fd94239b19552a32fb1a3eb48aae698d912ea21202d36a7a4e6"
 metafile = true
 
 [[files]]
+file = "mods/bruh-moment.toml"
+hash = "fa1df6835c8379295b12ac132afcd6779ac0669724687a24b5eaa3acd59826bd"
+metafile = true
+
+[[files]]
 file = "mods/cablemod.toml"
 hash = "358aa4830ebaaa6cb244b47e090e9f2eb5464231001f720538c91756db54fe44"
 metafile = true
