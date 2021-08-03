@@ -186,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/paintersblocks.toml"
-hash = "8cdd7f9a07a6d7bc61107b23d39ead63408ae5b026179dc47b4cc3d3b1186505"
+hash = "fc44dcab5fca7369465d86e9a77c3ea37ff7eed4e7a24b0ed1d037d478bd2c29"
 metafile = true
 
 [[files]]
