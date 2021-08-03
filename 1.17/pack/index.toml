@@ -125,11 +125,6 @@ hash = "5876eedc002df48d3283f2d41e07b78e76a19314d95966c2c81a7aba22a68cfd"
 metafile = true
 
 [[files]]
-file = "mods/hyperstellar.toml"
-hash = "8b733463491c32080bc08029bf54ecf7043c67f4d4ac719d41f2ca42b6ec6f8d"
-metafile = true
-
-[[files]]
 file = "mods/indium.toml"
 hash = "535608275bff9e0b9d4fbeb7267ddf801e56e17f2d3553999eb731472a81e22c"
 metafile = true
