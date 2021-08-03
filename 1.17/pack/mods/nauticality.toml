@@ -1,8 +1,8 @@
 name = "Nauticality"
-filename = "nauticality-0.1.1.jar"
+filename = "nauticality-0.1.2.jar"
 side = "both"
 
 [download]
-url = "https://github.com/TeamMidnightDust/Nauticality/releases/download/v0.1.1/nauticality-0.1.1.jar"
+url = "https://github.com/TeamMidnightDust/Nauticality/releases/download/v0.1.2/nauticality-0.1.2.jar"
 hash-format = "sha256"
-hash = "c58b8116e36c1245870a76e78d468b23519996ccff68259a8c75167bf2bbff07"
+hash = "1226e53a482d5c6f0314f554f060476ec71b795333694900d34ed9aed437e1c8"

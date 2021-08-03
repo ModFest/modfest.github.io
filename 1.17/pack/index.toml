@@ -176,7 +176,7 @@ metafile = true
 
 [[files]]
 file = "mods/nauticality.toml"
-hash = "196d23272889eae2baa205f97a25cffd475f9bf15380d783503420a0c4480193"
+hash = "19fd83f76d355c37edfa937783debb0e49e588557d4d3ee3802e9be5b3294945"
 metafile = true
 
 [[files]]
