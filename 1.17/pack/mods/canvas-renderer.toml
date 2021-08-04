@@ -1,15 +1,15 @@
 name = "Canvas Renderer"
-filename = "canvas-mc117-1.17-1.0.1851.jar"
+filename = "canvas-mc117-1.17-1.0.1895.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3399/845/canvas-mc117-1.17-1.0.1851.jar"
+url = "https://edge.forgecdn.net/files/3413/320/canvas-mc117-1.17-1.0.1895.jar"
 hash-format = "murmur2"
-hash = "2132049759"
+hash = "3113053638"
 
 [update]
 [update.curseforge]
-file-id = 3399845
+file-id = 3413320
 project-id = 318440
 release-channel = "beta"
 

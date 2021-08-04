@@ -1,8 +1,8 @@
 name = "Sound-Track"
-filename = "sound_track-1.0.2.jar"
+filename = "sound_track-1.0.3.jar"
 side = "both"
 
 [download]
-url = "https://github.com/coolsa/Sound-Track/releases/download/v1.0.2/sound_track-1.0.2.jar"
+url = "https://github.com/coolsa/Sound-Track/releases/download/v1.0.3/sound_track-1.0.3.jar"
 hash-format = "sha256"
-hash = "dcff587de591d15710ba5e665722f67327970fa105b08552779966415e90f118"
+hash = "a7a782a4dc824d35eacdb0d0211c9d619ecf0ed0271f50d037948c8ec1214755"

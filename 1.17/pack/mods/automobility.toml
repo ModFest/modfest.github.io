@@ -1,8 +1,8 @@
 name = "Automobility"
-filename = "automobility-0.0.2+1.17.jar"
+filename = "automobility-0.0.3-modfest+1.17.jar"
 side = "both"
 
 [download]
-url = "https://github.com/FoundationGames/Automobility/releases/download/0.0.2%2B1.17/automobility-0.0.2%2B1.17.jar"
+url = "https://github.com/FoundationGames/Automobility/releases/download/0.0.3-modfest%2B1.17/automobility-0.0.3-modfest%2B1.17.jar"
 hash-format = "sha256"
-hash = "57b1162674513291b12cf3f280ed5b572f651097d90f36af849332f3d457ddd8"
+hash = "744677ea86870bc8ee69035b6107869a7d38b133728a92fa1f7ab166b52dfd85"

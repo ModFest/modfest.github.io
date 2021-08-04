@@ -14,7 +14,7 @@ hash = "d5cac07e887e411842d77e2d41e1973c5cdca865e71a322bd2b45d49a118c7b1"
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "9081517df81ee074d30cd9be8db672d8ed064e1e6984bbf735eb785e83104c9a"
+hash = "5b5e3094009b3cb2f2482aaf838b80f29c68bd3eccb58a32267cf59674882769"
 metafile = true
 
 [[files]]
@@ -29,7 +29,7 @@ metafile = true
 
 [[files]]
 file = "mods/automobility.toml"
-hash = "46dd91660d6b90aca7d1326d511c44f9084e81ba48e30d386b3c31db1d23796d"
+hash = "66089fe78de40d9aa46bd88c7a7642420f6609b17d0d0372d818e29c5b9db3cb"
 metafile = true
 
 [[files]]
@@ -64,12 +64,12 @@ metafile = true
 
 [[files]]
 file = "mods/canvas-renderer.toml"
-hash = "09b56e4ca7dd44a78487aa3513204a16468a2e00adf2df7841f95e05d7ba152a"
+hash = "cb458c857bbff4ed905bc31f0a7bbe9e6b416650a495a6a1e13281911edc506f"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.toml"
-hash = "2efa0f67a069e8ca247af1149670500f890476175cc443644316807900c2950f"
+hash = "94c221982b03971e906ac09835fae62e95acc7341aaf549cec289ae9f28f15ca"
 metafile = true
 
 [[files]]
@@ -215,7 +215,7 @@ hash = "652606ee39f35db8ecb65e12594e4b95e9372bcfc2e2eba6c42efefb81d55cce"
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "1771225ae35914d7201bc48d3de480d3cb48522dc99e56445f1627227093b8d4"
+hash = "ac07eebb59db9890f5486267efb26158077c811f24aa3472f1f8ce51e305451e"
 metafile = true
 
 [[files]]
@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-track.toml"
-hash = "b73359e1e82522f71356908476a1deb04432edb994a86885293f03bd2860e458"
+hash = "034044a156770fdf8dff7697d3e27f0d6a8d7b4209827d12de6eaffc9475d112"
 metafile = true
 
 [[files]]
