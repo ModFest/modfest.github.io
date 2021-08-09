@@ -1,8 +1,8 @@
-name = "Around The World"
-filename = "aroundtheworld-1.0.1.jar"
+name = "AroundTheWorld"
+filename = "aroundtheworld-1.0.2.jar"
 side = "both"
 
 [download]
-url = "https://github.com/YanisBft/AroundTheWorld/releases/download/1.0.1/aroundtheworld-1.0.1.jar"
+url = "https://github.com/YanisBft/AroundTheWorld/releases/download/1.0.2/aroundtheworld-1.0.2.jar"
 hash-format = "sha256"
-hash = "180fd1951aa9c1500fbe398f7ecf93ce3d7d20c6638a3ce1933a8ae98d9c56cb"
+hash = "b0bdb5c3d63532e2b1a5b6799e6453781974cea4c2517e40edde83c305aab526"
