@@ -1,13 +1,13 @@
 name = "Bing Bing Wahoo"
-filename = "bingBingWahoo-1.1.1.jar"
+filename = "bingBingWahoo-1.1.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/p7ksDUGo/versions/1.1.1/bingBingWahoo-1.1.1.jar"
+url = "https://cdn.modrinth.com/data/p7ksDUGo/versions/1.1.2/bingBingWahoo-1.1.2.jar"
 hash-format = "sha512"
-hash = "7e658a7298b7f2a0a9d94047042307e2357214bb2f3e676b40fdb3bd62193ef564d41daa8652cac7f82f866be6ab216958b0bfeec0203d10c00b398a9bc1451c"
+hash = "7ad02a18782c7d7b6e94d250c47534f07d7c88a9e62b1ae576c1093f558fa591126df5563ba6d6082ad223429b03c4f1ef4ef4b6b910298e026dd126218e2a23"
 
 [update]
 [update.modrinth]
 mod-id = "p7ksDUGo"
-version = "YlH1GipN"
+version = "HykXUNQA"
