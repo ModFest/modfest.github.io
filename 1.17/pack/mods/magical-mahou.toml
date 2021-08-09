@@ -1,13 +1,13 @@
 name = "Magical Mahou"
-filename = "magical-mahou-0.1.4.jar"
+filename = "magical-mahou-0.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/CqZmZ0Hh/versions/0.1.4/magical-mahou-0.1.4.jar"
+url = "https://cdn.modrinth.com/data/CqZmZ0Hh/versions/0.1.5/magical-mahou-0.1.5.jar"
 hash-format = "sha512"
-hash = "f169ab828d27de2deecd38a1cbb5525318864a2ef936d2626c45dda82154cf2e10d343b29b62c9310192beda68e4898460d266d4a21b6f09f963be08a9263193"
+hash = "e4e757c68cb6fdd573d9261b594edaa077228fdce0e0541a23276b62d5ffe1b364148ab7bedb5dccf52055448dc13fb591e3297cb9e16a88f77024ae79fdc48c"
 
 [update]
 [update.modrinth]
 mod-id = "CqZmZ0Hh"
-version = "UTVmCZZv"
+version = "Qwwj5P4g"
