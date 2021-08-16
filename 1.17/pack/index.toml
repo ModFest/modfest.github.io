@@ -14,7 +14,7 @@ hash = "d5cac07e887e411842d77e2d41e1973c5cdca865e71a322bd2b45d49a118c7b1"
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "5b5e3094009b3cb2f2482aaf838b80f29c68bd3eccb58a32267cf59674882769"
+hash = "450a5365f688ee5aecd9b0634f3a524ce77043e7052fbd4699fd636fc7b57b74"
 metafile = true
 
 [[files]]
@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/canvas-renderer.toml"
-hash = "cb458c857bbff4ed905bc31f0a7bbe9e6b416650a495a6a1e13281911edc506f"
+hash = "f447681249796373ee879e0979398daaed7b315e1bf3c00a35f92e37d9ad3453"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ hash = "60f4c6f9082608e17899b254fbe0bde4b0f71c9be3f80057420b8c1e32980f82"
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "1ed0c4d0632504f4f26215de55f6b20b9a5ef3d3a057b8449a9d9971c21985f6"
+hash = "2e5caac2cea653503eb04e3eede6d9cadae90435f9a1d51a8cde8f1c88883e91"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "edac1378c13d907a0ff3e63587fdc7ce1fffd34f876f203c3498d1d2295e6fb8"
+hash = "2b2896c548ea37e0f03103f0ab81717c04021ae313d58a4649c88438d11b001c"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/lovely_snails.toml"
-hash = "a1b45a86137b09aebe16125c11f92ff1b9c9a39681eb7e518cf3e7f46e0a228d"
+hash = "c76312c31c8f8960cfadeba896d669760499b9b1bee7e826276c16d0e30f5cbd"
 metafile = true
 
 [[files]]
@@ -215,7 +215,7 @@ hash = "652606ee39f35db8ecb65e12594e4b95e9372bcfc2e2eba6c42efefb81d55cce"
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "ac07eebb59db9890f5486267efb26158077c811f24aa3472f1f8ce51e305451e"
+hash = "831a4edea7d15b049262b96bdd59ab7f43dedf452318007f267a5cf7eb9c3c94"
 metafile = true
 
 [[files]]
@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-track.toml"
-hash = "034044a156770fdf8dff7697d3e27f0d6a8d7b4209827d12de6eaffc9475d112"
+hash = "405f6ddd9dda8b66f30f5c00e5c3099e29664a6328ae53a9e902376de8c94b00"
 metafile = true
 
 [[files]]
