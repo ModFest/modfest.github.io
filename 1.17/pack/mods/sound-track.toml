@@ -1,13 +1,13 @@
 name = "Sound-Track"
-filename = "sound_track-1.0.0.jar"
+filename = "sound_track-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Sl42WLrD/versions/v1.0.0/sound_track-1.0.0.jar"
+url = "https://cdn.modrinth.com/data/Sl42WLrD/versions/1.0.4/sound_track-1.0.4.jar"
 hash-format = "sha512"
-hash = "d7686c6863f0a4345180a0a8d201694da4ec04fcff4dddbd915550b0b5798cc0898bc7250c8829b87ddc604c3b16fb5f65d5ecfab87f1d465d792c9bc125065a"
+hash = "fc079ffd2fc8773a16c412308d079aa09c029b9fffd696ed0329baf21c442414e937018b3e38a5546af84fe1175e365f620fa9a472eb2ee321ca92b2f41c6d40"
 
 [update]
 [update.modrinth]
 mod-id = "Sl42WLrD"
-version = "Caa2Etd3"
+version = "LFKWvz7K"

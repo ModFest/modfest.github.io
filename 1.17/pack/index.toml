@@ -235,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-track.toml"
-hash = "405f6ddd9dda8b66f30f5c00e5c3099e29664a6328ae53a9e902376de8c94b00"
+hash = "5c676bef767155f00db922efb9540eefa03ed7d4548a9b6d26b5b2db447ab3b7"
 metafile = true
 
 [[files]]
