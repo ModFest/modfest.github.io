@@ -1,8 +1,8 @@
-name = "Battle Goats"
-filename = "battle-goats-0.0.1.jar"
+name = "battle-goats"
+filename = "battle-goats-0.0.2.jar"
 side = "both"
 
 [download]
-url = "https://github.com/frqnny/battle-goats/releases/download/0.0.1/battle-goats-0.0.1.jar"
+url = "https://github.com/frqnny/battle-goats/releases/download/0.0.2/battle-goats-0.0.2.jar"
 hash-format = "sha256"
-hash = "694cc855ee75c795e4632f13772587ba6d95741c57bcfdc96d17d73ca76ee320"
+hash = "3e2c24349c9bd572309aa1193558dfa6613849bd64fcdb31fa49eefbc8919832"
