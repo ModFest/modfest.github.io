@@ -1,14 +1,8 @@
 name = "Workings"
-filename = "workings-1.0.7.jar"
+filename = "workings-1.0.7-modfest-patch.jar"
 side = "both"
 
 [download]
-url = "https://edge.forgecdn.net/files/3391/69/workings-1.0.7.jar"
-hash-format = "murmur2"
-hash = "2394908618"
-
-[update]
-[update.curseforge]
-file-id = 3391069
-project-id = 500672
-release-channel = "beta"
+url = "https://github.com/Andrew6rant/Workings/releases/download/1.0.7-modfest-patch/workings-1.0.7-modfest-patch.jar"
+hash-format = "sha256"
+hash = "41a22599ee66a2a899e8f21e61dc2e7ef204ed0b34eb8ecbde07a46065bbb4dc"
