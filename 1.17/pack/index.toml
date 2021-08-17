@@ -116,8 +116,8 @@ hash = "2b2896c548ea37e0f03103f0ab81717c04021ae313d58a4649c88438d11b001c"
 metafile = true
 
 [[files]]
-file = "mods/glowcase-1.0.0.jar"
-hash = "1b78a9620cc4d920b9d1cba52dd34639b64daf0f0e26e9696c803f6d6690c447"
+file = "mods/glowcase-1.0.0-canvashack.jar"
+hash = "c3fd22bf8c7c97ac724d4e11a1a25f6f6707ed7ff68972f378d71e8619a02306"
 
 [[files]]
 file = "mods/grappleship.toml"
