@@ -1,11 +1,11 @@
 name = "Bing Bing Wahoo"
-filename = "bingBingWahoo-1.1.2.jar"
+filename = "bingBingWahoo-1.1.3.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/p7ksDUGo/versions/1.1.2/bingBingWahoo-1.1.2.jar"
+url = "https://cdn.discordapp.com/attachments/851900493927284818/877035334943248454/bingBingWahoo-1.1.3.jar"
 hash-format = "sha512"
-hash = "7ad02a18782c7d7b6e94d250c47534f07d7c88a9e62b1ae576c1093f558fa591126df5563ba6d6082ad223429b03c4f1ef4ef4b6b910298e026dd126218e2a23"
+hash = "183054943c3bc2ff4a38376cd50fc4b8fe682f20fa66ef4e713ef053915783bb19034519a47b19efe811b3cf3216f90348824b67857304112677acd489688796"
 
 [update]
 [update.modrinth]
