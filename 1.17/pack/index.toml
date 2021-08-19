@@ -254,8 +254,8 @@ hash = "ec484405c9de7020dbba1de6d6584e74c6de78c13428b8374f7c41ab7a8c6d4b"
 metafile = true
 
 [[files]]
-file = "mods/wackyvessels-1.0.jar"
-hash = "a74ceb110e792fb1464933b03d5d66289215de871f64eb2c4f94127bf8523f68"
+file = "mods/wackyvessels-1.0-SNAPSHOT.jar"
+hash = "7a68b643e159a0b6ab997908f645b4efb8828435c426e1efc21189fa92e27f6c"
 
 [[files]]
 file = "mods/wahoo.toml"
