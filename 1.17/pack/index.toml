@@ -14,7 +14,7 @@ hash = "d5cac07e887e411842d77e2d41e1973c5cdca865e71a322bd2b45d49a118c7b1"
 
 [[files]]
 file = "mods/architectury-fabric.toml"
-hash = "450a5365f688ee5aecd9b0634f3a524ce77043e7052fbd4699fd636fc7b57b74"
+hash = "4b7565fdb5f54b8f1bf9e5c121e9d798b93f4cf2ab491d6f6bbdff497ecb44e6"
 metafile = true
 
 [[files]]
@@ -64,7 +64,7 @@ metafile = true
 
 [[files]]
 file = "mods/canvas-renderer.toml"
-hash = "f447681249796373ee879e0979398daaed7b315e1bf3c00a35f92e37d9ad3453"
+hash = "74dc152db4534890fd2ce7b054be28fd86bff71a5bb70174af3932e769ff457e"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ hash = "60f4c6f9082608e17899b254fbe0bde4b0f71c9be3f80057420b8c1e32980f82"
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "2e5caac2cea653503eb04e3eede6d9cadae90435f9a1d51a8cde8f1c88883e91"
+hash = "d43de1261a5d318ab45e31a34933f736ad675f70d147c3304b864ebb8ec0bed8"
 metafile = true
 
 [[files]]
@@ -112,7 +112,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "2b2896c548ea37e0f03103f0ab81717c04021ae313d58a4649c88438d11b001c"
+hash = "d702493c4ee7333e7cffa71a66a36da7b35a541a4635b0559ef6f5a5a6e498f1"
 metafile = true
 
 [[files]]
@@ -132,11 +132,6 @@ metafile = true
 [[files]]
 file = "mods/indium.toml"
 hash = "535608275bff9e0b9d4fbeb7267ddf801e56e17f2d3553999eb731472a81e22c"
-metafile = true
-
-[[files]]
-file = "mods/iris.toml"
-hash = "b63ec64c661ff0fb2a7dcd90686db31b17b2529fe3e8a539687ff98be7346136"
 metafile = true
 
 [[files]]
@@ -176,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/modmenu.toml"
-hash = "9d23a4a8b3f3c53dd0c09691a896a4195fcae17a2d8b2ec42e3bccbe5fcaf60c"
+hash = "5be0024e7a145dce7e9452c6a5a8f829b3a933fee665c9d445904b16cf862920"
 metafile = true
 
 [[files]]
@@ -270,11 +265,6 @@ metafile = true
 [[files]]
 file = "mods/workings.toml"
 hash = "0331abba08e16dba625eb9b449c545e44aa3578c14a9f4d38ea3ef0850529691"
-metafile = true
-
-[[files]]
-file = "mods/worldedit.toml"
-hash = "41d6a669ba38d0c66ae62ba59407f5b97828d9b7235834640c5a3df3c138b011"
 metafile = true
 
 [[files]]
