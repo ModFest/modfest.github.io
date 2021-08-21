@@ -74,7 +74,7 @@ metafile = true
 
 [[files]]
 file = "mods/collectater-1.0.0.jar"
-hash = "6f6218bc3efb25e31e991d5bcb663fe38dabbec9198528a1af58f173e8bb4afa"
+hash = "e1664d53dc4e7c587358893c7eb3d3f9e22a5fede14bb7993a61f65253d71521"
 
 [[files]]
 file = "mods/directional-tnt.toml"
