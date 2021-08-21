@@ -5,6 +5,14 @@ file = "config/lithium.properties"
 hash = "2e48f2eda8348f0754b99f9e13a7ad75fdb273f444a0426d8cdcc3227c01158c"
 
 [[files]]
+file = "index.html"
+hash = "161dc23f780ee25dba9fcf698a890002a52176610ebbe25a1a365512b14e7c2f"
+
+[[files]]
+file = "modfest-1-17.zip"
+hash = "f7fe28b3b6c062024e108a3a17f7dab3aeb412c82e826275ebae47f14cd15661"
+
+[[files]]
 file = "mods/Hypoloop-SpinnerMod-1.0.0.jar"
 hash = "532c4829203d12c231637f78e4d44aa39f10966ce2bdfc723e6e6dd33bd46ebb"
 
@@ -73,8 +81,8 @@ hash = "94c221982b03971e906ac09835fae62e95acc7341aaf549cec289ae9f28f15ca"
 metafile = true
 
 [[files]]
-file = "mods/collectater-1.0.0.jar"
-hash = "e1664d53dc4e7c587358893c7eb3d3f9e22a5fede14bb7993a61f65253d71521"
+file = "mods/collectater-1.0.03.jar"
+hash = "29e5c10bc635794f062bca0250258cda4643f76db0e69bd560c6f08430f1923d"
 
 [[files]]
 file = "mods/directional-tnt.toml"
