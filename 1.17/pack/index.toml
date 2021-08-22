@@ -110,7 +110,7 @@ hash = "60f4c6f9082608e17899b254fbe0bde4b0f71c9be3f80057420b8c1e32980f82"
 
 [[files]]
 file = "mods/fabric-api.toml"
-hash = "d43de1261a5d318ab45e31a34933f736ad675f70d147c3304b864ebb8ec0bed8"
+hash = "ba3f4ee756398ce33b6c3a8981123b0a1561442352f6da6d6e5b77a7dce70084"
 metafile = true
 
 [[files]]
@@ -134,7 +134,7 @@ metafile = true
 
 [[files]]
 file = "mods/gravity-guns.toml"
-hash = "5876eedc002df48d3283f2d41e07b78e76a19314d95966c2c81a7aba22a68cfd"
+hash = "e86f219611874a673c830c9d3b81efee07aa19bbac0fdf293731a2663f971b95"
 metafile = true
 
 [[files]]
